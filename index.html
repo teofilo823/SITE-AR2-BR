@@ -3,154 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR2 Brasil | Elite Leaderboard</title>
-    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+    <title>AR2 Brasil | Ranked</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root {
-            --primary: #5865F2; /* Discord Blue */
-            --bg: #0a0b0d;
-            --card: #15171a;
-            --accent: #f1c40f;
-            --text: #eef0f2;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', 'Segoe UI', sans-serif; }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            background-image: radial-gradient(circle at top right, rgba(88, 101, 242, 0.05), transparent);
-            min-height: 100vh;
-        }
-
-        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
-
-        /* Header */
-        header { text-align: center; margin-bottom: 50px; }
-        .logo {
-            width: 140px; height: 140px;
-            border-radius: 50%;
-            border: 4px solid var(--primary);
-            box-shadow: 0 0 30px rgba(88, 101, 242, 0.3);
-            margin-bottom: 20px;
-            transition: transform 0.3s ease;
-        }
-        .logo:hover { transform: scale(1.05); }
-
-        /* User Profile Bar */
-        .auth-card {
-            background: var(--card);
-            padding: 20px;
-            border-radius: 16px;
-            border: 1px solid #2a2d31;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-
-        .user-info { display: flex; align-items: center; gap: 15px; }
-        .user-avatar { width: 45px; height: 45px; border-radius: 50%; border: 2px solid var(--primary); }
+        :root { --primary: #5865F2; --bg: #0a0b0d; --card: #15171a; --accent: #f1c40f; --text: #eef0f2; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background-color: var(--bg); color: var(--text); min-height: 100vh; display: flex; align-items: center; justify-content: center; }
         
-        .btn-discord {
-            background: var(--primary);
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border: none;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-        .btn-discord:hover { filter: brightness(1.1); transform: translateY(-2px); }
+        .container { width: 100%; max-width: 800px; padding: 20px; }
+        
+        /* Telas */
+        #login-screen { text-align: center; }
+        #main-content { display: none; width: 100%; }
 
-        /* Stats Dashboard */
-        .dashboard {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 40px;
-        }
-        .stat-card {
-            background: var(--card);
-            padding: 25px;
-            border-radius: 16px;
-            text-align: center;
-            border-bottom: 4px solid var(--primary);
-        }
-        .stat-card h3 { font-size: 0.8rem; color: #888; text-transform: uppercase; margin-bottom: 10px; }
-        .stat-card p { font-size: 1.8rem; font-weight: bold; color: var(--accent); }
+        .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 1.1rem; }
+        
+        .user-bar { background: var(--card); padding: 15px; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border: 1px solid #2a2d31; }
+        .user-info { display: flex; align-items: center; gap: 12px; }
+        .user-info img { width: 40px; height: 40px; border-radius: 50%; }
 
-        /* Leaderboard Table */
-        .table-container {
-            background: var(--card);
-            border-radius: 20px;
-            overflow: hidden;
-            border: 1px solid #2a2d31;
-        }
-        table { width: 100%; border-collapse: collapse; }
-        th { background: #1c1f23; padding: 20px; text-align: left; font-size: 0.9rem; color: #888; }
-        td { padding: 18px 20px; border-bottom: 1px solid #2a2d31; }
-
-        tr.is-me { background: rgba(88, 101, 242, 0.1) !important; border-left: 4px solid var(--primary); }
-
-        .rank { font-weight: 900; font-size: 1.1rem; width: 60px; }
-        .top-1 { color: #f1c40f; }
-        .top-2 { color: #bdc3c7; }
-        .top-3 { color: #cd7f32; }
-
-        .badge {
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            font-weight: bold;
-        }
-        .badge-win { background: rgba(46, 204, 113, 0.1); color: #2ecc71; }
-        .badge-loss { background: rgba(231, 76, 60, 0.1); color: #e74c3c; }
-
-        @media (max-width: 768px) { .hide-mobile { display: none; } }
+        table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
+        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.8rem; }
+        td { padding: 15px; border-bottom: 1px solid #2a2d31; }
+        .my-rank { background: rgba(88, 101, 242, 0.1); border-left: 4px solid var(--primary); }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <header>
-        <img src="https://cdn.discordapp.com/attachments/1457080342065184873/1472581955588460627/a_c2b2f870d0949b1e0755d8f5abd8f9a4.gif?ex=69931851&is=6991c6d1&hm=877281c30df12c64ef1885c97219602fd96f42c8c6b20053335ef236b27bec4a&" class="logo">
-        <h1>AR2 BRASIL RANKED</h1>
-        <p style="color: #666;">A elite do Apocalypse Rising 2</p>
-    </header>
+    <div id="login-screen">
+        <h1 style="margin-bottom: 20px;">AR2 BRASIL RANKED</h1>
+        <a id="login-link" class="btn-discord">
+            <i class="fa-brands fa-discord"></i> ENTRAR COM DISCORD
+        </a>
+    </div>
 
-    <div class="auth-card" id="auth-section">
-        <div class="user-info" id="user-display">
-            <i class="fa-solid fa-circle-user" style="font-size: 2rem; color: var(--primary);"></i>
-            <span>Faça login para conferir seu desempenho</span>
+    <div id="main-content">
+        <div class="user-bar">
+            <div class="user-info" id="user-display"></div>
+            <button onclick="logout()" style="background:none; border:1px solid #444; color:white; padding:5px 10px; border-radius:5px; cursor:pointer;">Sair</button>
         </div>
-        <button class="btn-discord" id="login-btn">
-            <i class="fa-brands fa-google"></i> ENTRAR COM GOOGLE
-        </button>
-    </div>
 
-    <div class="dashboard" id="user-stats" style="display: none;">
-        <div class="stat-card"><h3>Sua Posição</h3><p id="my-rank">-</p></div>
-        <div class="stat-card"><h3>Seus Troféus</h3><p id="my-trophies">0</p></div>
-        <div class="stat-card"><h3>Sua Winrate</h3><p id="my-wr">0%</p></div>
-    </div>
-
-    <div class="table-container">
         <table>
             <thead>
                 <tr>
-                    <th>POS</th>
-                    <th>JOGADOR (ID)</th>
-                    <th class="hide-mobile">VITÓRIAS</th>
-                    <th class="hide-mobile">DERROTAS</th>
+                    <th>RANK</th>
+                    <th>JOGADOR</th>
+                    <th>WINRATE</th>
                     <th>TROFÉUS</th>
                 </tr>
             </thead>
@@ -160,105 +59,83 @@
 </div>
 
 <script>
-// CONFIGURAÇÃO DO SEU PROJETO FIREBASE
-const firebaseConfig = {
-  apiKey: "AIzaSyCI04mexSCuR9kzEhoriG1zR63BIJqh-HI",
-  authDomain: "site-ar2-br-45660.firebaseapp.com",
-  projectId: "site-ar2-br-45660",
-  storageBucket: "site-ar2-br-45660.firebasestorage.app",
-  messagingSenderId: "1091691890121",
-  appId: "1:1091691890121:web:c1a096a77161844164d418"
-};
+    // --- CONFIGURAÇÃO ---
+    const CLIENT_ID = '1363856919638573277'; 
+    const REDIRECT_URI = window.location.origin + window.location.pathname; 
+    const JSON_URL = 'COLE_AQUI_O_LINK_RAW_DO_GITHUB'; // <--- MUITO IMPORTANTE!
 
-// Inicialização
-firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
-const provider = new firebase.auth.GoogleAuthProvider(); // Google é mais simples para o Firebase Free
+    // Gerar link de login do Discord
+    document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=token&scope=identify`;
 
-// URL DO SEU DATABASE.JSON (GITHUB RAW)
-// IMPORTANTE: COLOQUE SEU LINK DO GITHUB AQUI
-const JSON_URL = 'https://raw.githubusercontent.com/teofilo823/SITE-AR2-BR/refs/heads/main/database.json?token=GHSAT0AAAAAADUCMA7Q3YBKKF6TX74OUKJO2MSHU3Q';
+    // 1. Verificar se o usuário acabou de logar
+    window.onload = () => {
+        const params = new URLSearchParams(window.location.hash.slice(1));
+        const token = params.get('access_token');
 
-let globalUsers = {};
-let currentUserEmail = null;
+        if (token) {
+            // Limpa a URL e salva o token
+            window.history.replaceState({}, document.title, window.location.pathname);
+            fetchDiscordUser(token);
+        }
+    };
 
-// Lógica de Login/Logout
-document.getElementById('login-btn').addEventListener('click', () => {
-    if(!auth.currentUser) {
-        auth.signInWithPopup(provider).then((result) => {
-            updateUI(result.user);
-        }).catch(err => {
-            console.error("Erro login:", err);
-            alert("Certifique-se de que o login com Google está ativado no Firebase Console.");
-        });
-    } else {
-        auth.signOut().then(() => window.location.reload());
+    async function fetchDiscordUser(token) {
+        try {
+            const res = await fetch('https://discord.com/api/users/@me', {
+                headers: { Authorization: `Bearer ${token}` }
+            });
+            const user = await res.json();
+            
+            // Troca de tela
+            document.getElementById('login-screen').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            
+            // Mostra quem você é
+            document.getElementById('user-display').innerHTML = `
+                <img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'">
+                <div><b>${user.username}</b></div>
+            `;
+            
+            loadLeaderboard(user.id); // Carrega o ranking marcando você
+        } catch (e) {
+            alert("Erro ao identificar usuário no Discord.");
+        }
     }
-});
 
-auth.onAuthStateChanged(user => {
-    if (user) {
-        updateUI(user);
+    async function loadLeaderboard(myId) {
+        try {
+            const res = await fetch(JSON_URL + '?t=' + Date.now()); // Evita cache
+            const data = await res.json();
+            const users = data.users;
+            
+            const body = document.getElementById('leaderboard-body');
+            body.innerHTML = '';
+            
+            // Ordena por troféus
+            const sorted = Object.entries(users).sort((a, b) => b[1].trophies - a[1].trophies);
+
+            sorted.forEach(([id, u], index) => {
+                const isMe = id === myId;
+                const total = (u.wins || 0) + (u.losses || 0);
+                const wr = total > 0 ? ((u.wins / total) * 100).toFixed(1) : "0";
+                
+                const tr = document.createElement('tr');
+                if (isMe) tr.className = 'my-rank';
+                
+                tr.innerHTML = `
+                    <td style="font-weight:bold">#${index + 1}</td>
+                    <td style="color:var(--primary); font-weight:bold;">${u.name || 'Jogador '+id.substring(0,5)} ${isMe ? '(VOCÊ)' : ''}</td>
+                    <td>${wr}%</td>
+                    <td style="color:var(--accent); font-weight:bold;">${u.trophies} 🏆</td>
+                `;
+                body.appendChild(tr);
+            });
+        } catch (e) {
+            console.error("Erro ao carregar JSON:", e);
+        }
     }
-});
 
-function updateUI(user) {
-    document.getElementById('user-display').innerHTML = `
-        <img src="${user.photoURL}" class="user-avatar">
-        <div>
-            <div style="font-weight: bold;">${user.displayName}</div>
-            <div style="font-size: 0.8rem; color: #888;">${user.email}</div>
-        </div>
-    `;
-    document.getElementById('login-btn').innerHTML = "SAIR";
-    document.getElementById('login-btn').style.background = "#444";
-    document.getElementById('user-stats').style.display = 'grid';
-    fetchData(); 
-}
-
-async function fetchData() {
-    try {
-        const res = await fetch(JSON_URL);
-        const data = await res.json();
-        globalUsers = data.users;
-        renderLeaderboard();
-    } catch (e) { 
-        console.error("Erro ao ler JSON:", e);
-    }
-}
-
-function renderLeaderboard() {
-    const body = document.getElementById('leaderboard-body');
-    body.innerHTML = '';
-    
-    // Converte e ordena
-    const sorted = Object.entries(globalUsers)
-        .map(([id, stats]) => ({ id, ...stats }))
-        .sort((a, b) => b.trophies - a.trophies);
-
-    sorted.forEach((user, i) => {
-        const rank = i + 1;
-        
-        const tr = document.createElement('tr');
-        
-        tr.innerHTML = `
-            <td class="rank ${rank <= 3 ? 'top-'+rank : ''}">#${rank}</td>
-            <td>
-                <div style="font-weight: 600;">ID: ${user.id.substring(0,12)}...</div>
-            </td>
-            <td class="hide-mobile"><span class="badge badge-win">${user.wins || 0}W</span></td>
-            <td class="hide-mobile"><span class="badge badge-loss">${user.losses || 0}L</span></td>
-            <td style="font-weight: bold; color: var(--accent);">${user.trophies} 🏆</td>
-        `;
-        body.appendChild(tr);
-    });
-}
-
-// Inicializar dados
-fetchData();
-setInterval(fetchData, 60000); // Atualiza a cada 1 minuto
+    function logout() { window.location.reload(); }
 </script>
-
 </body>
-
 </html>
