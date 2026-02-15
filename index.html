@@ -10,106 +10,146 @@
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
         body { background-color: var(--bg); color: var(--text); min-height: 100vh; display: flex; align-items: center; justify-content: center; }
         .container { width: 100%; max-width: 800px; padding: 20px; }
+        
+        /* Tela de Login */
         #login-screen { text-align: center; }
-        .logo-gif { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; }
-        #main-content { display: none; width: 100%; }
+        .logo-gif { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; box-shadow: 0 0 20px rgba(88, 101, 242, 0.3); }
+
+        /* Tela Principal */
+        #main-content { display: none; width: 100%; animation: fadeIn 0.5s; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
         .user-bar { background: var(--card); padding: 15px; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border: 1px solid #2a2d31; }
         .user-info { display: flex; align-items: center; gap: 12px; }
-        .user-info img { width: 40px; height: 40px; border-radius: 50%; }
-        table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
-        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.75rem; }
+        .user-info img { width: 45px; height: 45px; border-radius: 50%; border: 2px solid var(--primary); }
+
+        /* Tabela */
+        .table-wrapper { background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid #2a2d31; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.75rem; text-transform: uppercase; }
         td { padding: 15px; border-bottom: 1px solid #2a2d31; }
-        .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
-        .row-me { background: rgba(88, 101, 242, 0.15) !important; }
+        
+        .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 1rem; }
+        .row-highlight { background: rgba(88, 101, 242, 0.1) !important; font-weight: bold; border-left: 4px solid var(--primary); }
+        .btn-logout { background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div id="login-screen">
-        <img src="logo.gif" class="logo-gif" alt="Logo AR2">
+        <img src="logo.gif" class="logo-gif" onerror="this.src='https://i.imgur.com/8N99X7p.gif'">
         <h1 style="margin-bottom: 30px;">AR2 BRASIL RANKED</h1>
-        <a id="login-link" class="btn-discord"><i class="fa-brands fa-discord"></i> ENTRAR COM DISCORD</a>
+        <a id="login-link" class="btn-discord">
+            <i class="fa-brands fa-discord"></i> ENTRAR COM DISCORD
+        </a>
     </div>
 
     <div id="main-content">
         <div class="user-bar">
-            <div class="user-info" id="user-display"></div>
-            <button onclick="logout()" style="background:none; border:1px solid #444; color:white; padding:5px 10px; border-radius:5px; cursor:pointer;">Sair</button>
+            <div class="user-info" id="user-display">
+                </div>
+            <button class="btn-logout" onclick="logout()">Sair</button>
         </div>
-        <table>
-            <thead>
-                <tr><th>#</th><th>JOGADOR</th><th>V/D</th><th>TROFÉUS</th></tr>
-            </thead>
-            <tbody id="leaderboard-body"></tbody>
-        </table>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>JOGADOR</th>
+                        <th>W/L</th>
+                        <th>TROFÉUS</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body">
+                    </tbody>
+            </table>
+        </div>
     </div>
 </div>
 
 <script>
-    // --- AJUSTE ESTAS 3 LINHAS COM SEUS DADOS ---
-    const SEU_USER_GITHUB = 'NOME_DO_SEU_USER'; 
-    const SEU_REPO_GITHUB = 'NOME_DO_REPO';
-    const CLIENT_ID = '1363856919638573277'; 
+    // ================= CONFIGURAÇÃO MANUAL =================
+    const GITHUB_USER = 'teofilo823'; 
+    const REPO_NAME = 'SITE-AR2-BR';
+    const CLIENT_ID = '1363856919638573277';
+    // =======================================================
 
-    // Links automáticos baseados nos seus dados acima
-    const MEU_SITE = `https://${SEU_USER_GITHUB}.github.io/${SEU_REPO_GITHUB}`;
-    const JSON_URL = `https://raw.githubusercontent.com/${SEU_USER_GITHUB}/${SEU_REPO_GITHUB}/main/database.json`;
+    const SITE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}`;
+    const JSON_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/main/database.json`;
 
-    document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(MEU_SITE)}&response_type=token&scope=identify`;
+    // Configura o link de login
+    document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(SITE_URL)}&response_type=token&scope=identify`;
 
     window.onload = () => {
-        const hash = new URLSearchParams(window.location.hash.slice(1));
-        const token = hash.get('access_token');
+        const params = new URLSearchParams(window.location.hash.slice(1));
+        const token = params.get('access_token');
+
         if (token) {
             window.history.replaceState({}, document.title, window.location.pathname);
-            fetchUser(token);
+            fetchDiscordUser(token);
         }
     };
 
-    async function fetchUser(token) {
+    async function fetchDiscordUser(token) {
         try {
-            const res = await fetch('https://discord.com/api/users/@me', { headers: { Authorization: `Bearer ${token}` } });
+            const res = await fetch('https://discord.com/api/users/@me', {
+                headers: { Authorization: `Bearer ${token}` }
+            });
             const user = await res.json();
+            
             document.getElementById('login-screen').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
-            document.getElementById('user-display').innerHTML = `<img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'"> <b>${user.username}</b>`;
-            loadData(user.id);
-        } catch (e) { alert("Erro no login"); }
+            
+            // Mostra seu nome e foto no topo
+            document.getElementById('user-display').innerHTML = `
+                <img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'">
+                <div><b>${user.username}</b></div>
+            `;
+            
+            loadLeaderboard(user.id);
+        } catch (e) {
+            console.error("Erro ao carregar usuário:", e);
+        }
     }
 
-    async function loadData(myId) {
+    async function loadLeaderboard(myId) {
         try {
-            const res = await fetch(JSON_URL + '?v=' + Date.now());
+            const res = await fetch(JSON_URL + '?nocache=' + Date.now());
             const data = await res.json();
             const body = document.getElementById('leaderboard-body');
             body.innerHTML = '';
             
             const users = data.users || {};
-            const sorted = Object.entries(users).sort((a,b) => (b[1].trophies || 0) - (a[1].trophies || 0));
+            const sorted = Object.entries(users).sort((a, b) => (b[1].trophies || 0) - (a[1].trophies || 0));
 
             if (sorted.length === 0) {
-                body.innerHTML = '<tr><td colspan="4" style="text-align:center">Nenhum jogador registrado ainda.</td></tr>';
+                body.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:30px;">Nenhum jogador registrado.</td></tr>';
                 return;
             }
 
-            sorted.forEach(([id, u], i) => {
+            sorted.forEach(([id, u], index) => {
+                const isMe = id === myId;
                 const tr = document.createElement('tr');
-                if (id === myId) tr.className = 'row-me';
+                if (isMe) tr.className = 'row-highlight';
+
                 tr.innerHTML = `
-                    <td>${i+1}</td>
-                    <td style="color:var(--primary); font-weight:bold">${u.name || 'Jogador '+id.substring(0,4)}</td>
-                    <td>${u.wins || 0}V / ${u.losses || 0}D</td>
-                    <td style="color:var(--accent); font-weight:bold">${u.trophies || 0} 🏆</td>
+                    <td>${index + 1}</td>
+                    <td style="color:var(--primary); font-weight:600;">${u.name || 'Jogador '+id.substring(0,4)} ${isMe ? '⭐' : ''}</td>
+                    <td style="font-size:0.85rem;">${u.wins || 0}V / ${u.losses || 0}D</td>
+                    <td style="color:var(--accent); font-weight:bold;">${u.trophies || 0} 🏆</td>
                 `;
                 body.appendChild(tr);
             });
-        } catch (e) { 
-            document.getElementById('leaderboard-body').innerHTML = '<tr><td colspan="4" style="text-align:center">Erro ao carregar banco de dados.</td></tr>';
+        } catch (e) {
+            console.error("Erro ao carregar JSON:", e);
         }
     }
 
-    function logout() { window.location.href = MEU_SITE; }
+    function logout() {
+        window.location.href = SITE_URL;
+    }
 </script>
 </body>
 </html>
