@@ -11,28 +11,28 @@
         body { background-color: var(--bg); color: var(--text); min-height: 100vh; display: flex; align-items: center; justify-content: center; }
         .container { width: 100%; max-width: 800px; padding: 20px; }
         
-        /* TELA DE LOGIN */
         #login-screen { text-align: center; }
-        .logo-gif { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; }
+        .logo-gif { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; object-fit: cover; }
 
-        /* TABELA */
         #main-content { display: none; width: 100%; }
         .user-bar { background: var(--card); padding: 15px; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border: 1px solid #2a2d31; }
         .user-info { display: flex; align-items: center; gap: 12px; }
         .user-info img { width: 40px; height: 40px; border-radius: 50%; }
 
         table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
-        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.75rem; }
+        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.75rem; text-transform: uppercase; }
         td { padding: 15px; border-bottom: 1px solid #2a2d31; }
         .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
+        
+        .row-highlight { background: rgba(88, 101, 242, 0.15) !important; font-weight: bold; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div id="login-screen">
-        <img src="https://cdn.discordapp.com/attachments/1457080342065184873/1472581955588460627/a_c2b2f870d0949b1e0755d8f5abd8f9a4.gif" class="logo-gif">
-        <h1 style="margin-bottom: 30px;">AR2 BRASIL RANKED</h1>
+        <img src="https://cdn.discordapp.com/attachments/1457080342065184873/1472581955588460627/a_c2b2f870d0949b1e0755d8f5abd8f9a4.gif" class="logo-gif" alt="AR2 GIF">
+        <h1 style="margin-bottom: 30px; letter-spacing: 2px;">AR2 BRASIL RANKED</h1>
         <a id="login-link" class="btn-discord"><i class="fa-brands fa-discord"></i> ENTRAR COM DISCORD</a>
     </div>
 
@@ -43,7 +43,7 @@
         </div>
         <table>
             <thead>
-                <tr><th>RANK</th><th>JOGADOR</th><th>WINRATE</th><th>TROFÉUS</th></tr>
+                <tr><th>#</th><th>JOGADOR</th><th>W/L</th><th>TROFÉUS</th></tr>
             </thead>
             <tbody id="leaderboard-body"></tbody>
         </table>
@@ -52,7 +52,6 @@
 
 <script>
     const CLIENT_ID = '1363856919638573277'; 
-    // Garante que o redirect_uri seja idêntico ao do navegador
     const REDIRECT_URI = window.location.origin + window.location.pathname;
     const JSON_URL = 'https://raw.githubusercontent.com/teofilo823/SITE-AR2-BR/refs/heads/main/database.json?token=GHSAT0AAAAAADUCMA7Q7X5FIETXUU7WNFOG2MSIL3A'; 
 
@@ -68,35 +67,53 @@
     };
 
     async function fetchUser(token) {
-        const res = await fetch('https://discord.com/api/users/@me', { headers: { Authorization: `Bearer ${token}` } });
-        const user = await res.json();
-        document.getElementById('login-screen').style.display = 'none';
-        document.getElementById('main-content').style.display = 'block';
-        document.getElementById('user-display').innerHTML = `<img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png"> <b>${user.username}</b>`;
-        loadData(user.id);
+        try {
+            const res = await fetch('https://discord.com/api/users/@me', { headers: { Authorization: `Bearer ${token}` } });
+            const user = await res.json();
+            document.getElementById('login-screen').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            document.getElementById('user-display').innerHTML = `<img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'"> <b>${user.username}</b>`;
+            loadData(user.id);
+        } catch (e) { console.error("Erro no login"); }
     }
 
     async function loadData(myId) {
         try {
-            // Adicionamos um número aleatório no fim do link para o navegador não ler dados velhos
-            const res = await fetch(JSON_URL + '?v=' + Math.random());
+            const res = await fetch(JSON_URL + '?nocache=' + new Date().getTime());
             const data = await res.json();
             const body = document.getElementById('leaderboard-body');
             body.innerHTML = '';
             
-            const sorted = Object.entries(data.users).sort((a,b) => b[1].trophies - a[1].trophies);
+            // Transformar o objeto users em array e ordenar
+            const sorted = Object.entries(data.users || {}).sort((a,b) => (b[1].trophies || 0) - (a[1].trophies || 0));
+
+            if (sorted.length === 0) {
+                body.innerHTML = '<tr><td colspan="4" style="text-align:center">Nenhum dado encontrado no banco.</td></tr>';
+                return;
+            }
+
             sorted.forEach(([id, u], i) => {
-                const total = (u.wins || 0) + (u.losses || 0);
-                const wr = total > 0 ? ((u.wins / total) * 100).toFixed(1) : "0";
-                body.innerHTML += `
-                    <tr style="${id === myId ? 'background:rgba(88,101,242,0.1)' : ''}">
-                        <td>#${i+1}</td>
-                        <td style="color:var(--primary); font-weight:bold">${u.name || 'ID: '+id.substring(0,5)}</td>
-                        <td>${wr}%</td>
-                        <td style="color:var(--accent); font-weight:bold">${u.trophies} 🏆</td>
-                    </tr>`;
+                const isMe = id === myId;
+                const wins = u.wins || 0;
+                const losses = u.losses || 0;
+                
+                // Se não tiver nome, mostra o ID encurtado
+                const displayName = u.name ? u.name : `Jogador (${id.substring(0,5)})`;
+                
+                const tr = document.createElement('tr');
+                if (isMe) tr.className = 'row-highlight';
+                
+                tr.innerHTML = `
+                    <td>${i+1}</td>
+                    <td style="color:var(--primary); font-weight:bold">${displayName} ${isMe ? '⭐' : ''}</td>
+                    <td style="font-size: 0.85rem; color: #888;">${wins}V / ${losses}D</td>
+                    <td style="color:var(--accent); font-weight:bold">${u.trophies || 0} 🏆</td>
+                `;
+                body.appendChild(tr);
             });
-        } catch (e) { console.error("Erro ao carregar banco de dados"); }
+        } catch (e) { 
+            body.innerHTML = '<tr><td colspan="4" style="text-align:center; color:red">Erro ao carregar banco de dados. Verifique o link.</td></tr>';
+        }
     }
 
     function logout() { window.location.reload(); }
