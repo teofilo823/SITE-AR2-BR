@@ -5,45 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR2 Brasil | Ranked</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root { --primary: #5865F2; --bg: #0e0e10; --card: #1c1c1f; --accent: #00d1ff; --text: #ffffff; --win: #2ecc71; --loss: #e74c3c; }
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
         body { background-color: var(--bg); color: var(--text); min-height: 100vh; display: flex; justify-content: center; padding: 20px; }
-        .container { width: 100%; max-width: 900px; }
+        .container { width: 100%; max-width: 850px; }
         
-        /* Login */
-        #login-screen { text-align: center; margin-top: 10vh; }
-        .logo-gif { width: 160px; height: 160px; border-radius: 50%; border: 4px solid var(--primary); margin-bottom: 20px; box-shadow: 0 0 30px rgba(88, 101, 242, 0.4); }
-
-        /* Main Content */
+        /* Telas */
+        #login-screen { text-align: center; margin-top: 15vh; }
         #main-content { display: none; width: 100%; }
-        .header-bar { background: var(--card); padding: 20px; border-radius: 15px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 25px; border: 1px solid #303033; }
-        .user-profile { display: flex; align-items: center; gap: 15px; }
-        .user-profile img { width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--primary); }
+
+        .logo-gif { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; }
+
+        /* Barra do Usuário */
+        .user-bar { background: var(--card); padding: 15px; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border: 1px solid #303033; }
+        .user-info { display: flex; align-items: center; gap: 12px; }
+        .user-info img { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--primary); }
 
         /* Tabela */
-        .table-card { background: var(--card); border-radius: 15px; overflow: hidden; border: 1px solid #303033; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .table-card { background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid #303033; }
         table { width: 100%; border-collapse: collapse; }
-        th { background: #252529; padding: 18px; text-align: left; color: #aaa; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
-        td { padding: 18px; border-bottom: 1px solid #28282b; transition: 0.2s; }
+        th { background: #252529; padding: 15px; text-align: left; color: #888; font-size: 0.75rem; text-transform: uppercase; }
+        td { padding: 15px; border-bottom: 1px solid #28282b; transition: 0.2s; }
         tr:hover td { background: #252529; cursor: pointer; }
         
-        /* Stats Styles */
-        .player-name { color: var(--accent); font-weight: 700; display: flex; align-items: center; gap: 8px; }
-        .rank-num { font-weight: 800; color: #666; width: 30px; }
-        .win-tag { color: var(--win); font-weight: bold; }
-        .my-row { background: rgba(88, 101, 242, 0.1) !important; border-left: 5px solid var(--primary); }
+        .row-me { background: rgba(88, 101, 242, 0.1) !important; border-left: 4px solid var(--primary); }
+        .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
+        .btn-logout { background: transparent; color: #ff4757; border: 1px solid #ff4757; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; transition: 0.3s; }
+        .btn-logout:hover { background: #ff4757; color: white; }
 
         /* Modal Perfil */
-        #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); align-items: center; justify-content: center; z-index: 100; }
-        .modal-content { background: var(--card); padding: 30px; border-radius: 20px; width: 320px; text-align: center; border: 1px solid var(--primary); position: relative; }
-        .close-modal { position: absolute; top: 15px; right: 15px; cursor: pointer; color: #666; }
-        .modal-avatar { width: 100px; height: 100px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 15px; }
-
-        .btn-discord { background: var(--primary); color: white; border: none; padding: 16px 35px; border-radius: 10px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; transition: 0.3s; }
-        .btn-discord:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(88, 101, 242, 0.5); }
-        .btn-logout { background: #333; color: #ff4757; border: 1px solid #444; padding: 8px 15px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+        #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; z-index: 100; }
+        .modal-content { background: var(--card); padding: 30px; border-radius: 20px; width: 300px; text-align: center; border: 1px solid var(--primary); }
     </style>
 </head>
 <body>
@@ -51,19 +44,17 @@
 <div class="container">
     <div id="login-screen">
         <img src="logo.gif" class="logo-gif" onerror="this.src='https://i.imgur.com/8N99X7p.gif'">
-        <h1 style="font-size: 2.5rem; margin-bottom: 10px;">AR2 BRASIL</h1>
-        <p style="color: #888; margin-bottom: 40px;">Ranked Matchmaking System</p>
+        <h1 style="margin-bottom: 30px;">AR2 BRASIL RANKED</h1>
         <a id="login-link" class="btn-discord">
             <i class="fa-brands fa-discord"></i> ENTRAR COM DISCORD
         </a>
     </div>
 
     <div id="main-content">
-        <div class="header-bar">
-            <div class="user-profile" id="current-user"></div>
+        <div class="user-bar">
+            <div class="user-info" id="user-display"></div>
             <button class="btn-logout" onclick="logout()">SAIR</button>
         </div>
-
         <div class="table-card">
             <table>
                 <thead>
@@ -83,49 +74,47 @@
 
 <div id="modal" onclick="closeModal()">
     <div class="modal-content" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal()"><i class="fas fa-times"></i></span>
-        <img id="m-avatar" src="" class="modal-avatar">
-        <h2 id="m-name" style="margin-bottom: 5px;"></h2>
-        <p id="m-id" style="color:#666; font-size: 0.8rem; margin-bottom: 20px;"></p>
-        <hr style="border:0; border-top:1px solid #333; margin-bottom: 20px;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-            <div><small style="color:#888">Vitórias</small><br><b id="m-wins" style="color:var(--win)"></b></div>
-            <div><small style="color:#888">Derrotas</small><br><b id="m-losses" style="color:var(--loss)"></b></div>
-            <div style="grid-column: span 2;"><small style="color:#888">Winrate</small><br><b id="m-wr" style="color:var(--accent)"></b></div>
-        </div>
+        <img id="m-avatar" src="" style="width:80px; height:80px; border-radius:50%; border:3px solid var(--primary); margin-bottom:15px;">
+        <h2 id="m-name"></h2>
+        <p id="m-stats" style="margin: 20px 0; color: #aaa; line-height: 1.6;"></p>
+        <button onclick="closeModal()" style="background:var(--primary); color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;">Fechar</button>
     </div>
 </div>
 
 <script>
-    // CONFIGURAÇÃO
+    // --- 1. CONFIGURAÇÃO (COLOQUE SEUS DADOS AQUI) ---
     const GITHUB_USER = 'teofilo823'; 
     const REPO_NAME = 'SITE-AR2-BR';
     const CLIENT_ID = '1363856919638573277';
     
-    const REDIRECT_URI = window.location.origin + window.location.pathname.replace(/\/$/, "");
+    // O link do site precisa ser idêntico ao que você colocou no Redirect do Discord
+    const SITE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}`; 
     const JSON_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/main/database.json`;
 
-    document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=token&scope=identify`;
+    // Monta o link de login
+    document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(SITE_URL)}&response_type=token&scope=identify`;
 
     window.onload = () => {
         const hash = new URLSearchParams(window.location.hash.slice(1));
         const token = hash.get('access_token');
         if (token) {
             window.history.replaceState({}, document.title, window.location.pathname);
-            init(token);
+            fetchUser(token);
         }
     };
 
-    async function init(token) {
-        const res = await fetch('https://discord.com/api/users/@me', { headers: { Authorization: `Bearer ${token}` } });
-        const user = await res.json();
-        document.getElementById('login-screen').style.display = 'none';
-        document.getElementById('main-content').style.display = 'block';
-        document.getElementById('current-user').innerHTML = `
-            <img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'">
-            <div><b>${user.username}</b><br><small style="color:#888">Online</small></div>
-        `;
-        loadData(user.id);
+    async function fetchUser(token) {
+        try {
+            const res = await fetch('https://discord.com/api/users/@me', { headers: { Authorization: `Bearer ${token}` } });
+            const user = await res.json();
+            document.getElementById('login-screen').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            document.getElementById('user-display').innerHTML = `
+                <img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'">
+                <b>${user.username}</b>
+            `;
+            loadData(user.id);
+        } catch (e) { alert("Erro de Login"); }
     }
 
     async function loadData(myId) {
@@ -134,45 +123,43 @@
         const body = document.getElementById('leaderboard-body');
         body.innerHTML = '';
         
-        const sorted = Object.entries(data.users).sort((a,b) => b[1].trophies - a[1].trophies);
+        const sorted = Object.entries(data.users || {}).sort((a,b) => b[1].trophies - a[1].trophies);
 
         sorted.forEach(([id, u], i) => {
             const wins = u.wins || 0;
             const losses = u.losses || 0;
-            const total = wins + losses;
-            const wr = total > 0 ? ((wins / total) * 100).toFixed(1) : "0.0";
+            const wr = (wins + losses) > 0 ? ((wins / (wins + losses)) * 100).toFixed(1) : "0";
             
             const tr = document.createElement('tr');
-            if (id === myId) tr.className = 'my-row';
-            tr.onclick = () => openProfile(id, u);
+            if (id === myId) tr.className = 'row-me';
+            
+            // Aqui ele usa o u.name que você adicionou!
+            const playerName = u.name || `Jogador (${id.slice(-4)})`;
+
+            tr.onclick = () => {
+                document.getElementById('m-name').innerText = playerName;
+                document.getElementById('m-avatar').src = `https://cdn.discordapp.com/embed/avatars/${i % 5}.png`;
+                document.getElementById('m-stats').innerHTML = `
+                    Vitórias: <span style="color:var(--win)">${wins}</span><br>
+                    Derrotas: <span style="color:var(--loss)">${losses}</span><br>
+                    Taxa de Vitória: <b>${wr}%</b>
+                `;
+                document.getElementById('modal').style.display = 'flex';
+            };
 
             tr.innerHTML = `
-                <td class="rank-num">#${i+1}</td>
-                <td><div class="player-name">${u.name || 'Jogador'} ${id === myId ? '⭐' : ''}</div></td>
-                <td><span class="win-tag">${wins}V</span> / <span style="color:var(--loss)">${losses}D</span></td>
-                <td><b style="color:var(--accent)">${wr}%</b></td>
-                <td style="font-weight:bold; color:var(--accent)">${u.trophies} 🏆</td>
+                <td>#${i+1}</td>
+                <td style="color:var(--accent); font-weight:bold">${playerName} ${id === myId ? '⭐' : ''}</td>
+                <td>${wins}V / ${losses}D</td>
+                <td>${wr}%</td>
+                <td style="color:var(--win); font-weight:bold">${u.trophies} 🏆</td>
             `;
             body.appendChild(tr);
         });
     }
 
-    function openProfile(id, u) {
-        const wins = u.wins || 0;
-        const losses = u.losses || 0;
-        const wr = (wins + losses) > 0 ? ((wins / (wins + losses)) * 100).toFixed(1) : "0.0";
-        
-        document.getElementById('m-name').innerText = u.name || 'Jogador';
-        document.getElementById('m-id').innerText = 'ID: ' + id;
-        document.getElementById('m-avatar').src = `https://cdn.discordapp.com/embed/avatars/${Math.floor(Math.random() * 5)}.png`; // Simulação de avatar
-        document.getElementById('m-wins').innerText = wins;
-        document.getElementById('m-losses').innerText = losses;
-        document.getElementById('m-wr').innerText = wr + '%';
-        document.getElementById('modal').style.display = 'flex';
-    }
-
     function closeModal() { document.getElementById('modal').style.display = 'none'; }
-    function logout() { window.location.href = REDIRECT_URI; }
+    function logout() { window.location.href = SITE_URL; }
 </script>
 </body>
 </html>
