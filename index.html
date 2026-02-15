@@ -29,8 +29,11 @@
         .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
         .btn-logout { background: transparent; color: #ff4757; border: 1px solid #ff4757; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
 
+        /* Estilo do Modal (Perfil) */
         #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; z-index: 100; }
-        .modal-content { background: var(--card); padding: 30px; border-radius: 20px; width: 300px; text-align: center; border: 1px solid var(--primary); }
+        .modal-content { background: var(--card); padding: 30px; border-radius: 20px; width: 320px; text-align: center; border: 1px solid var(--primary); box-shadow: 0 0 20px rgba(88, 101, 242, 0.2); }
+        .stat-box { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; }
+        .stat-item { background: #252529; padding: 10px; border-radius: 8px; }
     </style>
 </head>
 <body>
@@ -62,17 +65,28 @@
 
 <div id="modal" onclick="closeModal()">
     <div class="modal-content" onclick="event.stopPropagation()">
-        <img id="m-avatar" src="" style="width:80px; height:80px; border-radius:50%; border:3px solid var(--primary); margin-bottom:15px;">
-        <h2 id="m-name"></h2>
-        <div id="m-stats" style="margin: 20px 0; color: #aaa; line-height: 1.8;"></div>
-        <button onclick="closeModal()" style="background:var(--primary); color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;">Fechar</button>
+        <img id="m-avatar" src="" style="width:90px; height:90px; border-radius:50%; border:3px solid var(--primary); margin-bottom:15px;">
+        <h2 id="m-name" style="margin-bottom: 5px;"></h2>
+        <p id="m-id" style="font-size: 0.7rem; color: #555; margin-bottom: 15px;"></p>
+        
+        <div class="stat-box">
+            <div class="stat-item"><small>Partidas</small><br><b id="m-total">0</b></div>
+            <div class="stat-item"><small>Winrate</small><br><b id="m-wr" style="color:var(--accent)">0%</b></div>
+            <div class="stat-item"><small>Vitórias</small><br><b id="m-wins" style="color:var(--win)">0</b></div>
+            <div class="stat-item"><small>Derrotas</small><br><b id="m-losses" style="color:var(--loss)">0</b></div>
+        </div>
+        
+        <div style="margin-top: 20px; font-weight: bold; color: #f1c40f;">
+            Troféus: <span id="m-trophies">0</span> 🏆
+        </div>
+
+        <button onclick="closeModal()" style="margin-top: 25px; background: #333; color: white; border: none; padding: 10px 25px; border-radius: 8px; cursor: pointer;">Fechar</button>
     </div>
 </div>
 
 <script>
-    // --- CONFIGURAÇÃO CORRIGIDA PARA O SEU LINK ---
     const CLIENT_ID = '1363856919638573277';
-    const SITE_URL = 'https://teofilo823.github.io/SITE-AR2-BR/'; // Link com barra final conforme o Pages
+    const SITE_URL = 'https://teofilo823.github.io/SITE-AR2-BR/'; 
     const JSON_URL = 'https://raw.githubusercontent.com/teofilo823/SITE-AR2-BR/main/database.json';
 
     document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(SITE_URL)}&response_type=token&scope=identify`;
@@ -122,13 +136,13 @@
                 
                 tr.onclick = () => {
                     document.getElementById('m-name').innerText = playerName;
+                    document.getElementById('m-id').innerText = id;
                     document.getElementById('m-avatar').src = `https://cdn.discordapp.com/embed/avatars/${i % 5}.png`;
-                    document.getElementById('m-stats').innerHTML = `
-                        Vitórias: <span style="color:var(--win)">${wins}</span><br>
-                        Derrotas: <span style="color:var(--loss)">${losses}</span><br>
-                        Taxa de Vitória: <b style="color:var(--accent)">${wr}%</b><br>
-                        Troféus: <b style="color:#f1c40f">${u.trophies || 0} 🏆</b>
-                    `;
+                    document.getElementById('m-total').innerText = total;
+                    document.getElementById('m-wins').innerText = wins;
+                    document.getElementById('m-losses').innerText = losses;
+                    document.getElementById('m-wr').innerText = wr + '%';
+                    document.getElementById('m-trophies').innerText = u.trophies || 0;
                     document.getElementById('modal').style.display = 'flex';
                 };
 
@@ -141,7 +155,7 @@
                 `;
                 body.appendChild(tr);
             });
-        } catch (e) { console.error("Erro ao carregar banco."); }
+        } catch (e) { console.error("Erro ao carregar dados."); }
     }
 
     function closeModal() { document.getElementById('modal').style.display = 'none'; }
