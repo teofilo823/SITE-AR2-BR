@@ -12,18 +12,21 @@
         
         .container { width: 100%; max-width: 800px; padding: 20px; }
         
-        /* Telas */
+        /* TELA DE LOGIN */
         #login-screen { text-align: center; }
+        .logo-gif { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; box-shadow: 0 0 20px rgba(88, 101, 242, 0.4); }
+
         #main-content { display: none; width: 100%; }
 
-        .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 1.1rem; }
+        .btn-discord { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 1.1rem; transition: 0.3s; }
+        .btn-discord:hover { background: #4752c4; transform: scale(1.05); }
         
         .user-bar { background: var(--card); padding: 15px; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border: 1px solid #2a2d31; }
         .user-info { display: flex; align-items: center; gap: 12px; }
         .user-info img { width: 40px; height: 40px; border-radius: 50%; }
 
         table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
-        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.8rem; }
+        th { background: #1c1f23; padding: 15px; text-align: left; color: #888; font-size: 0.8rem; text-transform: uppercase; }
         td { padding: 15px; border-bottom: 1px solid #2a2d31; }
         .my-rank { background: rgba(88, 101, 242, 0.1); border-left: 4px solid var(--primary); }
     </style>
@@ -32,7 +35,9 @@
 
 <div class="container">
     <div id="login-screen">
-        <h1 style="margin-bottom: 20px;">AR2 BRASIL RANKED</h1>
+        <img src="https://cdn.discordapp.com/attachments/1457080342065184873/1472581955588460627/a_c2b2f870d0949b1e0755d8f5abd8f9a4.gif" alt="AR2 Brasil" class="logo-gif">
+        <h1 style="margin-bottom: 10px;">AR2 BRASIL RANKED</h1>
+        <p style="color: #888; margin-bottom: 30px;">Acesse o portal para ver seu desempenho</p>
         <a id="login-link" class="btn-discord">
             <i class="fa-brands fa-discord"></i> ENTRAR COM DISCORD
         </a>
@@ -41,7 +46,7 @@
     <div id="main-content">
         <div class="user-bar">
             <div class="user-info" id="user-display"></div>
-            <button onclick="logout()" style="background:none; border:1px solid #444; color:white; padding:5px 10px; border-radius:5px; cursor:pointer;">Sair</button>
+            <button onclick="logout()" style="background:none; border:1px solid #444; color:white; padding:5px 12px; border-radius:5px; cursor:pointer;">Sair</button>
         </div>
 
         <table>
@@ -61,19 +66,17 @@
 <script>
     // --- CONFIGURAÇÃO ---
     const CLIENT_ID = '1363856919638573277'; 
-    const REDIRECT_URI = window.location.origin + window.location.pathname; 
-    const JSON_URL = 'COLE_AQUI_O_LINK_RAW_DO_GITHUB'; // <--- MUITO IMPORTANTE!
+    // Pegamos a URL atual de forma automática e garantimos que ela termine sem barra /
+    const REDIRECT_URI = window.location.origin + window.location.pathname.replace(/\/$/, ""); 
+    const JSON_URL = 'COLE_AQUI_O_LINK_RAW_DO_GITHUB'; 
 
-    // Gerar link de login do Discord
     document.getElementById('login-link').href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=token&scope=identify`;
 
-    // 1. Verificar se o usuário acabou de logar
     window.onload = () => {
         const params = new URLSearchParams(window.location.hash.slice(1));
         const token = params.get('access_token');
 
         if (token) {
-            // Limpa a URL e salva o token
             window.history.replaceState({}, document.title, window.location.pathname);
             fetchDiscordUser(token);
         }
@@ -86,33 +89,28 @@
             });
             const user = await res.json();
             
-            // Troca de tela
             document.getElementById('login-screen').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
             
-            // Mostra quem você é
             document.getElementById('user-display').innerHTML = `
                 <img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" onerror="this.src='https://cdn.discordapp.com/embed/avatars/0.png'">
                 <div><b>${user.username}</b></div>
             `;
             
-            loadLeaderboard(user.id); // Carrega o ranking marcando você
+            loadLeaderboard(user.id);
         } catch (e) {
-            alert("Erro ao identificar usuário no Discord.");
+            alert("Erro na autenticação. Tente novamente.");
         }
     }
 
     async function loadLeaderboard(myId) {
         try {
-            const res = await fetch(JSON_URL + '?t=' + Date.now()); // Evita cache
+            const res = await fetch(JSON_URL + '?t=' + Date.now());
             const data = await res.json();
-            const users = data.users;
-            
             const body = document.getElementById('leaderboard-body');
             body.innerHTML = '';
             
-            // Ordena por troféus
-            const sorted = Object.entries(users).sort((a, b) => b[1].trophies - a[1].trophies);
+            const sorted = Object.entries(data.users).sort((a, b) => b[1].trophies - a[1].trophies);
 
             sorted.forEach(([id, u], index) => {
                 const isMe = id === myId;
@@ -123,19 +121,17 @@
                 if (isMe) tr.className = 'my-rank';
                 
                 tr.innerHTML = `
-                    <td style="font-weight:bold">#${index + 1}</td>
-                    <td style="color:var(--primary); font-weight:bold;">${u.name || 'Jogador '+id.substring(0,5)} ${isMe ? '(VOCÊ)' : ''}</td>
+                    <td>#${index + 1}</td>
+                    <td style="color:var(--primary); font-weight:bold;">${u.name || 'Jogador '+id.substring(0,5)} ${isMe ? '⭐' : ''}</td>
                     <td>${wr}%</td>
                     <td style="color:var(--accent); font-weight:bold;">${u.trophies} 🏆</td>
                 `;
                 body.appendChild(tr);
             });
-        } catch (e) {
-            console.error("Erro ao carregar JSON:", e);
-        }
+        } catch (e) { console.error(e); }
     }
 
-    function logout() { window.location.reload(); }
+    function logout() { window.location.href = window.location.origin + window.location.pathname; }
 </script>
 </body>
 </html>
