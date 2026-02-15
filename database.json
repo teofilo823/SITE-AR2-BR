@@ -292,10 +292,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 39,
+            "trophies": 23,
             "wins": 5,
-            "losses": 15,
-            "total": 20,
+            "losses": 16,
+            "total": 21,
             "name": "yann_fx2kk"
         },
         "1134959740376580186": {
@@ -323,10 +323,10 @@
             "total": 5
         },
         "857993244017164310": {
-            "trophies": 194,
-            "wins": 10,
+            "trophies": 221,
+            "wins": 11,
             "losses": 6,
-            "total": 16
+            "total": 17
         },
         "1134468312676442284": {
             "trophies": 148,
@@ -3173,8 +3173,13 @@
             ],
             "callA": "1472740891729985617",
             "callV": "1472740892535423006",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "red",
+            "registry": {
+                "857993244017164310": 27,
+                "1451306598646681661": 16
+            }
         }
     ],
     "lastMatchId": 122
