@@ -99,10 +99,10 @@
             "total": 3
         },
         "1139604093795586098": {
-            "trophies": 235,
+            "trophies": 214,
             "wins": 14,
-            "losses": 10,
-            "total": 24,
+            "losses": 11,
+            "total": 25,
             "name": "gui0133"
         },
         "1198753073372352602": {
@@ -323,10 +323,10 @@
             "total": 5
         },
         "857993244017164310": {
-            "trophies": 248,
-            "wins": 12,
+            "trophies": 274,
+            "wins": 13,
             "losses": 6,
-            "total": 18
+            "total": 19
         },
         "1134468312676442284": {
             "trophies": 148,
@@ -3211,8 +3211,13 @@
             ],
             "callA": "1473004160889651210",
             "callV": "1473004161808208084",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "blue",
+            "registry": {
+                "857993244017164310": 26,
+                "1139604093795586098": 21
+            }
         }
     ],
     "lastMatchId": 124
