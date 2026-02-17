@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 15,
+            "trophies": 0,
             "wins": 1,
-            "losses": 4,
-            "total": 5,
+            "losses": 5,
+            "total": 6,
             "name": "teozin"
         },
         "821567548645441537": {
@@ -99,10 +99,10 @@
             "total": 3
         },
         "1139604093795586098": {
-            "trophies": 220,
-            "wins": 15,
+            "trophies": 247,
+            "wins": 16,
             "losses": 12,
-            "total": 27,
+            "total": 28,
             "name": "gui0133"
         },
         "1198753073372352602": {
@@ -389,16 +389,16 @@
             "total": 3
         },
         "1439382361686151259": {
-            "trophies": 45,
-            "wins": 2,
+            "trophies": 75,
+            "wins": 3,
             "losses": 1,
-            "total": 3
+            "total": 4
         },
         "966497250253631558": {
             "trophies": 0,
             "wins": 0,
-            "losses": 3,
-            "total": 3
+            "losses": 4,
+            "total": 4
         },
         "514222917517836299": {
             "trophies": 30,
@@ -3434,8 +3434,15 @@
             ],
             "callA": "1473201404440084551",
             "callV": "1473201405492854928",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1139604093795586098": 27,
+                "1439382361686151259": 30,
+                "966497250253631558": 15,
+                "732342369646805071": 15
+            }
         }
     ],
     "lastMatchId": 132
