@@ -9,8 +9,8 @@
         "732342369646805071": {
             "trophies": 0,
             "wins": 1,
-            "losses": 6,
-            "total": 7,
+            "losses": 7,
+            "total": 8,
             "name": "teozin",
             "username": "teozin"
         },
@@ -64,18 +64,11 @@
             "losses": 14,
             "total": 18
         },
-        "1469353148115194018": {
-            "trophies": 894,
-            "wins": 46,
-            "losses": 12,
-            "total": 58,
-            "username": "only_die."
-        },
         "1434552767460016249": {
-            "trophies": 266,
+            "trophies": 244,
             "wins": 14,
-            "losses": 7,
-            "total": 21,
+            "losses": 8,
+            "total": 22,
             "username": "reitinder_reifacebook"
         },
         "472734980716625945": {
@@ -97,10 +90,10 @@
             "total": 1
         },
         "363027854633598976": {
-            "trophies": 24,
-            "wins": 2,
+            "trophies": 54,
+            "wins": 3,
             "losses": 2,
-            "total": 4,
+            "total": 5,
             "username": "lucas6677_"
         },
         "1139604093795586098": {
@@ -352,10 +345,10 @@
             "total": 6
         },
         "900138394846367756": {
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 4,
-            "total": 4,
+            "total": 5,
             "username": "vitorjaime."
         },
         "1189987800129491069": {
@@ -429,10 +422,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 0,
-            "total": 1
+            "losses": 1,
+            "total": 2
         },
         "480785822111760394": {
             "username": "edenczs",
@@ -457,17 +450,17 @@
         },
         "1398369747074285659": {
             "username": "ronaldooo__",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         },
         "1323071801961480212": {
             "username": "laladulol0779_06770",
@@ -480,8 +473,8 @@
             "username": "trem_anthony",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         }
     },
     "matches": [
@@ -3663,8 +3656,19 @@
             ],
             "callA": "1473376363473014951",
             "callV": "1473376364269801573",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "blue",
+            "registry": {
+                "900138394846367756": 30,
+                "363027854633598976": 30,
+                "699991560087142403": 30,
+                "1398369747074285659": 30,
+                "930458191911845909": 15,
+                "1333521290258157699": 15,
+                "732342369646805071": 15,
+                "1434552767460016249": 22
+            }
         }
     ],
     "lastMatchId": 139
