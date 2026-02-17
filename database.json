@@ -96,10 +96,10 @@
             "total": 1
         },
         "363027854633598976": {
-            "trophies": 40,
+            "trophies": 24,
             "wins": 2,
-            "losses": 1,
-            "total": 3,
+            "losses": 2,
+            "total": 4,
             "username": "lucas6677_"
         },
         "1139604093795586098": {
@@ -420,10 +420,10 @@
         },
         "1152796252602380338": {
             "username": "smtyuki_",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
@@ -469,17 +469,17 @@
         },
         "1323071801961480212": {
             "username": "laladulol0779_06770",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "930458191911845909": {
             "username": "trem_anthony",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -3621,8 +3621,15 @@
             ],
             "callA": "1473363620497981612",
             "callV": "1473363621550751907",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1152796252602380338": 30,
+                "1323071801961480212": 30,
+                "363027854633598976": 16,
+                "930458191911845909": 15
+            }
         }
     ],
     "lastMatchId": 138
