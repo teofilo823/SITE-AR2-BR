@@ -99,10 +99,10 @@
             "total": 3
         },
         "1139604093795586098": {
-            "trophies": 273,
-            "wins": 17,
+            "trophies": 247,
+            "wins": 16,
             "losses": 12,
-            "total": 29,
+            "total": 28,
             "name": "gui0133"
         },
         "1198753073372352602": {
@@ -292,10 +292,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 117,
+            "trophies": 135,
             "wins": 10,
-            "losses": 19,
-            "total": 29,
+            "losses": 18,
+            "total": 28,
             "name": "yann_fx2kk"
         },
         "1134959740376580186": {
@@ -389,16 +389,16 @@
             "total": 3
         },
         "1439382361686151259": {
-            "trophies": 104,
-            "wins": 4,
+            "trophies": 75,
+            "wins": 3,
             "losses": 1,
-            "total": 5
+            "total": 4
         },
         "966497250253631558": {
-            "trophies": 0,
+            "trophies": 15,
             "wins": 0,
-            "losses": 5,
-            "total": 5
+            "losses": 4,
+            "total": 4
         },
         "514222917517836299": {
             "trophies": 30,
@@ -3473,7 +3473,7 @@
             ],
             "callA": "1473212803803254826",
             "callV": "1473212804529000468",
-            "status": "FINISHED",
+            "status": "ANNULLED",
             "format": "2v2",
             "winner": "blue",
             "registry": {
