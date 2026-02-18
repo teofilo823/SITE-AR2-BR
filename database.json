@@ -47,10 +47,10 @@
             "total": 7
         },
         "1226274972566159360": {
-            "trophies": 60,
+            "trophies": 44,
             "wins": 3,
-            "losses": 5,
-            "total": 8,
+            "losses": 6,
+            "total": 9,
             "username": "cequela.xd"
         },
         "715209623459594250": {
@@ -113,10 +113,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 107,
-            "wins": 7,
+            "trophies": 136,
+            "wins": 8,
             "losses": 10,
-            "total": 17,
+            "total": 18,
             "username": "enzodetonauta"
         },
         "753132129852063745": {
@@ -151,10 +151,10 @@
             "username": "1ir2."
         },
         "1468362302570102887": {
-            "trophies": 66,
-            "wins": 4,
+            "trophies": 95,
+            "wins": 5,
             "losses": 5,
-            "total": 9,
+            "total": 10,
             "username": "q7vxd"
         },
         "1124049997260935271": {
@@ -416,10 +416,10 @@
             "username": "im_alice__0"
         },
         "514222917517836299": {
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1,
+            "total": 2,
             "username": "noryowner"
         },
         "1373319345916084414": {
@@ -430,10 +430,10 @@
         },
         "1152796252602380338": {
             "username": "smtyuki_",
-            "trophies": 15,
-            "wins": 1,
+            "trophies": 45,
+            "wins": 2,
             "losses": 1,
-            "total": 2
+            "total": 3
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
@@ -493,10 +493,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 75,
-            "wins": 3,
+            "trophies": 104,
+            "wins": 4,
             "losses": 2,
-            "total": 5
+            "total": 6
         },
         "1145414700742492230": {
             "username": "zedafolinhadobem",
@@ -509,8 +509,8 @@
             "username": "ghost_011_.",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "1108579072776339527": {
             "username": "typer.br",
@@ -523,22 +523,22 @@
             "username": "silva_______gs",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1272407742757212230": {
             "username": "poisonedlol",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "984113159830900767": {
             "username": "015._.silvags",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -4185,8 +4185,21 @@
             ],
             "callA": "1473732393864269824",
             "callV": "1473732394937880598",
-            "status": "PROGRESS",
-            "format": "5v5"
+            "status": "FINISHED",
+            "format": "5v5",
+            "winner": "blue",
+            "registry": {
+                "514222917517836299": 30,
+                "1473375361592197316": 29,
+                "698211510819749951": 29,
+                "1152796252602380338": 30,
+                "1468362302570102887": 29,
+                "1373452119339700310": 15,
+                "1272407742757212230": 15,
+                "903660821480087634": 15,
+                "984113159830900767": 15,
+                "1226274972566159360": 16
+            }
         }
     ],
     "lastMatchId": 161
