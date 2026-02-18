@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 8,
-            "total": 9,
+            "total": 10,
             "name": "teozin",
             "username": "teozin"
         },
@@ -67,10 +67,10 @@
             "total": 18
         },
         "1434552767460016249": {
-            "trophies": 223,
-            "wins": 14,
+            "trophies": 250,
+            "wins": 15,
             "losses": 9,
-            "total": 23,
+            "total": 24,
             "username": "reitinder_reifacebook"
         },
         "472734980716625945": {
@@ -298,10 +298,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 100,
+            "trophies": 83,
             "wins": 12,
-            "losses": 23,
-            "total": 35,
+            "losses": 24,
+            "total": 36,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -410,10 +410,10 @@
             "total": 4
         },
         "966497250253631558": {
-            "trophies": 89,
+            "trophies": 72,
             "wins": 3,
-            "losses": 5,
-            "total": 8,
+            "losses": 6,
+            "total": 9,
             "username": "im_alice__0"
         },
         "514222917517836299": {
@@ -4294,8 +4294,15 @@
             ],
             "callA": "1473804054604812422",
             "callV": "1473804055750119446",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1434552767460016249": 27,
+                "732342369646805071": 30,
+                "1451306598646681661": 17,
+                "966497250253631558": 17
+            }
         }
     ],
     "lastMatchId": 166
