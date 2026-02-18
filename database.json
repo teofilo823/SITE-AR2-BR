@@ -298,10 +298,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 136,
+            "trophies": 118,
             "wins": 12,
-            "losses": 21,
-            "total": 33,
+            "losses": 22,
+            "total": 34,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -493,10 +493,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 104,
-            "wins": 4,
+            "trophies": 133,
+            "wins": 5,
             "losses": 2,
-            "total": 6
+            "total": 7
         },
         "1145414700742492230": {
             "username": "zedafolinhadobem",
@@ -4212,8 +4212,13 @@
             ],
             "callA": "1473766662028398662",
             "callV": "1473766663563509771",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "blue",
+            "registry": {
+                "1473375361592197316": 29,
+                "1451306598646681661": 18
+            }
         }
     ],
     "lastMatchId": 162
