@@ -295,10 +295,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 107,
-            "wins": 11,
+            "trophies": 136,
+            "wins": 12,
             "losses": 21,
-            "total": 32,
+            "total": 33,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -446,10 +446,10 @@
         },
         "1217212236854984844": {
             "username": "bntzx_021",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 0,
-            "total": 1
+            "losses": 1,
+            "total": 2
         },
         "1305010388814921728": {
             "username": "yami5.45",
@@ -488,10 +488,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 1,
-            "total": 1
+            "total": 2
         },
         "1145414700742492230": {
             "username": "zedafolinhadobem",
@@ -504,8 +504,8 @@
             "username": "ghost_011_.",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -3964,8 +3964,15 @@
             ],
             "callA": "1473515440268509372",
             "callV": "1473515441015095311",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1473375361592197316": 30,
+                "1451306598646681661": 29,
+                "903660821480087634": 15,
+                "1217212236854984844": 15
+            }
         }
     ],
     "lastMatchId": 152
