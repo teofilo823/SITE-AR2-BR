@@ -352,10 +352,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 131,
-            "wins": 5,
+            "trophies": 159,
+            "wins": 6,
             "losses": 3,
-            "total": 8,
+            "total": 9,
             "username": "jota024410"
         },
         "900138394846367756": {
@@ -373,10 +373,10 @@
             "username": "psir_white_04700"
         },
         "1197559770920521748": {
-            "trophies": 29,
+            "trophies": 14,
             "wins": 0,
-            "losses": 1,
-            "total": 1,
+            "losses": 2,
+            "total": 2,
             "username": "luishenrique_1912"
         },
         "748889958076645466": {
@@ -412,10 +412,10 @@
             "total": 4
         },
         "966497250253631558": {
-            "trophies": 68,
+            "trophies": 52,
             "wins": 4,
-            "losses": 8,
-            "total": 12,
+            "losses": 9,
+            "total": 13,
             "username": "im_alice__0"
         },
         "514222917517836299": {
@@ -475,17 +475,17 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 74,
+            "trophies": 57,
             "wins": 3,
-            "losses": 1,
-            "total": 4
+            "losses": 2,
+            "total": 5
         },
         "1323071801961480212": {
             "username": "laladulol0779_06770",
-            "trophies": 15,
-            "wins": 1,
+            "trophies": 45,
+            "wins": 2,
             "losses": 1,
-            "total": 2
+            "total": 3
         },
         "930458191911845909": {
             "username": "trem_anthony",
@@ -496,10 +496,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 115,
-            "wins": 5,
+            "trophies": 144,
+            "wins": 6,
             "losses": 3,
-            "total": 8
+            "total": 9
         },
         "1145414700742492230": {
             "username": "zedafolinhadobem",
@@ -4516,8 +4516,17 @@
             ],
             "callA": "1474177524299993291",
             "callV": "1474177525495107736",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "blue",
+            "registry": {
+                "1323071801961480212": 30,
+                "1473375361592197316": 29,
+                "1472030612259864658": 28,
+                "1197559770920521748": 15,
+                "966497250253631558": 16,
+                "699991560087142403": 17
+            }
         }
     ],
     "lastMatchId": 173
