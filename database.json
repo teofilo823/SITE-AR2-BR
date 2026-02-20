@@ -302,10 +302,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 64,
-            "wins": 14,
+            "trophies": 93,
+            "wins": 15,
             "losses": 29,
-            "total": 43,
+            "total": 44,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -336,10 +336,10 @@
             "total": 5
         },
         "857993244017164310": {
-            "trophies": 375,
-            "wins": 17,
+            "trophies": 399,
+            "wins": 18,
             "losses": 6,
-            "total": 23,
+            "total": 24,
             "username": "ricsol"
         },
         "1134468312676442284": {
@@ -355,10 +355,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 159,
+            "trophies": 140,
             "wins": 6,
-            "losses": 3,
-            "total": 9,
+            "losses": 4,
+            "total": 10,
             "username": "jota024410"
         },
         "900138394846367756": {
@@ -634,8 +634,8 @@
             "username": "ghost.tm_",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -4777,8 +4777,15 @@
             ],
             "callA": "1474520772356603936",
             "callV": "1474520771538976853",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1451306598646681661": 29,
+                "857993244017164310": 24,
+                "1134610079170175007": 15,
+                "1472030612259864658": 19
+            }
         }
     ],
     "lastMatchId": 182
