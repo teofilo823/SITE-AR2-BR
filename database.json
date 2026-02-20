@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 14,
+            "trophies": 0,
             "wins": 3,
-            "losses": 11,
-            "total": 14,
+            "losses": 12,
+            "total": 15,
             "name": "teozin",
             "username": "teozin"
         },
@@ -41,10 +41,10 @@
             "total": 1
         },
         "1406445755975204874": {
-            "trophies": 30,
+            "trophies": 15,
             "wins": 3,
-            "losses": 4,
-            "total": 7,
+            "losses": 5,
+            "total": 8,
             "username": "lenildopietro"
         },
         "1226274972566159360": {
@@ -100,10 +100,10 @@
             "username": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 329,
-            "wins": 20,
+            "trophies": 354,
+            "wins": 21,
             "losses": 13,
-            "total": 33,
+            "total": 34,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -171,10 +171,10 @@
             "total": 1
         },
         "544965924961386507": {
-            "trophies": 140,
+            "trophies": 121,
             "wins": 6,
-            "losses": 6,
-            "total": 12,
+            "losses": 7,
+            "total": 13,
             "username": "mirafiada"
         },
         "1330274998807695380": {
@@ -617,17 +617,17 @@
         },
         "1137580616821522462": {
             "username": "pikadejegue_",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1474077257684222005": {
             "username": "poisontt1",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "matches": [
@@ -4691,8 +4691,17 @@
             ],
             "callA": "1474472262315807003",
             "callV": "1474472261044932641",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "red",
+            "registry": {
+                "1474077257684222005": 30,
+                "1139604093795586098": 25,
+                "1137580616821522462": 30,
+                "544965924961386507": 19,
+                "732342369646805071": 15,
+                "1406445755975204874": 15
+            }
         }
     ],
     "lastMatchId": 179
