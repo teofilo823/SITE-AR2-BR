@@ -100,10 +100,10 @@
             "username": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 225,
-            "wins": 16,
+            "trophies": 252,
+            "wins": 17,
             "losses": 13,
-            "total": 29,
+            "total": 30,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -178,10 +178,10 @@
             "username": "mirafiada"
         },
         "1330274998807695380": {
-            "trophies": 110,
+            "trophies": 92,
             "wins": 10,
-            "losses": 15,
-            "total": 25,
+            "losses": 16,
+            "total": 26,
             "username": "redinho2_"
         },
         "1470273863588905041": {
@@ -247,10 +247,10 @@
             "username": "mtuigas"
         },
         "1223116977308958770": {
-            "trophies": 24,
-            "wins": 2,
+            "trophies": 54,
+            "wins": 3,
             "losses": 4,
-            "total": 6,
+            "total": 7,
             "username": "pitterdias_51788"
         },
         "1167813146904375396": {
@@ -302,10 +302,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 50,
+            "trophies": 34,
             "wins": 12,
-            "losses": 26,
-            "total": 38,
+            "losses": 27,
+            "total": 39,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -4543,8 +4543,15 @@
             ],
             "callA": "1474237084108849365",
             "callV": "1474237085417345054",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1139604093795586098": 27,
+                "1223116977308958770": 30,
+                "1330274998807695380": 18,
+                "1451306598646681661": 16
+            }
         }
     ],
     "lastMatchId": 174
