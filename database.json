@@ -9,8 +9,8 @@
         "732342369646805071": {
             "trophies": 0,
             "wins": 3,
-            "losses": 12,
-            "total": 15,
+            "losses": 13,
+            "total": 16,
             "name": "teozin",
             "username": "teozin"
         },
@@ -41,10 +41,10 @@
             "total": 1
         },
         "1406445755975204874": {
-            "trophies": 15,
+            "trophies": 0,
             "wins": 3,
-            "losses": 5,
-            "total": 8,
+            "losses": 6,
+            "total": 9,
             "username": "lenildopietro"
         },
         "1226274972566159360": {
@@ -100,10 +100,10 @@
             "username": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 354,
+            "trophies": 329,
             "wins": 21,
-            "losses": 13,
-            "total": 34,
+            "losses": 14,
+            "total": 35,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -171,10 +171,10 @@
             "total": 1
         },
         "544965924961386507": {
-            "trophies": 121,
-            "wins": 6,
+            "trophies": 149,
+            "wins": 7,
             "losses": 7,
-            "total": 13,
+            "total": 14,
             "username": "mirafiada"
         },
         "1330274998807695380": {
@@ -302,10 +302,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 34,
-            "wins": 13,
+            "trophies": 64,
+            "wins": 14,
             "losses": 29,
-            "total": 42,
+            "total": 43,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -499,10 +499,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 144,
+            "trophies": 125,
             "wins": 6,
-            "losses": 3,
-            "total": 9
+            "losses": 4,
+            "total": 10
         },
         "1145414700742492230": {
             "username": "zedafolinhadobem",
@@ -618,17 +618,17 @@
         },
         "1137580616821522462": {
             "username": "pikadejegue_",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         },
         "1474077257684222005": {
             "username": "poisontt1",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         }
     },
     "matches": [
@@ -4743,8 +4743,19 @@
             ],
             "callA": "1474483165916827882",
             "callV": "1474483165019246613",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "red",
+            "registry": {
+                "1137580616821522462": 30,
+                "1474077257684222005": 30,
+                "544965924961386507": 28,
+                "1451306598646681661": 30,
+                "732342369646805071": 15,
+                "1406445755975204874": 15,
+                "1139604093795586098": 25,
+                "1473375361592197316": 19
+            }
         }
     ],
     "lastMatchId": 181
