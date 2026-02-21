@@ -100,10 +100,10 @@
             "username": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 305,
-            "wins": 21,
+            "trophies": 330,
+            "wins": 22,
             "losses": 15,
-            "total": 36,
+            "total": 37,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -171,10 +171,10 @@
             "total": 1
         },
         "544965924961386507": {
-            "trophies": 149,
+            "trophies": 130,
             "wins": 7,
-            "losses": 7,
-            "total": 14,
+            "losses": 8,
+            "total": 15,
             "username": "mirafiada"
         },
         "1330274998807695380": {
@@ -4984,8 +4984,13 @@
             ],
             "callA": "1474736641787826348",
             "callV": "1474736640856559821",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "red",
+            "registry": {
+                "1139604093795586098": 25,
+                "544965924961386507": 19
+            }
         }
     ],
     "lastMatchId": 189
