@@ -35,10 +35,10 @@
             "total": 4
         },
         "1330627076335730698": {
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 1,
-            "total": 2,
+            "total": 3,
             "username": "henrique050200"
         },
         "1406445755975204874": {
@@ -180,10 +180,10 @@
             "username": "mirafiada"
         },
         "1330274998807695380": {
-            "trophies": 92,
+            "trophies": 75,
             "wins": 10,
-            "losses": 16,
-            "total": 26,
+            "losses": 17,
+            "total": 27,
             "username": "redinho2_"
         },
         "1470273863588905041": {
@@ -418,10 +418,10 @@
             "total": 4
         },
         "966497250253631558": {
-            "trophies": 52,
+            "trophies": 36,
             "wins": 4,
-            "losses": 9,
-            "total": 13,
+            "losses": 10,
+            "total": 14,
             "username": "im_alice__0"
         },
         "514222917517836299": {
@@ -621,10 +621,10 @@
         },
         "1137580616821522462": {
             "username": "pikadejegue_",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 0,
-            "total": 2
+            "total": 3
         },
         "1474077257684222005": {
             "username": "poisontt1",
@@ -5099,8 +5099,15 @@
             ],
             "callA": "1474850514230448320",
             "callV": "1474850512334618755",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1330627076335730698": 30,
+                "1137580616821522462": 29,
+                "966497250253631558": 16,
+                "1330274998807695380": 17
+            }
         }
     ],
     "lastMatchId": 194
