@@ -35,10 +35,10 @@
             "total": 4
         },
         "1330627076335730698": {
-            "trophies": 118,
-            "wins": 4,
+            "trophies": 147,
+            "wins": 5,
             "losses": 1,
-            "total": 5,
+            "total": 6,
             "username": "henrique050200"
         },
         "1406445755975204874": {
@@ -236,10 +236,10 @@
             "username": "vitinhozk12"
         },
         "1345176447224123444": {
-            "trophies": 175,
-            "wins": 5,
+            "trophies": 203,
+            "wins": 6,
             "losses": 0,
-            "total": 5,
+            "total": 6,
             "username": "grienderlqc"
         },
         "1363309165971505162": {
@@ -339,10 +339,10 @@
             "total": 5
         },
         "857993244017164310": {
-            "trophies": 324,
+            "trophies": 300,
             "wins": 19,
-            "losses": 10,
-            "total": 29,
+            "losses": 11,
+            "total": 30,
             "username": "ricsol"
         },
         "1134468312676442284": {
@@ -358,10 +358,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 172,
-            "wins": 9,
+            "trophies": 200,
+            "wins": 10,
             "losses": 7,
-            "total": 16,
+            "total": 17,
             "username": "jota024410"
         },
         "900138394846367756": {
@@ -381,8 +381,8 @@
         "1197559770920521748": {
             "trophies": 0,
             "wins": 0,
-            "losses": 3,
-            "total": 3,
+            "losses": 4,
+            "total": 4,
             "username": "luishenrique_1912"
         },
         "748889958076645466": {
@@ -637,8 +637,8 @@
             "username": "ghost.tm_",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "1323745795945795694": {
             "username": "crazymatheus12354",
@@ -5353,8 +5353,17 @@
             ],
             "callA": "1475148104167587921",
             "callV": "1475148103777652920",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "red",
+            "registry": {
+                "1330627076335730698": 29,
+                "1472030612259864658": 28,
+                "1345176447224123444": 28,
+                "857993244017164310": 24,
+                "1197559770920521748": 15,
+                "1134610079170175007": 15
+            }
         }
     ],
     "lastMatchId": 203
