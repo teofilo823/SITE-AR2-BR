@@ -116,10 +116,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 136,
+            "trophies": 118,
             "wins": 8,
-            "losses": 10,
-            "total": 18,
+            "losses": 11,
+            "total": 19,
             "username": "enzodetonauta"
         },
         "753132129852063745": {
@@ -358,10 +358,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 86,
-            "wins": 6,
+            "trophies": 115,
+            "wins": 7,
             "losses": 7,
-            "total": 13,
+            "total": 14,
             "username": "jota024410"
         },
         "900138394846367756": {
@@ -502,10 +502,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 153,
-            "wins": 7,
+            "trophies": 181,
+            "wins": 8,
             "losses": 4,
-            "total": 11
+            "total": 12
         },
         "1145414700742492230": {
             "username": "zedafolinhadobem",
@@ -609,8 +609,8 @@
             "username": "tortuguita666_6_26555",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "1296122215414239242": {
             "username": "horseandgroupies",
@@ -5138,8 +5138,15 @@
             ],
             "callA": "1474917965643120682",
             "callV": "1474917964871372952",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1472030612259864658": 29,
+                "1473375361592197316": 28,
+                "1317972940062457870": 15,
+                "698211510819749951": 18
+            }
         }
     ],
     "lastMatchId": 196
