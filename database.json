@@ -9,8 +9,8 @@
         "732342369646805071": {
             "trophies": 0,
             "wins": 3,
-            "losses": 13,
-            "total": 16,
+            "losses": 14,
+            "total": 17,
             "name": "teozin",
             "username": "teozin"
         },
@@ -35,10 +35,10 @@
             "total": 4
         },
         "1330627076335730698": {
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 1,
-            "total": 3,
+            "total": 4,
             "username": "henrique050200"
         },
         "1406445755975204874": {
@@ -154,10 +154,10 @@
             "username": "1ir2."
         },
         "1468362302570102887": {
-            "trophies": 124,
+            "trophies": 106,
             "wins": 6,
-            "losses": 5,
-            "total": 11,
+            "losses": 6,
+            "total": 12,
             "username": "q7vxd"
         },
         "1124049997260935271": {
@@ -236,10 +236,10 @@
             "username": "vitinhozk12"
         },
         "1345176447224123444": {
-            "trophies": 118,
-            "wins": 3,
+            "trophies": 147,
+            "wins": 4,
             "losses": 0,
-            "total": 3,
+            "total": 4,
             "username": "grienderlqc"
         },
         "1363309165971505162": {
@@ -305,10 +305,10 @@
             "total": 1
         },
         "1451306598646681661": {
-            "trophies": 40,
+            "trophies": 24,
             "wins": 16,
-            "losses": 34,
-            "total": 50,
+            "losses": 35,
+            "total": 51,
             "name": "yann_fx2kk",
             "username": "yann_fx2kk"
         },
@@ -339,10 +339,10 @@
             "total": 5
         },
         "857993244017164310": {
-            "trophies": 373,
+            "trophies": 348,
             "wins": 19,
-            "losses": 8,
-            "total": 27,
+            "losses": 9,
+            "total": 28,
             "username": "ricsol"
         },
         "1134468312676442284": {
@@ -358,10 +358,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 115,
-            "wins": 7,
+            "trophies": 144,
+            "wins": 8,
             "losses": 7,
-            "total": 14,
+            "total": 15,
             "username": "jota024410"
         },
         "900138394846367756": {
@@ -691,10 +691,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "matches": [
@@ -5282,8 +5282,19 @@
             ],
             "callA": "1475128639313150073",
             "callV": "1475128638184620098",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "red",
+            "registry": {
+                "1345176447224123444": 29,
+                "1013439896960118855": 30,
+                "1330627076335730698": 29,
+                "1472030612259864658": 29,
+                "857993244017164310": 25,
+                "1468362302570102887": 18,
+                "732342369646805071": 15,
+                "1451306598646681661": 16
+            }
         }
     ],
     "lastMatchId": 201
