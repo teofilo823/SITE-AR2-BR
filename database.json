@@ -35,10 +35,10 @@
             "total": 4
         },
         "1330627076335730698": {
-            "trophies": 156,
+            "trophies": 137,
             "wins": 6,
-            "losses": 2,
-            "total": 8,
+            "losses": 3,
+            "total": 9,
             "username": "henrique050200"
         },
         "1406445755975204874": {
@@ -358,10 +358,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 254,
-            "wins": 12,
+            "trophies": 280,
+            "wins": 13,
             "losses": 7,
-            "total": 19,
+            "total": 20,
             "username": "jota024410"
         },
         "900138394846367756": {
@@ -579,10 +579,10 @@
         },
         "1041121350582009896": {
             "username": "quatrilhao",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 0,
-            "total": 2
+            "total": 3
         },
         "998650554379153488": {
             "username": ".climzz",
@@ -705,10 +705,10 @@
         },
         "1208632582850351188": {
             "username": "souseufaroyale",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 1,
-            "losses": 1,
-            "total": 2
+            "losses": 2,
+            "total": 3
         },
         "1114669997168533576": {
             "username": "dricoespancaxota",
@@ -726,31 +726,31 @@
         },
         "993336696865304586": {
             "username": "noviuxbw",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "639550511833546794": {
             "username": "marwxl",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1065126487948279908": {
             "username": "borges_157",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "965718441870901299": {
-            "username": "larimel001",
+            "username": "Desconhecido",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -5481,8 +5481,19 @@
             ],
             "callA": "1475240046390149120",
             "callV": "1475240045400297626",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "blue",
+            "registry": {
+                "993336696865304586": 30,
+                "639550511833546794": 30,
+                "1041121350582009896": 29,
+                "1472030612259864658": 26,
+                "1065126487948279908": 15,
+                "1208632582850351188": 15,
+                "1330627076335730698": 19,
+                "965718441870901299": 15
+            }
         }
     ],
     "lastMatchId": 206
