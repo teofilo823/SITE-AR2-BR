@@ -40,7 +40,8 @@
             "wins": 7,
             "losses": 3,
             "total": 10,
-            "username": "henrique050200"
+            "username": "henrique050200",
+            "name": "henrique050200"
         },
         "1406445755975204874": {
             "trophies": 72,
@@ -465,7 +466,8 @@
             "trophies": 29,
             "wins": 3,
             "losses": 4,
-            "total": 7
+            "total": 7,
+            "name": "bntzx_021"
         },
         "1305010388814921728": {
             "username": "yami5.45",
@@ -753,6 +755,13 @@
             "wins": 0,
             "losses": 1,
             "total": 1
+        },
+        "768957541983715329": {
+            "name": "oliver_0101010",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
         }
     },
     "matches": [
@@ -5591,7 +5600,23 @@
             "callV": "1475311464259518656",
             "status": "CANCELLED",
             "format": "1v1"
+        },
+        {
+            "id": 212,
+            "host_id": "732342369646805071",
+            "blue": [
+                "732342369646805071",
+                "1217212236854984844"
+            ],
+            "red": [
+                "1330627076335730698",
+                "768957541983715329"
+            ],
+            "callA": "1475614690062237827",
+            "callV": "1475614688405360730",
+            "status": "PROGRESS",
+            "format": "2v2"
         }
     ],
-    "lastMatchId": 211
+    "lastMatchId": 212
 }
