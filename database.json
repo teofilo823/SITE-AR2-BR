@@ -32,7 +32,8 @@
             "trophies": 0,
             "wins": 1,
             "losses": 3,
-            "total": 4
+            "total": 4,
+            "username": ".hagna_"
         },
         "1330627076335730698": {
             "trophies": 165,
@@ -5576,7 +5577,21 @@
             "callV": "1475274732596105439",
             "status": "CANCELLED",
             "format": "2v2"
+        },
+        {
+            "id": 211,
+            "host_id": "1419323801170214932",
+            "blue": [
+                "1419323801170214932"
+            ],
+            "red": [
+                "698211510819749951"
+            ],
+            "callA": "1475311465081733283",
+            "callV": "1475311464259518656",
+            "status": "PROGRESS",
+            "format": "1v1"
         }
     ],
-    "lastMatchId": 210
+    "lastMatchId": 211
 }
