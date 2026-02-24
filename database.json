@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 72,
+            "trophies": 55,
             "wins": 6,
-            "losses": 15,
-            "total": 21,
+            "losses": 16,
+            "total": 22,
             "name": "teozin",
             "username": "teozin"
         },
@@ -117,10 +117,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 380,
-            "wins": 26,
+            "trophies": 404,
+            "wins": 27,
             "losses": 17,
-            "total": 43,
+            "total": 44,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -378,10 +378,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 240,
+            "trophies": 219,
             "wins": 14,
-            "losses": 10,
-            "total": 24,
+            "losses": 11,
+            "total": 25,
             "username": "jota024410",
             "name": "jota024410"
         },
@@ -506,10 +506,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 109,
-            "wins": 6,
+            "trophies": 138,
+            "wins": 7,
             "losses": 4,
-            "total": 10,
+            "total": 11,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -542,10 +542,10 @@
         },
         "903660821480087634": {
             "username": "ghost_011_.",
-            "trophies": 30,
-            "wins": 2,
+            "trophies": 60,
+            "wins": 3,
             "losses": 9,
-            "total": 11,
+            "total": 12,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -838,22 +838,22 @@
             "name": "kcsrato",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "877709432132366377": {
             "name": ".zfz_",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1449851704068669585": {
             "name": "souza068903",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1469353148115194018": {
             "name": "only_die.",
@@ -6008,8 +6008,19 @@
             ],
             "callA": "1475948962610679972",
             "callV": "1475948961951907941",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "blue",
+            "registry": {
+                "903660821480087634": 30,
+                "1139604093795586098": 24,
+                "699991560087142403": 29,
+                "877709432132366377": 30,
+                "732342369646805071": 17,
+                "1162832718900506674": 15,
+                "1449851704068669585": 15,
+                "1472030612259864658": 21
+            }
         },
         {
             "id": 225,
