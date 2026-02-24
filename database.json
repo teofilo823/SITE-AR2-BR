@@ -775,7 +775,8 @@
             "trophies": 0,
             "wins": 0,
             "losses": 1,
-            "total": 1
+            "total": 1,
+            "name": "borges_157"
         },
         "965718441870901299": {
             "username": "Desconhecido",
@@ -863,6 +864,13 @@
         },
         "1283883042712191118": {
             "name": "tgf1",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
+        },
+        "1360481354214543483": {
+            "name": "mrjackhkz",
             "trophies": 0,
             "wins": 0,
             "losses": 0,
@@ -6002,7 +6010,21 @@
             "callV": "1475948961951907941",
             "status": "PROGRESS",
             "format": "4v4"
+        },
+        {
+            "id": 225,
+            "host_id": "732342369646805071",
+            "blue": [
+                "1360481354214543483"
+            ],
+            "red": [
+                "1065126487948279908"
+            ],
+            "callA": "1475953596721008805",
+            "callV": "1475953595336884244",
+            "status": "PROGRESS",
+            "format": "1v1"
         }
     ],
-    "lastMatchId": 224
+    "lastMatchId": 225
 }
