@@ -125,7 +125,8 @@
             "wins": 9,
             "losses": 11,
             "total": 20,
-            "username": "enzodetonauta"
+            "username": "enzodetonauta",
+            "name": "enzodetonauta"
         },
         "753132129852063745": {
             "trophies": 10,
@@ -806,6 +807,13 @@
         },
         "1467660887874605158": {
             "name": "luis_rei123",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
+        },
+        "518880579647700992": {
+            "name": "venutodavi",
             "trophies": 0,
             "wins": 0,
             "losses": 0,
@@ -5827,7 +5835,25 @@
             "callV": "1475924025611124939",
             "status": "CANCELLED",
             "format": "1v1"
+        },
+        {
+            "id": 220,
+            "host_id": "732342369646805071",
+            "blue": [
+                "732342369646805071",
+                "518880579647700992",
+                "1434552767460016249"
+            ],
+            "red": [
+                "1467660887874605158",
+                "698211510819749951",
+                "1139604093795586098"
+            ],
+            "callA": "1475925651411435550",
+            "callV": "1475925647946813583",
+            "status": "PROGRESS",
+            "format": "3v3"
         }
     ],
-    "lastMatchId": 219
+    "lastMatchId": 220
 }
