@@ -72,7 +72,8 @@
             "wins": 3,
             "losses": 3,
             "total": 6,
-            "username": ".lipezx_"
+            "username": ".lipezx_",
+            "name": ".lipezx_"
         },
         "1346891840325943337": {
             "trophies": 0,
@@ -112,7 +113,8 @@
             "wins": 4,
             "losses": 2,
             "total": 6,
-            "username": "lucas6677_"
+            "username": "lucas6677_",
+            "name": "lucas6677_"
         },
         "1139604093795586098": {
             "trophies": 380,
@@ -217,7 +219,8 @@
             "trophies": 80,
             "wins": 4,
             "losses": 2,
-            "total": 6
+            "total": 6,
+            "name": "devxx155"
         },
         "1120457957386223636": {
             "trophies": 0,
@@ -409,7 +412,8 @@
             "wins": 3,
             "losses": 2,
             "total": 5,
-            "username": "lucas2131"
+            "username": "lucas2131",
+            "name": "lucas2131"
         },
         "1308841671819268226": {
             "trophies": 0,
@@ -721,7 +725,8 @@
             "trophies": 60,
             "wins": 2,
             "losses": 0,
-            "total": 2
+            "total": 2,
+            "name": "07ban"
         },
         "1421651223718924340": {
             "username": "Desconhecido",
@@ -844,6 +849,20 @@
         },
         "1449851704068669585": {
             "name": "souza068903",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
+        },
+        "1469353148115194018": {
+            "name": "only_die.",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
+        },
+        "1283883042712191118": {
+            "name": "tgf1",
             "trophies": 0,
             "wins": 0,
             "losses": 0,
@@ -5943,7 +5962,27 @@
             "callV": "1475947491244642344",
             "status": "PROGRESS",
             "format": "4v4"
+        },
+        {
+            "id": 223,
+            "host_id": "1434552767460016249",
+            "blue": [
+                "1013439896960118855",
+                "363027854633598976",
+                "715209623459594250",
+                "1469353148115194018"
+            ],
+            "red": [
+                "1434552767460016249",
+                "1283883042712191118",
+                "748889958076645466",
+                "1058740214291501087"
+            ],
+            "callA": "1475948460745166971",
+            "callV": "1475948458434236572",
+            "status": "PROGRESS",
+            "format": "4v4"
         }
     ],
-    "lastMatchId": 222
+    "lastMatchId": 223
 }
