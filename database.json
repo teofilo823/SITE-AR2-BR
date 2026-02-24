@@ -22,18 +22,18 @@
             "name": "luiscarlos7458"
         },
         "1399893887308529767": {
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 4,
-            "total": 4,
+            "total": 5,
             "username": "aleatorio_ontop",
             "name": "aleatorio_ontop"
         },
         "1419323801170214932": {
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 3,
-            "total": 4,
+            "total": 5,
             "username": ".hagna_",
             "name": ".hagna_"
         },
@@ -73,10 +73,10 @@
             "total": 18
         },
         "1434552767460016249": {
-            "trophies": 228,
-            "wins": 15,
+            "trophies": 255,
+            "wins": 16,
             "losses": 10,
-            "total": 25,
+            "total": 26,
             "username": "reitinder_reifacebook",
             "name": "reitinder_reifacebook"
         },
@@ -107,10 +107,10 @@
             "username": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 330,
-            "wins": 23,
+            "trophies": 355,
+            "wins": 24,
             "losses": 16,
-            "total": 39,
+            "total": 40,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -364,10 +364,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 257,
+            "trophies": 235,
             "wins": 13,
-            "losses": 8,
-            "total": 21,
+            "losses": 9,
+            "total": 22,
             "username": "jota024410",
             "name": "jota024410"
         },
@@ -771,22 +771,22 @@
             "name": "bertholacegamer4749",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1466230442398322870": {
             "name": "tencegames",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -5666,8 +5666,19 @@
             ],
             "callA": "1475897560894935224",
             "callV": "1475897559019950100",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "blue",
+            "registry": {
+                "1434552767460016249": 27,
+                "1399893887308529767": 30,
+                "1419323801170214932": 30,
+                "1139604093795586098": 25,
+                "1466230442398322870": 15,
+                "1055566744225333319": 15,
+                "1259170361073729638": 15,
+                "1472030612259864658": 22
+            }
         }
     ],
     "lastMatchId": 213
