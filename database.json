@@ -76,10 +76,10 @@
             "name": ".lipezx_"
         },
         "1346891840325943337": {
-            "trophies": 15,
-            "wins": 5,
+            "trophies": 45,
+            "wins": 6,
             "losses": 16,
-            "total": 21,
+            "total": 22,
             "name": "100amor001"
         },
         "1434552767460016249": {
@@ -450,10 +450,10 @@
             "username": "im_alice__0"
         },
         "514222917517836299": {
-            "trophies": 74,
-            "wins": 3,
+            "trophies": 103,
+            "wins": 4,
             "losses": 1,
-            "total": 4,
+            "total": 5,
             "username": "noryowner",
             "name": "noryowner"
         },
@@ -544,10 +544,10 @@
         },
         "903660821480087634": {
             "username": "ghost_011_.",
-            "trophies": 43,
+            "trophies": 27,
             "wins": 4,
-            "losses": 12,
-            "total": 16,
+            "losses": 13,
+            "total": 17,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -860,10 +860,10 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 100,
+            "trophies": 83,
             "wins": 4,
-            "losses": 1,
-            "total": 5
+            "losses": 2,
+            "total": 6
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -6280,8 +6280,15 @@
             ],
             "callA": "1475997217398722730",
             "callV": "1475997216601542847",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "514222917517836299": 29,
+                "1346891840325943337": 30,
+                "903660821480087634": 16,
+                "1469353148115194018": 17
+            }
         }
     ],
     "lastMatchId": 235
