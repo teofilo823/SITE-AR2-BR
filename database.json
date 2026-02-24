@@ -76,10 +76,10 @@
             "name": ".lipezx_"
         },
         "1346891840325943337": {
-            "trophies": 0,
-            "wins": 4,
+            "trophies": 30,
+            "wins": 5,
             "losses": 15,
-            "total": 19,
+            "total": 20,
             "name": "100amor001"
         },
         "1434552767460016249": {
@@ -543,10 +543,10 @@
         },
         "903660821480087634": {
             "username": "ghost_011_.",
-            "trophies": 28,
+            "trophies": 13,
             "wins": 3,
-            "losses": 11,
-            "total": 14,
+            "losses": 12,
+            "total": 15,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -859,17 +859,17 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 0,
-            "total": 3
+            "total": 4
         },
         "1283883042712191118": {
             "name": "tgf1",
             "trophies": 0,
             "wins": 1,
-            "losses": 2,
-            "total": 3
+            "losses": 3,
+            "total": 4
         },
         "1360481354214543483": {
             "name": "mrjackhkz",
@@ -6190,8 +6190,15 @@
             ],
             "callA": "1475977247407083733",
             "callV": "1475977246442258594",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1346891840325943337": 30,
+                "1469353148115194018": 29,
+                "903660821480087634": 15,
+                "1283883042712191118": 15
+            }
         },
         {
             "id": 232,
