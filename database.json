@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 146,
-            "wins": 7,
+            "trophies": 174,
+            "wins": 8,
             "losses": 4,
-            "total": 11,
+            "total": 12,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -83,10 +83,10 @@
             "name": "100amor001"
         },
         "1434552767460016249": {
-            "trophies": 265,
-            "wins": 18,
+            "trophies": 291,
+            "wins": 19,
             "losses": 12,
-            "total": 30,
+            "total": 31,
             "username": "reitinder_reifacebook",
             "name": "reitinder_reifacebook"
         },
@@ -118,10 +118,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 404,
+            "trophies": 378,
             "wins": 27,
-            "losses": 17,
-            "total": 44,
+            "losses": 18,
+            "total": 45,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -804,8 +804,8 @@
             "name": "tencegames",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
@@ -6104,8 +6104,15 @@
             ],
             "callA": "1475969447180374088",
             "callV": "1475969446156701757",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1330627076335730698": 28,
+                "1434552767460016249": 26,
+                "1466230442398322870": 15,
+                "1139604093795586098": 26
+            }
         },
         {
             "id": 228,
