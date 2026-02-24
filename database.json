@@ -774,8 +774,8 @@
             "username": "borges_157",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1,
+            "losses": 2,
+            "total": 2,
             "name": "borges_157"
         },
         "965718441870901299": {
@@ -871,10 +871,10 @@
         },
         "1360481354214543483": {
             "name": "mrjackhkz",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1259151428505567244": {
             "name": "gustav0199",
@@ -6051,8 +6051,13 @@
             ],
             "callA": "1475953596721008805",
             "callV": "1475953595336884244",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "blue",
+            "registry": {
+                "1360481354214543483": 30,
+                "1065126487948279908": 15
+            }
         }
     ],
     "lastMatchId": 225
