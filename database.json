@@ -76,10 +76,10 @@
             "name": ".lipezx_"
         },
         "1346891840325943337": {
-            "trophies": 14,
+            "trophies": 0,
             "wins": 6,
-            "losses": 18,
-            "total": 24,
+            "losses": 19,
+            "total": 25,
             "name": "100amor001"
         },
         "1434552767460016249": {
@@ -132,10 +132,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 156,
+            "trophies": 137,
             "wins": 10,
-            "losses": 12,
-            "total": 22,
+            "losses": 13,
+            "total": 23,
             "username": "enzodetonauta",
             "name": "enzodetonauta"
         },
@@ -171,10 +171,10 @@
             "username": "1ir2."
         },
         "1468362302570102887": {
-            "trophies": 106,
-            "wins": 6,
+            "trophies": 135,
+            "wins": 7,
             "losses": 6,
-            "total": 12,
+            "total": 13,
             "username": "q7vxd",
             "name": "q7vxd"
         },
@@ -381,10 +381,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 219,
-            "wins": 14,
+            "trophies": 246,
+            "wins": 15,
             "losses": 11,
-            "total": 25,
+            "total": 26,
             "username": "jota024410",
             "name": "jota024410"
         },
@@ -862,10 +862,10 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 122,
-            "wins": 6,
+            "trophies": 150,
+            "wins": 7,
             "losses": 3,
-            "total": 9
+            "total": 10
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -906,8 +906,8 @@
             "name": "genjiguy2",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -6436,8 +6436,17 @@
             ],
             "callA": "1476318310441422898",
             "callV": "1476318309203972178",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "blue",
+            "registry": {
+                "1469353148115194018": 28,
+                "1468362302570102887": 29,
+                "1472030612259864658": 27,
+                "963508210902376538": 15,
+                "1346891840325943337": 15,
+                "698211510819749951": 19
+            }
         }
     ],
     "lastMatchId": 241
