@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 55,
+            "trophies": 39,
             "wins": 6,
-            "losses": 16,
-            "total": 22,
+            "losses": 17,
+            "total": 23,
             "name": "teozin",
             "username": "teozin"
         },
@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 174,
-            "wins": 8,
+            "trophies": 202,
+            "wins": 9,
             "losses": 4,
-            "total": 12,
+            "total": 13,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -77,10 +77,10 @@
             "name": ".lipezx_"
         },
         "1346891840325943337": {
-            "trophies": 0,
-            "wins": 6,
+            "trophies": 30,
+            "wins": 7,
             "losses": 19,
-            "total": 25,
+            "total": 26,
             "name": "100amor001"
         },
         "1434552767460016249": {
@@ -382,10 +382,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 246,
-            "wins": 15,
+            "trophies": 272,
+            "wins": 16,
             "losses": 11,
-            "total": 26,
+            "total": 27,
             "username": "jota024410",
             "name": "jota024410"
         },
@@ -405,10 +405,10 @@
             "name": "psir_white_04700"
         },
         "1197559770920521748": {
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 4,
-            "total": 4,
+            "total": 5,
             "username": "luishenrique_1912",
             "name": "luishenrique_1912"
         },
@@ -548,10 +548,10 @@
         },
         "903660821480087634": {
             "username": "ghost_011_.",
-            "trophies": 27,
+            "trophies": 12,
             "wins": 4,
-            "losses": 13,
-            "total": 17,
+            "losses": 14,
+            "total": 18,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -674,8 +674,8 @@
             "username": "ghost.tm_",
             "trophies": 0,
             "wins": 0,
-            "losses": 3,
-            "total": 3,
+            "losses": 4,
+            "total": 4,
             "name": "ghost.tm_"
         },
         "1323745795945795694": {
@@ -867,10 +867,10 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 150,
+            "trophies": 131,
             "wins": 7,
-            "losses": 3,
-            "total": 10
+            "losses": 4,
+            "total": 11
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -6519,8 +6519,19 @@
             ],
             "callA": "1476333438310154373",
             "callV": "1476333436934422664",
-            "status": "PROGRESS",
-            "format": "4v4"
+            "status": "FINISHED",
+            "format": "4v4",
+            "winner": "red",
+            "registry": {
+                "1472030612259864658": 26,
+                "1330627076335730698": 28,
+                "1346891840325943337": 30,
+                "1197559770920521748": 30,
+                "732342369646805071": 16,
+                "1134610079170175007": 15,
+                "1469353148115194018": 19,
+                "903660821480087634": 15
+            }
         }
     ],
     "lastMatchId": 244
