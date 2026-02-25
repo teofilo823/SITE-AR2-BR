@@ -30,10 +30,10 @@
             "name": "luiscarlos7458"
         },
         "1399893887308529767": {
-            "trophies": 15,
-            "wins": 1,
+            "trophies": 45,
+            "wins": 2,
             "losses": 5,
-            "total": 6,
+            "total": 7,
             "username": "aleatorio_ontop",
             "name": "aleatorio_ontop"
         },
@@ -83,10 +83,10 @@
             "name": "100amor001"
         },
         "1434552767460016249": {
-            "trophies": 268,
-            "wins": 19,
+            "trophies": 294,
+            "wins": 20,
             "losses": 13,
-            "total": 32,
+            "total": 33,
             "username": "reitinder_reifacebook",
             "name": "reitinder_reifacebook"
         },
@@ -118,10 +118,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 378,
+            "trophies": 353,
             "wins": 27,
-            "losses": 18,
-            "total": 45,
+            "losses": 19,
+            "total": 46,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -860,10 +860,10 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 141,
+            "trophies": 122,
             "wins": 6,
-            "losses": 2,
-            "total": 8
+            "losses": 3,
+            "total": 9
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -6341,8 +6341,15 @@
             ],
             "callA": "1476267418027294731",
             "callV": "1476267417171922977",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1434552767460016249": 26,
+                "1399893887308529767": 30,
+                "1469353148115194018": 19,
+                "1139604093795586098": 25
+            }
         }
     ],
     "lastMatchId": 238
