@@ -869,10 +869,10 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 241,
-            "wins": 11,
+            "trophies": 267,
+            "wins": 12,
             "losses": 4,
-            "total": 15
+            "total": 16
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -955,8 +955,8 @@
             "name": "davi_ita",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -6787,8 +6787,13 @@
             ],
             "callA": "1476627629766348943",
             "callV": "1476627628583682199",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "red",
+            "registry": {
+                "1469353148115194018": 26,
+                "1335860093916414033": 15
+            }
         }
     ],
     "lastMatchId": 255
