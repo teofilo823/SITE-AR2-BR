@@ -869,17 +869,17 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 159,
-            "wins": 8,
+            "trophies": 187,
+            "wins": 9,
             "losses": 4,
-            "total": 12
+            "total": 13
         },
         "1283883042712191118": {
             "name": "tgf1",
             "trophies": 0,
             "wins": 1,
-            "losses": 4,
-            "total": 5
+            "losses": 5,
+            "total": 6
         },
         "1360481354214543483": {
             "name": "mrjackhkz",
@@ -939,17 +939,17 @@
         },
         "720107916631474196": {
             "name": "usprttzxp",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1476014228216221756": {
             "name": "munizzzzzzzzzzzzzzzzzzzzzzzzzzz",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -6689,8 +6689,15 @@
             ],
             "callA": "1476379331319304285",
             "callV": "1476379330517930169",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1469353148115194018": 28,
+                "720107916631474196": 30,
+                "1283883042712191118": 15,
+                "1476014228216221756": 15
+            }
         }
     ],
     "lastMatchId": 250
