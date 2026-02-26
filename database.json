@@ -784,10 +784,10 @@
         },
         "1065126487948279908": {
             "username": "borges_157",
-            "trophies": 44,
+            "trophies": 28,
             "wins": 2,
-            "losses": 3,
-            "total": 5,
+            "losses": 4,
+            "total": 6,
             "name": "borges_157"
         },
         "965718441870901299": {
@@ -869,10 +869,10 @@
         },
         "1469353148115194018": {
             "name": "only_die.",
-            "trophies": 214,
-            "wins": 10,
+            "trophies": 241,
+            "wins": 11,
             "losses": 4,
-            "total": 14
+            "total": 15
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -6761,8 +6761,13 @@
             ],
             "callA": "1476626185222885532",
             "callV": "1476626184136560945",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "blue",
+            "registry": {
+                "1469353148115194018": 27,
+                "1065126487948279908": 16
+            }
         }
     ],
     "lastMatchId": 254
