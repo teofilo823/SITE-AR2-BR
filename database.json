@@ -869,10 +869,10 @@
         },
         "1469353148115194018": {
             "name": "shoyo12",
-            "trophies": 267,
-            "wins": 12,
+            "trophies": 293,
+            "wins": 13,
             "losses": 4,
-            "total": 16
+            "total": 17
         },
         "1283883042712191118": {
             "name": "tgf1",
@@ -906,8 +906,8 @@
             "name": "labareta2",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "963508210902376538": {
             "name": "genjiguy2",
@@ -6806,8 +6806,13 @@
             ],
             "callA": "1476634344964624434",
             "callV": "1476634343341293781",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "blue",
+            "registry": {
+                "1469353148115194018": 26,
+                "1458584256224952320": 15
+            }
         }
     ],
     "lastMatchId": 256
