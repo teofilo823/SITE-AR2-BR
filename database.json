@@ -30,10 +30,10 @@
             "name": "luiscarlos7458"
         },
         "1399893887308529767": {
-            "trophies": 29,
+            "trophies": 14,
             "wins": 2,
-            "losses": 6,
-            "total": 8,
+            "losses": 7,
+            "total": 9,
             "username": "aleatorio_ontop",
             "name": "aleatorio_ontop"
         },
@@ -84,10 +84,10 @@
             "name": "100amor001"
         },
         "1434552767460016249": {
-            "trophies": 320,
-            "wins": 21,
+            "trophies": 345,
+            "wins": 22,
             "losses": 13,
-            "total": 34,
+            "total": 35,
             "username": "reitinder_reifacebook",
             "name": "reitinder_reifacebook"
         },
@@ -120,10 +120,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 402,
-            "wins": 29,
+            "trophies": 426,
+            "wins": 30,
             "losses": 19,
-            "total": 48,
+            "total": 49,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -364,10 +364,10 @@
             "total": 5
         },
         "857993244017164310": {
-            "trophies": 300,
+            "trophies": 277,
             "wins": 19,
-            "losses": 11,
-            "total": 30,
+            "losses": 12,
+            "total": 31,
             "username": "ricsol",
             "name": "ricsol"
         },
@@ -7030,8 +7030,15 @@
             ],
             "callA": "1477387561658880110",
             "callV": "1477387559855194299",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1434552767460016249": 25,
+                "1139604093795586098": 24,
+                "857993244017164310": 23,
+                "1399893887308529767": 15
+            }
         }
     ],
     "lastMatchId": 265
