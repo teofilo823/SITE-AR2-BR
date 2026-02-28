@@ -30,10 +30,10 @@
             "name": "luiscarlos7458"
         },
         "1399893887308529767": {
-            "trophies": 45,
+            "trophies": 29,
             "wins": 2,
-            "losses": 5,
-            "total": 7,
+            "losses": 6,
+            "total": 8,
             "username": "aleatorio_ontop",
             "name": "aleatorio_ontop"
         },
@@ -84,10 +84,10 @@
             "name": "100amor001"
         },
         "1434552767460016249": {
-            "trophies": 294,
-            "wins": 20,
+            "trophies": 320,
+            "wins": 21,
             "losses": 13,
-            "total": 33,
+            "total": 34,
             "username": "reitinder_reifacebook",
             "name": "reitinder_reifacebook"
         },
@@ -120,10 +120,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 378,
-            "wins": 28,
+            "trophies": 402,
+            "wins": 29,
             "losses": 19,
-            "total": 47,
+            "total": 48,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -977,8 +977,8 @@
             "name": "gustavo_209293",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -6964,8 +6964,15 @@
             ],
             "callA": "1477305479561482421",
             "callV": "1477305478491934890",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1139604093795586098": 24,
+                "1434552767460016249": 26,
+                "1437550850900889650": 15,
+                "1399893887308529767": 16
+            }
         }
     ],
     "lastMatchId": 262
