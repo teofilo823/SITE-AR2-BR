@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 155,
-            "wins": 10,
+            "trophies": 183,
+            "wins": 11,
             "losses": 17,
-            "total": 27,
+            "total": 28,
             "name": "teozin",
             "username": "teozin"
         },
@@ -516,10 +516,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 148,
-            "wins": 8,
+            "trophies": 176,
+            "wins": 9,
             "losses": 5,
-            "total": 13,
+            "total": 14,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -628,10 +628,10 @@
         },
         "998650554379153488": {
             "username": ".climzz",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 0,
-            "total": 1,
+            "losses": 1,
+            "total": 2,
             "name": ".rafinha"
         },
         "1468736429101158715": {
@@ -1009,8 +1009,8 @@
             "name": "glabimgamer_85987",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -7180,8 +7180,15 @@
             ],
             "callA": "1478107038167990322",
             "callV": "1478107036100198491",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "732342369646805071": 28,
+                "699991560087142403": 28,
+                "998650554379153488": 15,
+                "1154918820092313641": 15
+            }
         }
     ],
     "lastMatchId": 269
