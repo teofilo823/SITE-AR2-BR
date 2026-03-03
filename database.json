@@ -107,8 +107,8 @@
         "685193734211633213": {
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1,
+            "losses": 2,
+            "total": 2,
             "username": "andre070385",
             "name": "andre070385"
         },
@@ -121,10 +121,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 472,
-            "wins": 32,
+            "trophies": 495,
+            "wins": 33,
             "losses": 19,
-            "total": 51,
+            "total": 52,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -386,10 +386,10 @@
             "total": 2
         },
         "1472030612259864658": {
-            "trophies": 250,
-            "wins": 16,
+            "trophies": 276,
+            "wins": 17,
             "losses": 12,
-            "total": 28,
+            "total": 29,
             "username": "jota024410",
             "name": "jota024410"
         },
@@ -433,8 +433,8 @@
         "1299584883462504573": {
             "trophies": 0,
             "wins": 0,
-            "losses": 4,
-            "total": 4,
+            "losses": 5,
+            "total": 5,
             "username": "isadoraventurim1317",
             "name": "isadoraventurim1317"
         },
@@ -689,10 +689,10 @@
         },
         "1323745795945795694": {
             "username": "crazymatheus12354",
-            "trophies": 89,
+            "trophies": 72,
             "wins": 3,
-            "losses": 0,
-            "total": 3,
+            "losses": 1,
+            "total": 4,
             "name": "crazymatheus12354"
         },
         "1381336991911641220": {
@@ -1031,10 +1031,10 @@
         },
         "1451381811509723234": {
             "name": "jeremybeyondreality",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         }
     },
     "matches": [
@@ -7297,8 +7297,17 @@
             ],
             "callA": "1478405947830308975",
             "callV": "1478405946958155989",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "red",
+            "registry": {
+                "1451381811509723234": 30,
+                "1472030612259864658": 26,
+                "1139604093795586098": 23,
+                "1323745795945795694": 17,
+                "685193734211633213": 15,
+                "1299584883462504573": 15
+            }
         }
     ],
     "lastMatchId": 273
