@@ -120,10 +120,10 @@
             "name": "lucas6677_"
         },
         "1139604093795586098": {
-            "trophies": 449,
-            "wins": 31,
+            "trophies": 472,
+            "wins": 32,
             "losses": 19,
-            "total": 50,
+            "total": 51,
             "name": "gui0133",
             "username": "gui0133"
         },
@@ -432,8 +432,8 @@
         "1299584883462504573": {
             "trophies": 0,
             "wins": 0,
-            "losses": 3,
-            "total": 3,
+            "losses": 4,
+            "total": 4,
             "username": "isadoraventurim1317",
             "name": "isadoraventurim1317"
         },
@@ -688,10 +688,10 @@
         },
         "1323745795945795694": {
             "username": "crazymatheus12354",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 0,
-            "total": 2,
+            "total": 3,
             "name": "crazymatheus12354"
         },
         "1381336991911641220": {
@@ -983,8 +983,8 @@
             "name": "gustavo_209293",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "1423452464924852224": {
             "name": "blaz_exe",
@@ -1025,15 +1025,15 @@
             "name": "metexz_",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1451381811509723234": {
             "name": "jeremybeyondreality",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "matches": [
@@ -7269,8 +7269,17 @@
             ],
             "callA": "1478392354284110032",
             "callV": "1478392352862375936",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "red",
+            "registry": {
+                "1323745795945795694": 29,
+                "1139604093795586098": 23,
+                "1451381811509723234": 30,
+                "1299584883462504573": 15,
+                "1437550850900889650": 15,
+                "1213528482630344795": 15
+            }
         }
     ],
     "lastMatchId": 272
