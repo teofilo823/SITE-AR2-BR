@@ -434,7 +434,8 @@
             "wins": 0,
             "losses": 2,
             "total": 2,
-            "username": "isadoraventurim1317"
+            "username": "isadoraventurim1317",
+            "name": "isadoraventurim1317"
         },
         "1059900336917196820": {
             "trophies": 15,
@@ -690,7 +691,8 @@
             "trophies": 30,
             "wins": 1,
             "losses": 0,
-            "total": 1
+            "total": 1,
+            "name": "crazymatheus12354"
         },
         "1381336991911641220": {
             "username": "dolker0201_09992",
@@ -1011,6 +1013,13 @@
             "wins": 0,
             "losses": 1,
             "total": 1
+        },
+        "1453424100340011110": {
+            "name": "pilu03618",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
         }
     },
     "matches": [
@@ -7189,7 +7198,23 @@
                 "998650554379153488": 15,
                 "1154918820092313641": 15
             }
+        },
+        {
+            "id": 270,
+            "host_id": "1139604093795586098",
+            "blue": [
+                "1299584883462504573",
+                "1453424100340011110"
+            ],
+            "red": [
+                "1323745795945795694",
+                "1139604093795586098"
+            ],
+            "callA": "1478380577219416146",
+            "callV": "1478380575994810433",
+            "status": "PROGRESS",
+            "format": "2v2"
         }
     ],
-    "lastMatchId": 269
+    "lastMatchId": 270
 }
