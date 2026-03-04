@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 163,
+            "trophies": 144,
             "wins": 11,
-            "losses": 18,
-            "total": 29,
+            "losses": 19,
+            "total": 30,
             "name": "teozin",
             "username": "teozin"
         },
@@ -135,10 +135,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 137,
-            "wins": 10,
+            "trophies": 165,
+            "wins": 11,
             "losses": 13,
-            "total": 23,
+            "total": 24,
             "username": "enzodetonauta",
             "name": "enzodetonauta"
         },
@@ -821,10 +821,10 @@
         },
         "1466230442398322870": {
             "name": "tencegames",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 2,
-            "losses": 4,
-            "total": 6
+            "losses": 5,
+            "total": 7
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
@@ -1038,10 +1038,10 @@
         },
         "1477350415036059930": {
             "name": "freerirezudonarutopedros",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         }
     },
     "matches": [
@@ -7368,8 +7368,15 @@
             ],
             "callA": "1478839910528979054",
             "callV": "1478839909631660123",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "1477350415036059930": 30,
+                "698211510819749951": 28,
+                "1466230442398322870": 15,
+                "732342369646805071": 19
+            }
         }
     ],
     "lastMatchId": 276
