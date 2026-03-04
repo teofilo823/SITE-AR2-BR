@@ -497,8 +497,8 @@
             "username": "bntzx_021",
             "trophies": 0,
             "wins": 4,
-            "losses": 8,
-            "total": 12,
+            "losses": 9,
+            "total": 13,
             "name": "bntzx_021"
         },
         "1305010388814921728": {
@@ -689,10 +689,10 @@
         },
         "1323745795945795694": {
             "username": "crazymatheus12354",
-            "trophies": 72,
-            "wins": 3,
+            "trophies": 101,
+            "wins": 4,
             "losses": 1,
-            "total": 4,
+            "total": 5,
             "name": "crazymatheus12354"
         },
         "1381336991911641220": {
@@ -7414,8 +7414,13 @@
             ],
             "callA": "1478882777637064849",
             "callV": "1478882776663986196",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "red",
+            "registry": {
+                "1323745795945795694": 29,
+                "1217212236854984844": 15
+            }
         }
     ],
     "lastMatchId": 278
