@@ -244,7 +244,8 @@
             "trophies": 100,
             "wins": 4,
             "losses": 2,
-            "total": 6
+            "total": 6,
+            "name": "zezinho4668"
         },
         "1312591419290157138": {
             "trophies": 89,
@@ -299,7 +300,8 @@
             "trophies": 0,
             "wins": 0,
             "losses": 1,
-            "total": 1
+            "total": 1,
+            "name": "mavericky_1"
         },
         "1312016249068457984": {
             "trophies": 10,
@@ -399,7 +401,8 @@
             "wins": 1,
             "losses": 5,
             "total": 6,
-            "username": "vitorjaime."
+            "username": "vitorjaime.",
+            "name": "vitorjaime."
         },
         "1189987800129491069": {
             "trophies": 30,
@@ -877,13 +880,6 @@
             "losses": 1,
             "total": 1
         },
-        "1469353148115194018": {
-            "name": "shoyo12",
-            "trophies": 320,
-            "wins": 15,
-            "losses": 5,
-            "total": 20
-        },
         "1283883042712191118": {
             "name": "tgf1",
             "trophies": 0,
@@ -1075,6 +1071,20 @@
         },
         "1038577585547907223": {
             "name": "joaogame490",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
+        },
+        "785581845084373012": {
+            "name": "dwi2t",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
+        },
+        "830129717771370506": {
+            "name": "jota_p3dro",
             "trophies": 0,
             "wins": 0,
             "losses": 0,
@@ -7571,7 +7581,25 @@
             "callV": "1480210466734346263",
             "status": "PROGRESS",
             "format": "3v3"
+        },
+        {
+            "id": 285,
+            "host_id": "785581845084373012",
+            "blue": [
+                "785581845084373012",
+                "1305010388814921728",
+                "830129717771370506"
+            ],
+            "red": [
+                "752548224648085616",
+                "900138394846367756",
+                "555942948378771468"
+            ],
+            "callA": "1480220071220609084",
+            "callV": "1480220070130094190",
+            "status": "PROGRESS",
+            "format": "3v3"
         }
     ],
-    "lastMatchId": 284
+    "lastMatchId": 285
 }
