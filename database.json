@@ -15,10 +15,10 @@
             "username": "teozin"
         },
         "1475326912271487036": {
-            "trophies": 133,
+            "trophies": 115,
             "wins": 5,
-            "losses": 1,
-            "total": 6,
+            "losses": 2,
+            "total": 7,
             "name": "lucas_peladao",
             "username": "lucas pelado"
         },
@@ -508,10 +508,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 15,
-            "wins": 1,
+            "trophies": 45,
+            "wins": 2,
             "losses": 4,
-            "total": 5,
+            "total": 6,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -7776,8 +7776,13 @@
             ],
             "callA": "1480265176807641292",
             "callV": "1480265175964848298",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "blue",
+            "registry": {
+                "1305010388814921728": 30,
+                "1475326912271487036": 18
+            }
         }
     ],
     "lastMatchId": 292
