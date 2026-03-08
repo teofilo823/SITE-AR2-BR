@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 125,
-            "wins": 11,
+            "trophies": 153,
+            "wins": 12,
             "losses": 20,
-            "total": 31,
+            "total": 32,
             "name": "teozin",
             "username": "teozin"
         },
@@ -829,10 +829,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 29,
-            "wins": 2,
+            "trophies": 59,
+            "wins": 3,
             "losses": 3,
-            "total": 5
+            "total": 6
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1055,15 +1055,15 @@
             "name": "movesett.",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1479206895112683734": {
             "name": "samu_mascaco",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -7483,8 +7483,15 @@
             ],
             "callA": "1480004173545345084",
             "callV": "1480004172739772610",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "732342369646805071": 28,
+                "1259170361073729638": 30,
+                "1479946319396344019": 15,
+                "1479206895112683734": 15
+            }
         }
     ],
     "lastMatchId": 281
