@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 153,
+            "trophies": 134,
             "wins": 12,
-            "losses": 20,
-            "total": 32,
+            "losses": 21,
+            "total": 33,
             "name": "teozin",
             "username": "teozin"
         },
@@ -202,10 +202,10 @@
             "name": "mirafiada"
         },
         "1330274998807695380": {
-            "trophies": 104,
+            "trophies": 87,
             "wins": 11,
-            "losses": 17,
-            "total": 28,
+            "losses": 18,
+            "total": 29,
             "username": "redinho2_",
             "name": "redinho2_"
         },
@@ -520,10 +520,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 176,
-            "wins": 9,
+            "trophies": 204,
+            "wins": 10,
             "losses": 5,
-            "total": 14,
+            "total": 15,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -830,10 +830,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 59,
-            "wins": 3,
+            "trophies": 89,
+            "wins": 4,
             "losses": 3,
-            "total": 6
+            "total": 7
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -7507,8 +7507,15 @@
             ],
             "callA": "1480012468062392570",
             "callV": "1480012466779066463",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "blue",
+            "registry": {
+                "1259170361073729638": 30,
+                "699991560087142403": 28,
+                "732342369646805071": 19,
+                "1330274998807695380": 17
+            }
         }
     ],
     "lastMatchId": 282
