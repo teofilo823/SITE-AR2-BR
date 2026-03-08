@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 116,
-            "wins": 12,
+            "trophies": 145,
+            "wins": 13,
             "losses": 22,
-            "total": 34,
+            "total": 35,
             "name": "teozin",
             "username": "teozin"
         },
@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 198,
-            "wins": 11,
+            "trophies": 225,
+            "wins": 12,
             "losses": 7,
-            "total": 18,
+            "total": 19,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -746,10 +746,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 143,
+            "trophies": 124,
             "wins": 6,
-            "losses": 2,
-            "total": 8,
+            "losses": 3,
+            "total": 9,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -833,10 +833,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 72,
+            "trophies": 55,
             "wins": 4,
-            "losses": 4,
-            "total": 8
+            "losses": 5,
+            "total": 9
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1064,17 +1064,17 @@
         },
         "1413871606811459644": {
             "name": "silvax255",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1038577585547907223": {
             "name": "joaogame490",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "785581845084373012": {
             "name": "dwi2t",
@@ -7579,8 +7579,17 @@
             ],
             "callA": "1480210467862348039",
             "callV": "1480210466734346263",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "blue",
+            "registry": {
+                "1330627076335730698": 27,
+                "1413871606811459644": 30,
+                "732342369646805071": 29,
+                "1038577585547907223": 15,
+                "1013439896960118855": 19,
+                "1259170361073729638": 17
+            }
         },
         {
             "id": 285,
