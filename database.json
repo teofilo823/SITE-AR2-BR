@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 154,
-            "wins": 14,
+            "trophies": 182,
+            "wins": 15,
             "losses": 23,
-            "total": 37,
+            "total": 38,
             "name": "teozin",
             "username": "teozin"
         },
@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 225,
+            "trophies": 204,
             "wins": 12,
-            "losses": 7,
-            "total": 19,
+            "losses": 8,
+            "total": 20,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -271,10 +271,10 @@
             "name": "z_erow"
         },
         "1363309165971505162": {
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 2,
-            "total": 5,
+            "total": 6,
             "username": "mtuigas",
             "name": "mtuigas"
         },
@@ -298,10 +298,10 @@
             "total": 1
         },
         "555942948378771468": {
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 2,
-            "total": 3,
+            "losses": 3,
+            "total": 4,
             "name": "mavericky_1"
         },
         "1312016249068457984": {
@@ -524,10 +524,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 184,
-            "wins": 10,
+            "trophies": 211,
+            "wins": 11,
             "losses": 6,
-            "total": 16,
+            "total": 17,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -711,10 +711,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 89,
+            "trophies": 72,
             "wins": 3,
-            "losses": 0,
-            "total": 3,
+            "losses": 1,
+            "total": 4,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -1039,10 +1039,10 @@
         },
         "1477350415036059930": {
             "name": "esquizoo7",
-            "trophies": 147,
-            "wins": 5,
+            "trophies": 175,
+            "wins": 6,
             "losses": 0,
-            "total": 5
+            "total": 6
         },
         "1393004626177163395": {
             "name": "du3ndeverde76",
@@ -1118,22 +1118,22 @@
             "name": "knxszt",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "1449379580547829871": {
             "name": "r45g_",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1040337567725391912": {
             "name": "japa_44",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -7907,8 +7907,21 @@
             ],
             "callA": "1480664227059470356",
             "callV": "1480664226161754336",
-            "status": "PROGRESS",
-            "format": "5v5"
+            "status": "FINISHED",
+            "format": "5v5",
+            "winner": "blue",
+            "registry": {
+                "732342369646805071": 28,
+                "699991560087142403": 27,
+                "1363309165971505162": 29,
+                "1449379580547829871": 30,
+                "1477350415036059930": 28,
+                "1381314479706341610": 15,
+                "1040337567725391912": 15,
+                "940013192900407346": 17,
+                "555942948378771468": 15,
+                "1330627076335730698": 21
+            }
         }
     ],
     "lastMatchId": 296
