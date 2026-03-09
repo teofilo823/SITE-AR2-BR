@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 231,
-            "wins": 13,
+            "trophies": 258,
+            "wins": 14,
             "losses": 8,
-            "total": 21,
+            "total": 22,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -836,10 +836,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 39,
+            "trophies": 23,
             "wins": 4,
-            "losses": 6,
-            "total": 10
+            "losses": 7,
+            "total": 11
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1039,10 +1039,10 @@
         },
         "1477350415036059930": {
             "name": "esquizoo7",
-            "trophies": 203,
-            "wins": 7,
+            "trophies": 230,
+            "wins": 8,
             "losses": 0,
-            "total": 7
+            "total": 8
         },
         "1393004626177163395": {
             "name": "du3ndeverde76",
@@ -1081,17 +1081,17 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 0,
-            "wins": 0,
-            "losses": 1,
-            "total": 1
-        },
-        "830129717771370506": {
-            "name": "jota_p3dro",
             "trophies": 30,
             "wins": 1,
             "losses": 1,
             "total": 2
+        },
+        "830129717771370506": {
+            "name": "jota_p3dro",
+            "trophies": 15,
+            "wins": 1,
+            "losses": 2,
+            "total": 3
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1123,10 +1123,10 @@
         },
         "1449379580547829871": {
             "name": "r45g_",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 1,
-            "losses": 1,
-            "total": 2
+            "losses": 2,
+            "total": 3
         },
         "1040337567725391912": {
             "name": "japa_44",
@@ -7994,8 +7994,17 @@
             ],
             "callA": "1480680682719285318",
             "callV": "1480680681653928122",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "blue",
+            "registry": {
+                "1330627076335730698": 27,
+                "1477350415036059930": 27,
+                "785581845084373012": 30,
+                "1259170361073729638": 16,
+                "830129717771370506": 15,
+                "1449379580547829871": 15
+            }
         }
     ],
     "lastMatchId": 299
