@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 145,
+            "trophies": 126,
             "wins": 13,
-            "losses": 22,
-            "total": 35,
+            "losses": 23,
+            "total": 36,
             "name": "teozin",
             "username": "teozin"
         },
@@ -710,10 +710,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1,
+            "total": 2,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -7826,8 +7826,13 @@
             ],
             "callA": "1480635461587308725",
             "callV": "1480635460379476153",
-            "status": "PROGRESS",
-            "format": "1v1"
+            "status": "FINISHED",
+            "format": "1v1",
+            "winner": "red",
+            "registry": {
+                "940013192900407346": 30,
+                "732342369646805071": 19
+            }
         }
     ],
     "lastMatchId": 294
