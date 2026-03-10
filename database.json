@@ -539,10 +539,10 @@
         },
         "930458191911845909": {
             "username": "trem_anthony",
-            "trophies": 43,
-            "wins": 3,
+            "trophies": 73,
+            "wins": 4,
             "losses": 5,
-            "total": 8,
+            "total": 9,
             "name": "trem_anthony"
         },
         "1473375361592197316": {
@@ -564,8 +564,8 @@
             "username": "ghost_011_.",
             "trophies": 0,
             "wins": 4,
-            "losses": 19,
-            "total": 23,
+            "losses": 20,
+            "total": 24,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -1071,8 +1071,8 @@
             "name": "silvax255",
             "trophies": 0,
             "wins": 1,
-            "losses": 3,
-            "total": 4
+            "losses": 4,
+            "total": 5
         },
         "1038577585547907223": {
             "name": "joaogame490",
@@ -1083,10 +1083,10 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 186,
-            "wins": 7,
+            "trophies": 213,
+            "wins": 8,
             "losses": 2,
-            "total": 9
+            "total": 10
         },
         "830129717771370506": {
             "name": "jota_p3dro",
@@ -8281,8 +8281,15 @@
             ],
             "callA": "1480755714333868274",
             "callV": "1480755713088294933",
-            "status": "PROGRESS",
-            "format": "2v2"
+            "status": "FINISHED",
+            "format": "2v2",
+            "winner": "red",
+            "registry": {
+                "785581845084373012": 27,
+                "930458191911845909": 30,
+                "1413871606811459644": 15,
+                "903660821480087634": 15
+            }
         }
     ],
     "lastMatchId": 308
