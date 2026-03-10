@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 162,
-            "wins": 15,
+            "trophies": 190,
+            "wins": 16,
             "losses": 24,
-            "total": 39,
+            "total": 40,
             "name": "teozin",
             "username": "teozin"
         },
@@ -135,10 +135,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 165,
-            "wins": 11,
+            "trophies": 193,
+            "wins": 12,
             "losses": 13,
-            "total": 24,
+            "total": 25,
             "username": "enzodetonauta",
             "name": "enzodetonauta"
         },
@@ -294,15 +294,15 @@
         "1203378718609772544": {
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1,
+            "losses": 2,
+            "total": 2,
             "name": "hnfdb"
         },
         "555942948378771468": {
-            "trophies": 15,
-            "wins": 1,
+            "trophies": 45,
+            "wins": 2,
             "losses": 3,
-            "total": 4,
+            "total": 5,
             "name": "mavericky_1"
         },
         "1312016249068457984": {
@@ -465,10 +465,10 @@
             "name": "im_alice__0"
         },
         "514222917517836299": {
-            "trophies": 103,
+            "trophies": 86,
             "wins": 4,
-            "losses": 1,
-            "total": 5,
+            "losses": 2,
+            "total": 6,
             "username": "noryowner",
             "name": "noryowner"
         },
@@ -510,10 +510,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 154,
-            "wins": 7,
+            "trophies": 182,
+            "wins": 8,
             "losses": 6,
-            "total": 13,
+            "total": 14,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -525,10 +525,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 151,
+            "trophies": 132,
             "wins": 11,
-            "losses": 9,
-            "total": 20,
+            "losses": 10,
+            "total": 21,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -1042,10 +1042,10 @@
         },
         "1477350415036059930": {
             "name": "esquizoo7",
-            "trophies": 236,
+            "trophies": 215,
             "wins": 9,
-            "losses": 1,
-            "total": 10
+            "losses": 2,
+            "total": 11
         },
         "1393004626177163395": {
             "name": "du3ndeverde76",
@@ -1091,10 +1091,10 @@
         },
         "830129717771370506": {
             "name": "jota_p3dro",
-            "trophies": 105,
-            "wins": 3,
+            "trophies": 134,
+            "wins": 4,
             "losses": 2,
-            "total": 5
+            "total": 6
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1163,8 +1163,8 @@
             "name": "h4skas",
             "trophies": 0,
             "wins": 0,
-            "losses": 4,
-            "total": 4
+            "losses": 5,
+            "total": 5
         }
     },
     "matches": [
@@ -8358,8 +8358,21 @@
             ],
             "callA": "1481010496478908587",
             "callV": "1481010495237656617",
-            "status": "PROGRESS",
-            "format": "5v5"
+            "status": "FINISHED",
+            "format": "5v5",
+            "winner": "red",
+            "registry": {
+                "1305010388814921728": 28,
+                "732342369646805071": 28,
+                "555942948378771468": 30,
+                "830129717771370506": 29,
+                "698211510819749951": 28,
+                "514222917517836299": 17,
+                "922658381427277836": 15,
+                "699991560087142403": 19,
+                "1203378718609772544": 15,
+                "1477350415036059930": 21
+            }
         }
     ],
     "lastMatchId": 311
