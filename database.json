@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 244,
-            "wins": 18,
+            "trophies": 270,
+            "wins": 19,
             "losses": 24,
-            "total": 42,
+            "total": 43,
             "name": "teozin",
             "username": "teozin"
         },
@@ -487,10 +487,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 28,
-            "wins": 3,
+            "trophies": 58,
+            "wins": 4,
             "losses": 4,
-            "total": 7,
+            "total": 8,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -518,18 +518,18 @@
         },
         "1398369747074285659": {
             "username": "ronaldooo__",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 0,
-            "total": 2,
+            "total": 3,
             "name": "user_disatived"
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 188,
+            "trophies": 168,
             "wins": 13,
-            "losses": 10,
-            "total": 23,
+            "losses": 11,
+            "total": 24,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -715,10 +715,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 39,
+            "trophies": 23,
             "wins": 3,
-            "losses": 3,
-            "total": 6,
+            "losses": 4,
+            "total": 7,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -840,10 +840,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 22,
-            "wins": 5,
+            "trophies": 52,
+            "wins": 6,
             "losses": 9,
-            "total": 14
+            "total": 15
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -924,10 +924,10 @@
         },
         "963508210902376538": {
             "name": "pzmn111_",
-            "trophies": 60,
+            "trophies": 44,
             "wins": 2,
-            "losses": 1,
-            "total": 3
+            "losses": 2,
+            "total": 4
         },
         "816363845152800818": {
             "name": "rimuro_sama",
@@ -1092,10 +1092,10 @@
         },
         "830129717771370506": {
             "name": "jota_p3dro",
-            "trophies": 162,
+            "trophies": 143,
             "wins": 5,
-            "losses": 2,
-            "total": 7
+            "losses": 3,
+            "total": 8
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1134,10 +1134,10 @@
         },
         "1040337567725391912": {
             "name": "japa_44",
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 1,
-            "total": 4
+            "total": 5
         },
         "805608252456828978": {
             "name": "el_chapo111",
@@ -1164,8 +1164,8 @@
             "name": "h4skas",
             "trophies": 0,
             "wins": 0,
-            "losses": 7,
-            "total": 7
+            "losses": 8,
+            "total": 8
         }
     },
     "matches": [
@@ -8482,8 +8482,21 @@
             ],
             "callA": "1481040088753508443",
             "callV": "1481040087205679275",
-            "status": "PROGRESS",
-            "format": "5v5"
+            "status": "FINISHED",
+            "format": "5v5",
+            "winner": "red",
+            "registry": {
+                "1040337567725391912": 29,
+                "1333521290258157699": 30,
+                "1259170361073729638": 30,
+                "1398369747074285659": 29,
+                "732342369646805071": 26,
+                "922658381427277836": 15,
+                "830129717771370506": 19,
+                "940013192900407346": 16,
+                "963508210902376538": 16,
+                "699991560087142403": 20
+            }
         },
         {
             "id": 316,
