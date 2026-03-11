@@ -487,10 +487,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 42,
-            "wins": 4,
+            "trophies": 72,
+            "wins": 5,
             "losses": 5,
-            "total": 9,
+            "total": 10,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -510,10 +510,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 269,
-            "wins": 11,
+            "trophies": 295,
+            "wins": 12,
             "losses": 7,
-            "total": 18,
+            "total": 19,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -564,10 +564,10 @@
         },
         "903660821480087634": {
             "username": "ghost_011_.",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 5,
-            "losses": 21,
-            "total": 26,
+            "losses": 22,
+            "total": 27,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -1071,10 +1071,10 @@
         },
         "1413871606811459644": {
             "name": "silvax255",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 2,
-            "losses": 5,
-            "total": 7
+            "losses": 6,
+            "total": 8
         },
         "1038577585547907223": {
             "name": "joaogame490",
@@ -1127,10 +1127,10 @@
         },
         "1449379580547829871": {
             "name": "r45g_",
-            "trophies": 89,
-            "wins": 4,
+            "trophies": 118,
+            "wins": 5,
             "losses": 4,
-            "total": 8
+            "total": 9
         },
         "1040337567725391912": {
             "name": "japa_44",
@@ -1178,8 +1178,8 @@
             "name": "savio3234",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "991418578312118324": {
             "name": "capivar1nhas",
@@ -8618,8 +8618,17 @@
             ],
             "callA": "1481093501914714363",
             "callV": "1481093501184774206",
-            "status": "PROGRESS",
-            "format": "3v3"
+            "status": "FINISHED",
+            "format": "3v3",
+            "winner": "blue",
+            "registry": {
+                "1305010388814921728": 26,
+                "1333521290258157699": 30,
+                "1449379580547829871": 29,
+                "1413871606811459644": 15,
+                "903660821480087634": 15,
+                "243194423591174146": 15
+            }
         },
         {
             "id": 320,
