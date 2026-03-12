@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 257,
+            "trophies": 235,
             "wins": 22,
-            "losses": 28,
-            "total": 50,
+            "losses": 29,
+            "total": 51,
             "name": "teozin",
             "username": "teozin"
         },
@@ -378,10 +378,10 @@
             "name": "ricsol"
         },
         "1134468312676442284": {
-            "trophies": 148,
-            "wins": 4,
+            "trophies": 176,
+            "wins": 5,
             "losses": 1,
-            "total": 5,
+            "total": 6,
             "name": "4yfcc"
         },
         "1360390667104161895": {
@@ -1036,10 +1036,10 @@
         },
         "1451381811509723234": {
             "name": "jeremybeyondreality",
-            "trophies": 74,
-            "wins": 3,
+            "trophies": 103,
+            "wins": 4,
             "losses": 1,
-            "total": 4
+            "total": 5
         },
         "1477350415036059930": {
             "name": "esquizoo7",
@@ -1115,8 +1115,8 @@
             "name": "ian008687",
             "trophies": 0,
             "wins": 1,
-            "losses": 4,
-            "total": 5
+            "losses": 5,
+            "total": 6
         },
         "1381314479706341610": {
             "name": "knxszt",
@@ -9021,9 +9021,16 @@
             ],
             "callA": "1481723683549614231",
             "callV": "1481723682865938482",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=18ebdb481a197042a98f6236c26a003a&type=Server"
+            "link": "https://www.roblox.com/share?code=18ebdb481a197042a98f6236c26a003a&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1451381811509723234": 29,
+                "1134468312676442284": 28,
+                "1326922891232546826": 15,
+                "732342369646805071": 22
+            }
         }
     ],
     "lastMatchId": 333
