@@ -1231,6 +1231,13 @@
             "wins": 0,
             "losses": 1,
             "total": 1
+        },
+        "1325912535307653202": {
+            "name": "lupitozinhoooo_05350",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
         }
     },
     "matches": [
@@ -9390,7 +9397,26 @@
             "status": "CANCELLED",
             "format": "3v3",
             "link": "https://www.roblox.com/share?code=fcd93f89036aa64c90dd1a9ca2619488&type=Server"
+        },
+        {
+            "id": 346,
+            "host_id": "1305010388814921728",
+            "blue": [
+                "1325912535307653202",
+                "1330627076335730698",
+                "940013192900407346"
+            ],
+            "red": [
+                "1305010388814921728",
+                "1259170361073729638",
+                "1333521290258157699"
+            ],
+            "callA": "1482108373699793089",
+            "callV": "1482108372324188261",
+            "status": "PROGRESS",
+            "format": "3v3",
+            "link": "https://www.roblox.com/share?code=2a532fd712586f419649a0cba3c1b22d&type=Server"
         }
     ],
-    "lastMatchId": 345
+    "lastMatchId": 346
 }
