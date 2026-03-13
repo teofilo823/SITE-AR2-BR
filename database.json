@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 258,
-            "wins": 14,
+            "trophies": 284,
+            "wins": 15,
             "losses": 8,
-            "total": 22,
+            "total": 23,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -487,10 +487,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 55,
+            "trophies": 39,
             "wins": 5,
-            "losses": 6,
-            "total": 11,
+            "losses": 7,
+            "total": 12,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -833,10 +833,10 @@
         },
         "1466230442398322870": {
             "name": "tencegames",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 2,
-            "losses": 5,
-            "total": 7
+            "losses": 6,
+            "total": 8
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
@@ -1073,8 +1073,8 @@
             "name": "silvax255",
             "trophies": 0,
             "wins": 2,
-            "losses": 6,
-            "total": 8
+            "losses": 7,
+            "total": 9
         },
         "1038577585547907223": {
             "name": "joaogame490",
@@ -1127,10 +1127,10 @@
         },
         "1449379580547829871": {
             "name": "r45g_",
-            "trophies": 175,
-            "wins": 7,
+            "trophies": 203,
+            "wins": 8,
             "losses": 4,
-            "total": 11
+            "total": 12
         },
         "1040337567725391912": {
             "name": "japa_44",
@@ -1162,10 +1162,10 @@
         },
         "922658381427277836": {
             "name": "h4skas",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 8,
-            "total": 9
+            "total": 10
         },
         "1462941530326171790": {
             "name": "emanuel_silva0245_20744",
@@ -9168,9 +9168,18 @@
             ],
             "callA": "1481811087736442891",
             "callV": "1481811086876479539",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=c3884e7346aa804ea7506bec633b7b6b&type=Server"
+            "link": "https://www.roblox.com/share?code=c3884e7346aa804ea7506bec633b7b6b&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1330627076335730698": 26,
+                "1449379580547829871": 28,
+                "922658381427277836": 30,
+                "1466230442398322870": 15,
+                "1413871606811459644": 15,
+                "1333521290258157699": 16
+            }
         }
     ],
     "lastMatchId": 338
