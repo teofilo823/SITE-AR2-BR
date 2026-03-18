@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 143,
+            "trophies": 124,
             "wins": 15,
-            "losses": 25,
-            "total": 40,
+            "losses": 26,
+            "total": 41,
             "name": "teozin",
             "username": "teozin"
         },
@@ -713,10 +713,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 228,
-            "wins": 5,
+            "trophies": 255,
+            "wins": 6,
             "losses": 1,
-            "total": 6,
+            "total": 7,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -826,22 +826,22 @@
             "name": "bertholacegamer4749",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "1466230442398322870": {
             "name": "tencegames",
-            "trophies": 15,
-            "wins": 2,
+            "trophies": 45,
+            "wins": 3,
             "losses": 5,
-            "total": 7
+            "total": 8
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 134,
-            "wins": 6,
+            "trophies": 162,
+            "wins": 7,
             "losses": 10,
-            "total": 16
+            "total": 17
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1113,8 +1113,8 @@
             "name": "ian008687",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "1381314479706341610": {
             "name": "knxszt",
@@ -1403,9 +1403,18 @@
             ],
             "callA": "1483893314225705082",
             "callV": "1483893312136941599",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=18ebdb481a197042a98f6236c26a003a&type=Server"
+            "link": "https://www.roblox.com/share?code=18ebdb481a197042a98f6236c26a003a&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1259170361073729638": 28,
+                "1466230442398322870": 30,
+                "940013192900407346": 27,
+                "1055566744225333319": 15,
+                "732342369646805071": 19,
+                "1326922891232546826": 15
+            }
         }
     ],
     "lastMatchId": 379
