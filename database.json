@@ -1091,10 +1091,10 @@
         },
         "830129717771370506": {
             "name": "toast_jota",
-            "trophies": 104,
-            "wins": 4,
+            "trophies": 133,
+            "wins": 5,
             "losses": 2,
-            "total": 6
+            "total": 7
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1226,8 +1226,8 @@
             "name": "lh_1912.",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "1390362450158682265": {
             "name": "alyce_mller5392",
@@ -1490,9 +1490,14 @@
             ],
             "callA": "1484294842593841213",
             "callV": "1484294841020973289",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "red",
+            "registry": {
+                "830129717771370506": 29,
+                "1110902556059779113": 15
+            }
         }
     ],
     "lastMatchId": 400
