@@ -487,10 +487,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 80,
-            "wins": 6,
+            "trophies": 109,
+            "wins": 7,
             "losses": 6,
-            "total": 12,
+            "total": 13,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -525,10 +525,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 114,
-            "wins": 11,
+            "trophies": 143,
+            "wins": 12,
             "losses": 11,
-            "total": 22,
+            "total": 23,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -752,10 +752,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 191,
+            "trophies": 171,
             "wins": 9,
-            "losses": 4,
-            "total": 13,
+            "losses": 5,
+            "total": 14,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -1065,8 +1065,8 @@
             "name": "samu_mascaco",
             "trophies": 0,
             "wins": 0,
-            "losses": 4,
-            "total": 4
+            "losses": 5,
+            "total": 5
         },
         "1413871606811459644": {
             "name": "silvax255",
@@ -1196,10 +1196,10 @@
         },
         "1482368113440981055": {
             "name": "ess1q",
-            "trophies": 195,
-            "wins": 6,
+            "trophies": 222,
+            "wins": 7,
             "losses": 3,
-            "total": 9
+            "total": 10
         },
         "1211119779000229979": {
             "name": "igormrsr",
@@ -1224,10 +1224,10 @@
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 1,
-            "losses": 4,
-            "total": 5
+            "losses": 5,
+            "total": 6
         },
         "1390362450158682265": {
             "name": "alyce_mller5392",
@@ -1585,9 +1585,18 @@
             ],
             "callA": "1484313069139136652",
             "callV": "1484313067817799811",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "red",
+            "registry": {
+                "1482368113440981055": 27,
+                "699991560087142403": 29,
+                "1333521290258157699": 29,
+                "1479206895112683734": 15,
+                "1110902556059779113": 15,
+                "1013439896960118855": 20
+            }
         }
     ],
     "lastMatchId": 403
