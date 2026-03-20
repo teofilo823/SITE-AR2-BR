@@ -249,10 +249,10 @@
             "name": "zezinho4668"
         },
         "1312591419290157138": {
-            "trophies": 118,
+            "trophies": 100,
             "wins": 4,
-            "losses": 1,
-            "total": 5,
+            "losses": 2,
+            "total": 6,
             "username": "munizxxxxxx",
             "name": "munizxxxxxx"
         },
@@ -1070,10 +1070,10 @@
         },
         "1413871606811459644": {
             "name": "silvax255",
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 4,
-            "total": 5
+            "total": 6
         },
         "1038577585547907223": {
             "name": "joaogame490",
@@ -1224,17 +1224,17 @@
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 5,
-            "total": 6
+            "total": 7
         },
         "1390362450158682265": {
             "name": "swamp_x",
             "trophies": 0,
             "wins": 1,
-            "losses": 4,
-            "total": 5
+            "losses": 5,
+            "total": 6
         },
         "1315786574809792686": {
             "name": "jesse07396",
@@ -1696,9 +1696,16 @@
             ],
             "callA": "1484678620978085958",
             "callV": "1484678620269252689",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1413871606811459644": 30,
+                "1110902556059779113": 30,
+                "1312591419290157138": 18,
+                "1390362450158682265": 15
+            }
         },
         {
             "id": 409,
