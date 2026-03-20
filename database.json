@@ -242,10 +242,10 @@
             "total": 2
         },
         "752548224648085616": {
-            "trophies": 234,
+            "trophies": 213,
             "wins": 6,
-            "losses": 3,
-            "total": 9,
+            "losses": 4,
+            "total": 10,
             "name": "zezinho4668"
         },
         "1312591419290157138": {
@@ -1084,10 +1084,10 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 213,
-            "wins": 8,
+            "trophies": 240,
+            "wins": 9,
             "losses": 2,
-            "total": 10
+            "total": 11
         },
         "830129717771370506": {
             "name": "toast_jota",
@@ -1609,9 +1609,14 @@
             ],
             "callA": "1484547031132541159",
             "callV": "1484547030306263081",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=081c0310b7aef641832dc503add8adf4&type=Server"
+            "link": "https://www.roblox.com/share?code=081c0310b7aef641832dc503add8adf4&type=Server",
+            "winner": "blue",
+            "registry": {
+                "785581845084373012": 27,
+                "752548224648085616": 21
+            }
         }
     ],
     "lastMatchId": 404
