@@ -330,10 +330,10 @@
             "total": 14
         },
         "809021436828188723": {
-            "trophies": 60,
+            "trophies": 44,
             "wins": 2,
-            "losses": 0,
-            "total": 2,
+            "losses": 1,
+            "total": 3,
             "name": "naosei5449"
         },
         "1451306598646681661": {
@@ -527,10 +527,10 @@
         },
         "699991560087142403": {
             "username": "gizdoryfr",
-            "trophies": 159,
+            "trophies": 140,
             "wins": 17,
-            "losses": 17,
-            "total": 34,
+            "losses": 18,
+            "total": 35,
             "name": "gizdoryfr"
         },
         "1323071801961480212": {
@@ -550,10 +550,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 105,
+            "trophies": 87,
             "wins": 11,
-            "losses": 12,
-            "total": 23,
+            "losses": 13,
+            "total": 24,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -1086,17 +1086,17 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 240,
+            "trophies": 219,
             "wins": 9,
-            "losses": 2,
-            "total": 11
+            "losses": 3,
+            "total": 12
         },
         "830129717771370506": {
             "name": "toast_jota",
-            "trophies": 116,
-            "wins": 7,
+            "trophies": 145,
+            "wins": 8,
             "losses": 6,
-            "total": 13
+            "total": 14
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1198,10 +1198,10 @@
         },
         "1482368113440981055": {
             "name": "ess1q",
-            "trophies": 336,
-            "wins": 13,
+            "trophies": 361,
+            "wins": 14,
             "losses": 5,
-            "total": 18
+            "total": 19
         },
         "1211119779000229979": {
             "name": "igormrsr",
@@ -1219,10 +1219,10 @@
         },
         "1362462226383896667": {
             "name": "recuparamos",
-            "trophies": 25,
-            "wins": 3,
+            "trophies": 55,
+            "wins": 4,
             "losses": 4,
-            "total": 7
+            "total": 8
         },
         "1110902556059779113": {
             "name": "lh_1912.",
@@ -1317,10 +1317,10 @@
         },
         "1452374786012483624": {
             "name": "azuma0.0",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "matches": [
@@ -2388,9 +2388,20 @@
             ],
             "callA": "1485033439236198542",
             "callV": "1485033438439407707",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "4v4",
-            "link": "https://www.roblox.com/share?code=e10bca16dd5bf54798d2f946d41ea427&type=Server"
+            "link": "https://www.roblox.com/share?code=e10bca16dd5bf54798d2f946d41ea427&type=Server",
+            "winner": "red",
+            "registry": {
+                "1362462226383896667": 30,
+                "1452374786012483624": 30,
+                "830129717771370506": 29,
+                "1482368113440981055": 25,
+                "699991560087142403": 19,
+                "785581845084373012": 21,
+                "1473375361592197316": 18,
+                "809021436828188723": 16
+            }
         }
     ],
     "lastMatchId": 430
