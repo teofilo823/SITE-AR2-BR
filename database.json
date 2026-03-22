@@ -550,10 +550,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 87,
+            "trophies": 70,
             "wins": 11,
-            "losses": 13,
-            "total": 24,
+            "losses": 14,
+            "total": 25,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -1198,10 +1198,10 @@
         },
         "1482368113440981055": {
             "name": "ess1q",
-            "trophies": 361,
-            "wins": 14,
+            "trophies": 385,
+            "wins": 15,
             "losses": 5,
-            "total": 19
+            "total": 20
         },
         "1211119779000229979": {
             "name": "igormrsr",
@@ -2433,9 +2433,14 @@
             ],
             "callA": "1485280979403935877",
             "callV": "1485280978061496340",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=cc2450eba2922d4bbdd075dfb73fcc51&type=Server"
+            "link": "https://www.roblox.com/share?code=cc2450eba2922d4bbdd075dfb73fcc51&type=Server",
+            "winner": "red",
+            "registry": {
+                "1482368113440981055": 24,
+                "1473375361592197316": 17
+            }
         }
     ],
     "lastMatchId": 432
