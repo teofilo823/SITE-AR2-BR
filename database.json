@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 226,
+            "trophies": 205,
             "wins": 32,
-            "losses": 43,
-            "total": 75,
+            "losses": 44,
+            "total": 76,
             "name": "teozin",
             "username": "teozin"
         },
@@ -550,10 +550,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 123,
+            "trophies": 105,
             "wins": 14,
-            "losses": 16,
-            "total": 30,
+            "losses": 17,
+            "total": 31,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -640,10 +640,10 @@
         },
         "998650554379153488": {
             "username": ".climzz",
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 3,
-            "total": 4,
+            "total": 5,
             "name": "07rafaluks"
         },
         "1468736429101158715": {
@@ -1345,10 +1345,10 @@
         },
         "1082336256714874970": {
             "name": "chavao123",
-            "trophies": 44,
-            "wins": 2,
+            "trophies": 74,
+            "wins": 3,
             "losses": 1,
-            "total": 3
+            "total": 4
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -2123,9 +2123,16 @@
             ],
             "callA": "1485733146984186047",
             "callV": "1485733146652573818",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "red",
+            "registry": {
+                "998650554379153488": 30,
+                "1082336256714874970": 30,
+                "732342369646805071": 21,
+                "1473375361592197316": 18
+            }
         }
     ],
     "lastMatchId": 461
