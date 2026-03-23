@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 220,
+            "trophies": 199,
             "wins": 31,
-            "losses": 42,
-            "total": 73,
+            "losses": 43,
+            "total": 74,
             "name": "teozin",
             "username": "teozin"
         },
@@ -550,10 +550,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 65,
-            "wins": 12,
+            "trophies": 94,
+            "wins": 13,
             "losses": 16,
-            "total": 28,
+            "total": 29,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -2019,9 +2019,14 @@
             ],
             "callA": "1485715356806021212",
             "callV": "1485715355727953920",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "red",
+            "registry": {
+                "1473375361592197316": 29,
+                "732342369646805071": 21
+            }
         }
     ],
     "lastMatchId": 457
