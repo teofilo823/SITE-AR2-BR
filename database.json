@@ -1037,10 +1037,10 @@
         },
         "1451381811509723234": {
             "name": "jeremybeyondreality",
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 0,
-            "total": 3
+            "total": 4
         },
         "1477350415036059930": {
             "name": "esquizoo7",
@@ -1226,10 +1226,10 @@
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 100,
+            "trophies": 83,
             "wins": 6,
-            "losses": 8,
-            "total": 14
+            "losses": 9,
+            "total": 15
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -2173,9 +2173,14 @@
             ],
             "callA": "1486006047486509187",
             "callV": "1486006046588665918",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1451381811509723234": 29,
+                "1110902556059779113": 17
+            }
         }
     ],
     "lastMatchId": 463
