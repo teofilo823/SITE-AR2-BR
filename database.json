@@ -836,10 +836,10 @@
         },
         "1466230442398322870": {
             "name": "tencegames",
-            "trophies": 87,
+            "trophies": 70,
             "wins": 7,
-            "losses": 11,
-            "total": 18
+            "losses": 12,
+            "total": 19
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
@@ -1060,10 +1060,10 @@
         },
         "1479946319396344019": {
             "name": "movesett.",
-            "trophies": 118,
-            "wins": 4,
+            "trophies": 147,
+            "wins": 5,
             "losses": 1,
-            "total": 5
+            "total": 6
         },
         "1479206895112683734": {
             "name": "japasimp",
@@ -2666,9 +2666,14 @@
             ],
             "callA": "1486779723311743107",
             "callV": "1486779722196320356",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=eb5b957e8fb14d46a2ebd53a9dc80722&type=Server"
+            "link": "https://www.roblox.com/share?code=eb5b957e8fb14d46a2ebd53a9dc80722&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1479946319396344019": 29,
+                "1466230442398322870": 17
+            }
         }
     ],
     "lastMatchId": 482
