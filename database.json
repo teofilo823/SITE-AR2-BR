@@ -204,10 +204,10 @@
             "name": "mirafiada"
         },
         "1330274998807695380": {
-            "trophies": 183,
+            "trophies": 163,
             "wins": 17,
-            "losses": 22,
-            "total": 39,
+            "losses": 23,
+            "total": 40,
             "username": "redinho2_",
             "name": "redinho2_"
         },
@@ -1060,10 +1060,10 @@
         },
         "1479946319396344019": {
             "name": "movesett.",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 1,
-            "total": 2
+            "total": 3
         },
         "1479206895112683734": {
             "name": "japasimp",
@@ -2595,9 +2595,14 @@
             ],
             "callA": "1486750180538712265",
             "callV": "1486750179595128902",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=a111f69923d766499cf4d10b74c64289&type=Server"
+            "link": "https://www.roblox.com/share?code=a111f69923d766499cf4d10b74c64289&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1479946319396344019": 30,
+                "1330274998807695380": 20
+            }
         }
     ],
     "lastMatchId": 479
