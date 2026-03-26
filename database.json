@@ -1060,10 +1060,10 @@
         },
         "1479946319396344019": {
             "name": "movesett.",
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 1,
-            "total": 4
+            "total": 5
         },
         "1479206895112683734": {
             "name": "japasimp",
@@ -1447,8 +1447,8 @@
             "name": "lucas039354",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "matches": [
@@ -2646,9 +2646,14 @@
             ],
             "callA": "1486771250188783746",
             "callV": "1486771248913711124",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=1e9c19ff21f9eb489c1537faf2167d82&type=Server"
+            "link": "https://www.roblox.com/share?code=1e9c19ff21f9eb489c1537faf2167d82&type=Server",
+            "winner": "red",
+            "registry": {
+                "1479946319396344019": 29,
+                "1406755763317379292": 15
+            }
         }
     ],
     "lastMatchId": 481
