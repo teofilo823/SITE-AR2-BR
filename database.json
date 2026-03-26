@@ -1442,6 +1442,13 @@
             "wins": 0,
             "losses": 0,
             "total": 0
+        },
+        "1406755763317379292": {
+            "name": "lucas039354",
+            "trophies": 0,
+            "wins": 0,
+            "losses": 0,
+            "total": 0
         }
     },
     "matches": [
@@ -2627,7 +2634,22 @@
                 "1137580616821522462": 16,
                 "1330274998807695380": 19
             }
+        },
+        {
+            "id": 481,
+            "host_id": "1479946319396344019",
+            "blue": [
+                "1406755763317379292"
+            ],
+            "red": [
+                "1479946319396344019"
+            ],
+            "callA": "1486771250188783746",
+            "callV": "1486771248913711124",
+            "status": "PROGRESS",
+            "format": "1v1",
+            "link": "https://www.roblox.com/share?code=1e9c19ff21f9eb489c1537faf2167d82&type=Server"
         }
     ],
-    "lastMatchId": 480
+    "lastMatchId": 481
 }
