@@ -490,10 +490,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 204,
+            "trophies": 184,
             "wins": 11,
-            "losses": 7,
-            "total": 18,
+            "losses": 8,
+            "total": 19,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -552,10 +552,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 116,
-            "wins": 15,
+            "trophies": 145,
+            "wins": 16,
             "losses": 18,
-            "total": 33,
+            "total": 34,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -3116,9 +3116,14 @@
             ],
             "callA": "1487142684442497134",
             "callV": "1487142681955139645",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=cc2450eba2922d4bbdd075dfb73fcc51&type=Server"
+            "link": "https://www.roblox.com/share?code=cc2450eba2922d4bbdd075dfb73fcc51&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1473375361592197316": 29,
+                "1333521290258157699": 20
+            }
         }
     ],
     "lastMatchId": 500
