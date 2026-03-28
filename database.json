@@ -680,10 +680,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 156,
-            "wins": 10,
+            "trophies": 184,
+            "wins": 11,
             "losses": 8,
-            "total": 18,
+            "total": 19,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -1012,10 +1012,10 @@
         },
         "1131353223098269696": {
             "name": "hnz_cria244",
-            "trophies": 133,
+            "trophies": 115,
             "wins": 10,
-            "losses": 9,
-            "total": 19
+            "losses": 10,
+            "total": 20
         },
         "1154918820092313641": {
             "name": "glabimgamer_85987",
@@ -1201,10 +1201,10 @@
         },
         "1482368113440981055": {
             "name": "ess1q",
-            "trophies": 288,
-            "wins": 16,
+            "trophies": 314,
+            "wins": 17,
             "losses": 10,
-            "total": 26
+            "total": 27
         },
         "1211119779000229979": {
             "name": "igormrsr",
@@ -1236,10 +1236,10 @@
         },
         "1390362450158682265": {
             "name": "swamp_x",
-            "trophies": 123,
+            "trophies": 105,
             "wins": 8,
-            "losses": 13,
-            "total": 21
+            "losses": 14,
+            "total": 22
         },
         "1315786574809792686": {
             "name": "jesse07396",
@@ -1285,10 +1285,10 @@
         },
         "741802719748161676": {
             "name": "joca9023",
-            "trophies": 36,
-            "wins": 7,
+            "trophies": 66,
+            "wins": 8,
             "losses": 13,
-            "total": 20
+            "total": 21
         },
         "936647895409631283": {
             "name": "4s40",
@@ -1427,8 +1427,8 @@
             "name": "rafa042370",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1304116901307224146": {
             "name": "newphases",
@@ -2261,9 +2261,18 @@
             ],
             "callA": "1487559842842284164",
             "callV": "1487559841890435255",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=7b88d6e7ca7e104fa5423da1a58449ef&type=Server"
+            "link": "https://www.roblox.com/share?code=7b88d6e7ca7e104fa5423da1a58449ef&type=Server",
+            "winner": "red",
+            "registry": {
+                "1137580616821522462": 28,
+                "1482368113440981055": 26,
+                "741802719748161676": 30,
+                "1131353223098269696": 18,
+                "1269451010406092840": 15,
+                "1390362450158682265": 18
+            }
         }
     ],
     "lastMatchId": 548
