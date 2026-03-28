@@ -7,9 +7,9 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 74,
-            "wins": 32,
-            "losses": 51,
+            "trophies": 120,
+            "wins": 33,
+            "losses": 50,
             "total": 83,
             "name": "teozin",
             "username": "teozin"
@@ -1522,9 +1522,9 @@
         },
         "1412627497228570624": {
             "name": "pedrin032786",
-            "trophies": 30,
-            "wins": 1,
-            "losses": 0,
+            "trophies": 0,
+            "wins": 0,
+            "losses": 1,
             "total": 1
         }
     },
@@ -1579,11 +1579,12 @@
             "status": "FINISHED",
             "format": "1v1",
             "link": "a",
-            "winner": "blue",
+            "winner": "red",
             "registry": {
-                "1412627497228570624": 30,
-                "732342369646805071": 17
-            }
+                "1412627497228570624": 15,
+                "732342369646805071": 29
+            },
+            "error_corrected": true
         }
     ],
     "lastMatchId": 524
