@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 109,
+            "trophies": 91,
             "wins": 32,
-            "losses": 49,
-            "total": 81,
+            "losses": 50,
+            "total": 82,
             "name": "teozin",
             "username": "teozin"
         },
@@ -325,10 +325,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 58,
+            "trophies": 42,
             "wins": 10,
-            "losses": 19,
-            "total": 29,
+            "losses": 20,
+            "total": 30,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -426,10 +426,10 @@
             "name": "luishenrique_1912"
         },
         "748889958076645466": {
-            "trophies": 82,
+            "trophies": 65,
             "wins": 5,
-            "losses": 6,
-            "total": 11,
+            "losses": 7,
+            "total": 12,
             "username": "lucas2131",
             "name": "lucas2131"
         },
@@ -756,10 +756,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 223,
+            "trophies": 202,
             "wins": 15,
-            "losses": 10,
-            "total": 25,
+            "losses": 11,
+            "total": 26,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -843,10 +843,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 278,
-            "wins": 17,
+            "trophies": 304,
+            "wins": 18,
             "losses": 17,
-            "total": 34
+            "total": 35
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1011,10 +1011,10 @@
         },
         "1131353223098269696": {
             "name": "hnz_cria244",
-            "trophies": 162,
+            "trophies": 143,
             "wins": 9,
-            "losses": 6,
-            "total": 15
+            "losses": 7,
+            "total": 16
         },
         "1154918820092313641": {
             "name": "glabimgamer_85987",
@@ -1095,10 +1095,10 @@
         },
         "830129717771370506": {
             "name": "toast_jota",
-            "trophies": 173,
-            "wins": 9,
+            "trophies": 201,
+            "wins": 10,
             "losses": 6,
-            "total": 15
+            "total": 16
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1172,10 +1172,10 @@
         },
         "991418578312118324": {
             "name": "capivar1nhas",
-            "trophies": 44,
-            "wins": 2,
+            "trophies": 74,
+            "wins": 3,
             "losses": 2,
-            "total": 4
+            "total": 5
         },
         "1325912535307653202": {
             "name": "lupitozinhoooo_05350",
@@ -1396,10 +1396,10 @@
         },
         "1478144900070379575": {
             "name": "vulpix677",
-            "trophies": 58,
-            "wins": 3,
+            "trophies": 88,
+            "wins": 4,
             "losses": 2,
-            "total": 5
+            "total": 6
         },
         "1057087202967957565": {
             "name": ".vinizik",
@@ -1508,10 +1508,10 @@
         },
         "1432145336448848025": {
             "name": "1gamer_x",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 0,
-            "total": 2
+            "total": 3
         }
     },
     "matches": [
@@ -3664,9 +3664,22 @@
             ],
             "callA": "1487248025045827585",
             "callV": "1487248024446177450",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1478144900070379575": 30,
+                "830129717771370506": 28,
+                "1432145336448848025": 29,
+                "1259170361073729638": 26,
+                "991418578312118324": 30,
+                "1131353223098269696": 19,
+                "732342369646805071": 18,
+                "748889958076645466": 17,
+                "1019162124175552523": 16,
+                "1013439896960118855": 21
+            }
         },
         {
             "id": 519,
