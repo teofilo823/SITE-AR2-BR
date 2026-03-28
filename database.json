@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 127,
+            "trophies": 109,
             "wins": 32,
-            "losses": 48,
-            "total": 80,
+            "losses": 49,
+            "total": 81,
             "name": "teozin",
             "username": "teozin"
         },
@@ -426,10 +426,10 @@
             "name": "luishenrique_1912"
         },
         "748889958076645466": {
-            "trophies": 52,
-            "wins": 4,
+            "trophies": 82,
+            "wins": 5,
             "losses": 6,
-            "total": 10,
+            "total": 11,
             "username": "lucas2131",
             "name": "lucas2131"
         },
@@ -756,10 +756,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 245,
+            "trophies": 223,
             "wins": 15,
-            "losses": 9,
-            "total": 24,
+            "losses": 10,
+            "total": 25,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -1508,10 +1508,10 @@
         },
         "1432145336448848025": {
             "name": "1gamer_x",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         }
     },
     "matches": [
@@ -3588,9 +3588,16 @@
             ],
             "callA": "1487241941123989514",
             "callV": "1487241940087869510",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "red",
+            "registry": {
+                "1432145336448848025": 30,
+                "748889958076645466": 30,
+                "732342369646805071": 18,
+                "1013439896960118855": 22
+            }
         },
         {
             "id": 516,
