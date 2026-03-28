@@ -54,10 +54,10 @@
             "name": "henrique050200"
         },
         "1406445755975204874": {
-            "trophies": 144,
+            "trophies": 125,
             "wins": 13,
-            "losses": 15,
-            "total": 28,
+            "losses": 16,
+            "total": 29,
             "username": "lenildopietro",
             "name": "lenildopietro"
         },
@@ -402,10 +402,10 @@
             "name": "jota024410"
         },
         "900138394846367756": {
-            "trophies": 15,
+            "trophies": 0,
             "wins": 2,
-            "losses": 10,
-            "total": 12,
+            "losses": 11,
+            "total": 13,
             "username": "vitorjaime.",
             "name": "vitorjaime."
         },
@@ -679,10 +679,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 176,
+            "trophies": 156,
             "wins": 10,
-            "losses": 7,
-            "total": 17,
+            "losses": 8,
+            "total": 18,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -718,10 +718,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 433,
-            "wins": 13,
+            "trophies": 456,
+            "wins": 14,
             "losses": 3,
-            "total": 16,
+            "total": 17,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -756,10 +756,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 200,
+            "trophies": 180,
             "wins": 18,
-            "losses": 15,
-            "total": 33,
+            "losses": 16,
+            "total": 34,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -1095,10 +1095,10 @@
         },
         "830129717771370506": {
             "name": "toast_jota",
-            "trophies": 265,
-            "wins": 14,
+            "trophies": 291,
+            "wins": 15,
             "losses": 8,
-            "total": 22
+            "total": 23
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1165,10 +1165,10 @@
         },
         "922658381427277836": {
             "name": "h4skas",
-            "trophies": 183,
-            "wins": 7,
+            "trophies": 210,
+            "wins": 8,
             "losses": 8,
-            "total": 15
+            "total": 16
         },
         "991418578312118324": {
             "name": "capivar1nhas",
@@ -1284,10 +1284,10 @@
         },
         "741802719748161676": {
             "name": "joca9023",
-            "trophies": 52,
+            "trophies": 36,
             "wins": 7,
-            "losses": 12,
-            "total": 19
+            "losses": 13,
+            "total": 20
         },
         "936647895409631283": {
             "name": "4s40",
@@ -1368,10 +1368,10 @@
         },
         "1485380542173024378": {
             "name": "a2.g4",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 4,
-            "total": 4
+            "total": 5
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -1452,10 +1452,10 @@
         },
         "1483229919856300176": {
             "name": "4grt",
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 3,
-            "total": 4
+            "total": 5
         },
         "1312972199753154623": {
             "name": "ywk4",
@@ -2133,9 +2133,22 @@
             ],
             "callA": "1487544061442130130",
             "callV": "1487544058850185357",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=23235c999d7dbe4f80a52641c54d01e7&type=Server"
+            "link": "https://www.roblox.com/share?code=23235c999d7dbe4f80a52641c54d01e7&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1483229919856300176": 30,
+                "922658381427277836": 27,
+                "1485380542173024378": 30,
+                "940013192900407346": 23,
+                "830129717771370506": 26,
+                "1406445755975204874": 19,
+                "741802719748161676": 16,
+                "1013439896960118855": 20,
+                "1137580616821522462": 20,
+                "900138394846367756": 15
+            }
         },
         {
             "id": 544,
