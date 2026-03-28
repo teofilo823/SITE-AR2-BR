@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 146,
+            "trophies": 127,
             "wins": 32,
-            "losses": 47,
-            "total": 79,
+            "losses": 48,
+            "total": 80,
             "name": "teozin",
             "username": "teozin"
         },
@@ -1508,10 +1508,10 @@
         },
         "1432145336448848025": {
             "name": "1gamer_x",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "matches": [
@@ -3530,9 +3530,14 @@
             ],
             "callA": "1487237320838217802",
             "callV": "1487237320125054976",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1432145336448848025": 30,
+                "732342369646805071": 19
+            }
         },
         {
             "id": 514,
