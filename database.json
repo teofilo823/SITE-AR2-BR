@@ -492,10 +492,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 297,
+            "trophies": 274,
             "wins": 18,
-            "losses": 11,
-            "total": 29,
+            "losses": 12,
+            "total": 30,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -1489,10 +1489,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 147,
-            "wins": 5,
+            "trophies": 175,
+            "wins": 6,
             "losses": 3,
-            "total": 8
+            "total": 9
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1503,10 +1503,10 @@
         },
         "1312137225840103484": {
             "name": "pedrin441.",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 3,
-            "losses": 4,
-            "total": 7
+            "losses": 5,
+            "total": 8
         },
         "1432145336448848025": {
             "name": "1gamer_x",
@@ -1566,10 +1566,10 @@
         },
         "1310061003815522315": {
             "name": "vamp_kkj2",
-            "trophies": 15,
-            "wins": 1,
+            "trophies": 45,
+            "wins": 2,
             "losses": 1,
-            "total": 2
+            "total": 3
         }
     },
     "matches": [
@@ -2641,9 +2641,16 @@
             ],
             "callA": "1487613678865092638",
             "callV": "1487613677430378498",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server"
+            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server",
+            "winner": "red",
+            "registry": {
+                "1096575432171733083": 28,
+                "1310061003815522315": 30,
+                "1312137225840103484": 15,
+                "1333521290258157699": 23
+            }
         },
         {
             "id": 563,
