@@ -1181,10 +1181,10 @@
         },
         "1325912535307653202": {
             "name": "lupitozinhoooo_05350",
-            "trophies": 26,
+            "trophies": 11,
             "wins": 3,
-            "losses": 8,
-            "total": 11
+            "losses": 9,
+            "total": 12
         },
         "1198947369509732436": {
             "name": "matteo05192",
@@ -1489,10 +1489,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 118,
-            "wins": 4,
+            "trophies": 147,
+            "wins": 5,
             "losses": 3,
-            "total": 7
+            "total": 8
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1503,10 +1503,10 @@
         },
         "1312137225840103484": {
             "name": "pedrin441.",
-            "trophies": 0,
-            "wins": 2,
+            "trophies": 30,
+            "wins": 3,
             "losses": 4,
-            "total": 6
+            "total": 7
         },
         "1432145336448848025": {
             "name": "1gamer_x",
@@ -1566,10 +1566,10 @@
         },
         "1310061003815522315": {
             "name": "vamp_kkj2",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 0,
-            "total": 1
+            "losses": 1,
+            "total": 2
         }
     },
     "matches": [
@@ -2598,9 +2598,16 @@
             ],
             "callA": "1487609376108839084",
             "callV": "1487609374812667934",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server"
+            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1096575432171733083": 29,
+                "1312137225840103484": 30,
+                "1325912535307653202": 15,
+                "1310061003815522315": 15
+            }
         },
         {
             "id": 561,
