@@ -2052,7 +2052,22 @@
             "status": "CANCELLED",
             "format": "1v1",
             "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+        },
+        {
+            "id": 594,
+            "host_id": "1110902556059779113",
+            "blue": [
+                "1269451010406092840"
+            ],
+            "red": [
+                "1110902556059779113"
+            ],
+            "callA": "1487868863323574425",
+            "callV": "1487868861142405180",
+            "status": "PROGRESS",
+            "format": "1v1",
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
         }
     ],
-    "lastMatchId": 593
+    "lastMatchId": 594
 }
