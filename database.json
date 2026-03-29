@@ -326,10 +326,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 11,
-            "wins": 10,
+            "trophies": 41,
+            "wins": 11,
             "losses": 22,
-            "total": 32,
+            "total": 33,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -554,10 +554,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 96,
-            "wins": 18,
+            "trophies": 125,
+            "wins": 19,
             "losses": 24,
-            "total": 42,
+            "total": 43,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -1455,10 +1455,10 @@
         },
         "1483229919856300176": {
             "name": "4grt",
-            "trophies": 60,
+            "trophies": 44,
             "wins": 3,
-            "losses": 3,
-            "total": 6
+            "losses": 4,
+            "total": 7
         },
         "1312972199753154623": {
             "name": "ywk4",
@@ -1478,8 +1478,8 @@
             "name": "batatag0d",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "411916947773587456": {
             "name": "Jockie Music",
@@ -2862,9 +2862,16 @@
             ],
             "callA": "1487649744711979148",
             "callV": "1487649741746602207",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=cc2450eba2922d4bbdd075dfb73fcc51&type=Server"
+            "link": "https://www.roblox.com/share?code=cc2450eba2922d4bbdd075dfb73fcc51&type=Server",
+            "winner": "red",
+            "registry": {
+                "1473375361592197316": 29,
+                "1019162124175552523": 30,
+                "1483229919856300176": 16,
+                "1036409238228045905": 15
+            }
         }
     ],
     "lastMatchId": 570
