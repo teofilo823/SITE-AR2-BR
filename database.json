@@ -1943,7 +1943,22 @@
             "status": "PROGRESS",
             "format": "5v5",
             "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+        },
+        {
+            "id": 589,
+            "host_id": "544965924961386507",
+            "blue": [
+                "741802719748161676"
+            ],
+            "red": [
+                "544965924961386507"
+            ],
+            "callA": "1487859325216227368",
+            "callV": "1487859323257360486",
+            "status": "PROGRESS",
+            "format": "1v1",
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
         }
     ],
-    "lastMatchId": 588
+    "lastMatchId": 589
 }
