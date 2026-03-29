@@ -135,10 +135,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 420,
+            "trophies": 393,
             "wins": 27,
-            "losses": 22,
-            "total": 49,
+            "losses": 23,
+            "total": 50,
             "username": "enzodetonauta",
             "name": "enzodetonauta"
         },
@@ -492,10 +492,10 @@
         },
         "1333521290258157699": {
             "username": "caiofsantos123",
-            "trophies": 252,
+            "trophies": 230,
             "wins": 18,
-            "losses": 13,
-            "total": 31,
+            "losses": 14,
+            "total": 32,
             "name": "caiofsantos123"
         },
         "480785822111760394": {
@@ -554,10 +554,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 72,
+            "trophies": 55,
             "wins": 19,
-            "losses": 27,
-            "total": 46,
+            "losses": 28,
+            "total": 47,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -902,10 +902,10 @@
         },
         "1360481354214543483": {
             "name": "mrjackhkz",
-            "trophies": 28,
-            "wins": 2,
+            "trophies": 58,
+            "wins": 3,
             "losses": 2,
-            "total": 4
+            "total": 5
         },
         "1259151428505567244": {
             "name": "gustav0199",
@@ -1574,17 +1574,17 @@
         },
         "1226323061020692590": {
             "name": "_ritzy__25192",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1449735130687213600": {
             "name": "phblood2",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "matches": [
@@ -2180,9 +2180,18 @@
             ],
             "callA": "1487880735405641941",
             "callV": "1487880734546067647",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=0722cc1102b7e24faddb1efa7605a849&type=Server"
+            "link": "https://www.roblox.com/share?code=0722cc1102b7e24faddb1efa7605a849&type=Server",
+            "winner": "red",
+            "registry": {
+                "1360481354214543483": 30,
+                "1226323061020692590": 30,
+                "1449735130687213600": 30,
+                "1333521290258157699": 22,
+                "698211510819749951": 27,
+                "1473375361592197316": 17
+            }
         }
     ],
     "lastMatchId": 598
