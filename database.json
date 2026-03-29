@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 123,
+            "trophies": 105,
             "wins": 35,
-            "losses": 53,
-            "total": 88,
+            "losses": 54,
+            "total": 89,
             "name": "teozin",
             "username": "teozin"
         },
@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 506,
+            "trophies": 477,
             "wins": 37,
-            "losses": 22,
-            "total": 59,
+            "losses": 23,
+            "total": 60,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -584,10 +584,10 @@
         },
         "1373452119339700310": {
             "username": "silva_______gs",
-            "trophies": 30,
-            "wins": 3,
+            "trophies": 60,
+            "wins": 4,
             "losses": 6,
-            "total": 9,
+            "total": 10,
             "name": "silva_______gs"
         },
         "1272407742757212230": {
@@ -1301,10 +1301,10 @@
         },
         "1093602651247235123": {
             "name": "no_lovesx",
-            "trophies": 100,
-            "wins": 4,
+            "trophies": 129,
+            "wins": 5,
             "losses": 1,
-            "total": 5
+            "total": 6
         },
         "1450307044308684801": {
             "name": "juniorcruz18",
@@ -2285,9 +2285,16 @@
             ],
             "callA": "1487904714203992264",
             "callV": "1487904713067204729",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1093602651247235123": 29,
+                "1373452119339700310": 30,
+                "1330627076335730698": 29,
+                "732342369646805071": 18
+            }
         }
     ],
     "lastMatchId": 602
