@@ -2627,7 +2627,24 @@
             "status": "PROGRESS",
             "format": "3v3",
             "link": "https://www.roblox.com/share?code=ffe454ad8d35d24c8a17f22e92fd3926&type=Server"
+        },
+        {
+            "id": 562,
+            "host_id": "1096575432171733083",
+            "blue": [
+                "1312137225840103484",
+                "1333521290258157699"
+            ],
+            "red": [
+                "1096575432171733083",
+                "1310061003815522315"
+            ],
+            "callA": "1487613678865092638",
+            "callV": "1487613677430378498",
+            "status": "PROGRESS",
+            "format": "2v2",
+            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server"
         }
     ],
-    "lastMatchId": 561
+    "lastMatchId": 562
 }
