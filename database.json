@@ -554,10 +554,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 84,
+            "trophies": 67,
             "wins": 17,
-            "losses": 23,
-            "total": 40,
+            "losses": 24,
+            "total": 41,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -569,10 +569,10 @@
         },
         "903660821480087634": {
             "username": "ghost_011_.",
-            "trophies": 45,
-            "wins": 10,
+            "trophies": 75,
+            "wins": 11,
             "losses": 33,
-            "total": 43,
+            "total": 44,
             "name": "ghost_011_."
         },
         "1108579072776339527": {
@@ -758,10 +758,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 168,
-            "wins": 19,
+            "trophies": 196,
+            "wins": 20,
             "losses": 18,
-            "total": 37,
+            "total": 38,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -1202,10 +1202,10 @@
         },
         "1482368113440981055": {
             "name": "ess1q",
-            "trophies": 364,
-            "wins": 19,
+            "trophies": 388,
+            "wins": 20,
             "losses": 10,
-            "total": 29
+            "total": 30
         },
         "1211119779000229979": {
             "name": "igormrsr",
@@ -1237,10 +1237,10 @@
         },
         "1390362450158682265": {
             "name": "swamp_x",
-            "trophies": 134,
+            "trophies": 116,
             "wins": 9,
-            "losses": 14,
-            "total": 23
+            "losses": 15,
+            "total": 24
         },
         "1315786574809792686": {
             "name": "jesse07396",
@@ -1510,10 +1510,10 @@
         },
         "1432145336448848025": {
             "name": "1gamer_x",
-            "trophies": 100,
+            "trophies": 83,
             "wins": 4,
-            "losses": 1,
-            "total": 5
+            "losses": 2,
+            "total": 6
         },
         "1382145777039708322": {
             "name": "joaozindo02",
@@ -2624,9 +2624,18 @@
             ],
             "callA": "1487611910869352481",
             "callV": "1487611909535567943",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=ffe454ad8d35d24c8a17f22e92fd3926&type=Server"
+            "link": "https://www.roblox.com/share?code=ffe454ad8d35d24c8a17f22e92fd3926&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1013439896960118855": 28,
+                "903660821480087634": 30,
+                "1482368113440981055": 24,
+                "1390362450158682265": 18,
+                "1432145336448848025": 17,
+                "1473375361592197316": 17
+            }
         },
         {
             "id": 562,
