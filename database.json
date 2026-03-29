@@ -157,8 +157,8 @@
         "1165278410973659206": {
             "trophies": 0,
             "wins": 2,
-            "losses": 5,
-            "total": 7,
+            "losses": 6,
+            "total": 8,
             "name": "jpcriabjj"
         },
         "1240482486895771770": {
@@ -523,10 +523,10 @@
         },
         "1398369747074285659": {
             "username": "ronaldooo__",
-            "trophies": 57,
-            "wins": 3,
+            "trophies": 87,
+            "wins": 4,
             "losses": 2,
-            "total": 5,
+            "total": 6,
             "name": "u67yy"
         },
         "699991560087142403": {
@@ -554,10 +554,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 67,
-            "wins": 17,
+            "trophies": 96,
+            "wins": 18,
             "losses": 24,
-            "total": 41,
+            "total": 42,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -1090,10 +1090,10 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 219,
+            "trophies": 198,
             "wins": 9,
-            "losses": 3,
-            "total": 12
+            "losses": 4,
+            "total": 13
         },
         "830129717771370506": {
             "name": "toast_jota",
@@ -1202,10 +1202,10 @@
         },
         "1482368113440981055": {
             "name": "ess1q",
-            "trophies": 362,
-            "wins": 20,
+            "trophies": 386,
+            "wins": 21,
             "losses": 11,
-            "total": 31
+            "total": 32
         },
         "1211119779000229979": {
             "name": "igormrsr",
@@ -1237,10 +1237,10 @@
         },
         "1390362450158682265": {
             "name": "swamp_x",
-            "trophies": 98,
+            "trophies": 81,
             "wins": 9,
-            "losses": 16,
-            "total": 25
+            "losses": 17,
+            "total": 26
         },
         "1315786574809792686": {
             "name": "jesse07396",
@@ -1489,10 +1489,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 183,
-            "wins": 7,
+            "trophies": 210,
+            "wins": 8,
             "losses": 4,
-            "total": 11
+            "total": 12
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1503,10 +1503,10 @@
         },
         "1312137225840103484": {
             "name": "pedrin441.",
-            "trophies": 75,
+            "trophies": 58,
             "wins": 5,
-            "losses": 5,
-            "total": 10
+            "losses": 6,
+            "total": 11
         },
         "1432145336448848025": {
             "name": "1gamer_x",
@@ -2787,9 +2787,20 @@
             ],
             "callA": "1487637616982626435",
             "callV": "1487637615824998583",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "4v4",
-            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server"
+            "link": "https://www.roblox.com/share?code=dd42b053a2fe3147af26a67cd2096f13&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1473375361592197316": 29,
+                "1398369747074285659": 30,
+                "1482368113440981055": 24,
+                "1096575432171733083": 27,
+                "1312137225840103484": 17,
+                "1165278410973659206": 15,
+                "785581845084373012": 21,
+                "1390362450158682265": 17
+            }
         }
     ],
     "lastMatchId": 567
