@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 131,
+            "trophies": 113,
             "wins": 34,
-            "losses": 51,
-            "total": 85,
+            "losses": 52,
+            "total": 86,
             "name": "teozin",
             "username": "teozin"
         },
@@ -846,10 +846,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 380,
-            "wins": 24,
+            "trophies": 404,
+            "wins": 25,
             "losses": 20,
-            "total": 44
+            "total": 45
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1478,8 +1478,8 @@
             "name": "batatag0d",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "411916947773587456": {
             "name": "Jockie Music",
@@ -1490,10 +1490,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 222,
-            "wins": 10,
+            "trophies": 249,
+            "wins": 11,
             "losses": 6,
-            "total": 16
+            "total": 17
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1615,9 +1615,16 @@
             ],
             "callA": "1487806505385459724",
             "callV": "1487806504752124097",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1259170361073729638": 24,
+                "1096575432171733083": 27,
+                "1036409238228045905": 15,
+                "732342369646805071": 18
+            }
         }
     ],
     "lastMatchId": 576
