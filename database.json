@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 104,
-            "wins": 38,
+            "trophies": 133,
+            "wins": 39,
             "losses": 59,
-            "total": 97,
+            "total": 98,
             "name": "teozin",
             "username": "teozin"
         },
@@ -412,10 +412,10 @@
             "name": "vitorjaime."
         },
         "1189987800129491069": {
-            "trophies": 191,
+            "trophies": 171,
             "wins": 8,
-            "losses": 2,
-            "total": 10,
+            "losses": 3,
+            "total": 11,
             "username": "psir_white_04700",
             "name": "psir_white_04700"
         },
@@ -554,10 +554,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 139,
+            "trophies": 121,
             "wins": 23,
-            "losses": 30,
-            "total": 53,
+            "losses": 31,
+            "total": 54,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -584,10 +584,10 @@
         },
         "1373452119339700310": {
             "username": "silva_______gs",
-            "trophies": 168,
-            "wins": 9,
+            "trophies": 196,
+            "wins": 10,
             "losses": 8,
-            "total": 17,
+            "total": 18,
             "name": "silva_______gs"
         },
         "1272407742757212230": {
@@ -681,10 +681,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 236,
+            "trophies": 215,
             "wins": 16,
-            "losses": 12,
-            "total": 28,
+            "losses": 13,
+            "total": 29,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -720,10 +720,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 524,
-            "wins": 17,
+            "trophies": 546,
+            "wins": 18,
             "losses": 3,
-            "total": 20,
+            "total": 21,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -846,10 +846,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 374,
-            "wins": 27,
+            "trophies": 398,
+            "wins": 28,
             "losses": 23,
-            "total": 50
+            "total": 51
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1168,10 +1168,10 @@
         },
         "922658381427277836": {
             "name": "h4skas",
-            "trophies": 144,
+            "trophies": 125,
             "wins": 10,
-            "losses": 14,
-            "total": 24
+            "losses": 15,
+            "total": 25
         },
         "991418578312118324": {
             "name": "capivar1nhas",
@@ -1238,10 +1238,10 @@
         },
         "1390362450158682265": {
             "name": "swamp_x",
-            "trophies": 238,
-            "wins": 16,
+            "trophies": 265,
+            "wins": 17,
             "losses": 19,
-            "total": 35
+            "total": 36
         },
         "1315786574809792686": {
             "name": "PITTER",
@@ -1252,10 +1252,10 @@
         },
         "729038915729883146": {
             "name": "zeltax._.",
-            "trophies": 89,
+            "trophies": 72,
             "wins": 3,
-            "losses": 0,
-            "total": 3
+            "losses": 1,
+            "total": 4
         },
         "1481841797893459988": {
             "name": "nobodycaresaboutme",
@@ -3105,9 +3105,22 @@
             ],
             "callA": "1488253775218085928",
             "callV": "1488253774098337853",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "940013192900407346": 22,
+                "1259170361073729638": 24,
+                "1373452119339700310": 28,
+                "1390362450158682265": 27,
+                "732342369646805071": 29,
+                "1473375361592197316": 18,
+                "922658381427277836": 19,
+                "1137580616821522462": 21,
+                "729038915729883146": 17,
+                "1189987800129491069": 20
+            }
         },
         {
             "id": 629,
