@@ -15,10 +15,10 @@
             "username": "teozin"
         },
         "1475326912271487036": {
-            "trophies": 197,
+            "trophies": 177,
             "wins": 10,
-            "losses": 5,
-            "total": 15,
+            "losses": 6,
+            "total": 16,
             "name": "l0x_m",
             "username": "l0mx"
         },
@@ -46,10 +46,10 @@
             "name": ".hagna_"
         },
         "1330627076335730698": {
-            "trophies": 536,
-            "wins": 41,
+            "trophies": 558,
+            "wins": 42,
             "losses": 24,
-            "total": 65,
+            "total": 66,
             "username": "henrique050200",
             "name": "henrique050200"
         },
@@ -515,10 +515,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 325,
-            "wins": 18,
+            "trophies": 350,
+            "wins": 19,
             "losses": 12,
-            "total": 30,
+            "total": 31,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -681,10 +681,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 182,
+            "trophies": 162,
             "wins": 17,
-            "losses": 16,
-            "total": 33,
+            "losses": 17,
+            "total": 34,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -1224,17 +1224,17 @@
         },
         "1362462226383896667": {
             "name": "quadrilhao",
-            "trophies": 31,
-            "wins": 6,
+            "trophies": 61,
+            "wins": 7,
             "losses": 9,
-            "total": 15
+            "total": 16
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 11,
-            "losses": 25,
-            "total": 36
+            "losses": 26,
+            "total": 37
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -1343,10 +1343,10 @@
         },
         "1346293421374967868": {
             "name": "bed4v",
-            "trophies": 60,
+            "trophies": 44,
             "wins": 2,
-            "losses": 4,
-            "total": 6
+            "losses": 5,
+            "total": 7
         },
         "1082336256714874970": {
             "name": "e6xl",
@@ -1371,10 +1371,10 @@
         },
         "1485380542173024378": {
             "name": "a2.g4",
-            "trophies": 45,
-            "wins": 2,
+            "trophies": 75,
+            "wins": 3,
             "losses": 5,
-            "total": 7
+            "total": 8
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -1490,10 +1490,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 337,
+            "trophies": 313,
             "wins": 16,
-            "losses": 8,
-            "total": 24
+            "losses": 9,
+            "total": 25
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1553,10 +1553,10 @@
         },
         "1256062566463967252": {
             "name": "pozepoze",
-            "trophies": 197,
-            "wins": 9,
+            "trophies": 224,
+            "wins": 10,
             "losses": 4,
-            "total": 13
+            "total": 14
         },
         "1394677327031570484": {
             "name": "leandro060214",
@@ -3699,9 +3699,22 @@
             ],
             "callA": "1488313758374694923",
             "callV": "1488313757187834018",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=51756d0d95f30343b3817a5f089621c9&type=Server"
+            "link": "https://www.roblox.com/share?code=51756d0d95f30343b3817a5f089621c9&type=Server",
+            "winner": "red",
+            "registry": {
+                "1305010388814921728": 25,
+                "1256062566463967252": 27,
+                "1330627076335730698": 22,
+                "1485380542173024378": 30,
+                "1362462226383896667": 30,
+                "1110902556059779113": 15,
+                "1137580616821522462": 20,
+                "1346293421374967868": 16,
+                "1475326912271487036": 20,
+                "1096575432171733083": 24
+            }
         }
     ],
     "lastMatchId": 649
