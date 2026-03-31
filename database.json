@@ -515,10 +515,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 399,
-            "wins": 22,
+            "trophies": 423,
+            "wins": 23,
             "losses": 13,
-            "total": 35,
+            "total": 36,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -847,10 +847,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 491,
+            "trophies": 462,
             "wins": 32,
-            "losses": 23,
-            "total": 55
+            "losses": 24,
+            "total": 56
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1372,10 +1372,10 @@
         },
         "1485380542173024378": {
             "name": "3gw3",
-            "trophies": 189,
-            "wins": 7,
+            "trophies": 216,
+            "wins": 8,
             "losses": 5,
-            "total": 12
+            "total": 13
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -1421,10 +1421,10 @@
         },
         "879461847030456320": {
             "name": "ylimitlessyk",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 1,
-            "total": 2
+            "total": 3
         },
         "1269451010406092840": {
             "name": "rafa042370",
@@ -1519,10 +1519,10 @@
         },
         "1382145777039708322": {
             "name": "joaozindo02",
-            "trophies": 152,
+            "trophies": 133,
             "wins": 8,
-            "losses": 4,
-            "total": 12
+            "losses": 5,
+            "total": 13
         },
         "1412627497228570624": {
             "name": "pedrin032786",
@@ -1554,10 +1554,10 @@
         },
         "1256062566463967252": {
             "name": "pozepoze",
-            "trophies": 223,
+            "trophies": 202,
             "wins": 14,
-            "losses": 9,
-            "total": 23
+            "losses": 10,
+            "total": 24
         },
         "1394677327031570484": {
             "name": "leandro060214",
@@ -4629,9 +4629,18 @@
             ],
             "callA": "1488655475099832350",
             "callV": "1488655474185211964",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=6bf5223d12b2bf409c733525298ab591&type=Server"
+            "link": "https://www.roblox.com/share?code=6bf5223d12b2bf409c733525298ab591&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1485380542173024378": 27,
+                "879461847030456320": 30,
+                "1305010388814921728": 24,
+                "1382145777039708322": 19,
+                "1259170361073729638": 29,
+                "1256062566463967252": 21
+            }
         },
         {
             "id": 685,
