@@ -507,10 +507,10 @@
         },
         "1217212236854984844": {
             "username": "bntzx_021",
-            "trophies": 28,
-            "wins": 6,
+            "trophies": 58,
+            "wins": 7,
             "losses": 12,
-            "total": 18,
+            "total": 19,
             "name": "777_arcano"
         },
         "1305010388814921728": {
@@ -840,10 +840,10 @@
         },
         "1466230442398322870": {
             "name": "tencegames",
-            "trophies": 140,
-            "wins": 10,
+            "trophies": 168,
+            "wins": 11,
             "losses": 13,
-            "total": 23
+            "total": 24
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
@@ -1169,10 +1169,10 @@
         },
         "922658381427277836": {
             "name": "h4skas",
-            "trophies": 137,
+            "trophies": 119,
             "wins": 13,
-            "losses": 19,
-            "total": 32
+            "losses": 20,
+            "total": 33
         },
         "991418578312118324": {
             "name": "capivar1nhas",
@@ -1232,10 +1232,10 @@
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 89,
+            "trophies": 72,
             "wins": 14,
-            "losses": 28,
-            "total": 42
+            "losses": 29,
+            "total": 43
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -4407,9 +4407,16 @@
             ],
             "callA": "1488624775621513348",
             "callV": "1488624774316953813",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1217212236854984844": 30,
+                "1466230442398322870": 28,
+                "1110902556059779113": 17,
+                "922658381427277836": 18
+            }
         },
         {
             "id": 676,
