@@ -184,10 +184,10 @@
             "name": "q7vxd"
         },
         "1124049997260935271": {
-            "trophies": 60,
-            "wins": 3,
+            "trophies": 89,
+            "wins": 4,
             "losses": 3,
-            "total": 6,
+            "total": 7,
             "name": "coonics"
         },
         "1262164456213970986": {
@@ -412,10 +412,10 @@
             "name": "vitorjaime."
         },
         "1189987800129491069": {
-            "trophies": 179,
+            "trophies": 159,
             "wins": 9,
-            "losses": 4,
-            "total": 13,
+            "losses": 5,
+            "total": 14,
             "username": "psir_white_04700",
             "name": "psir_white_04700"
         },
@@ -721,10 +721,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 567,
-            "wins": 19,
+            "trophies": 588,
+            "wins": 20,
             "losses": 3,
-            "total": 22,
+            "total": 23,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -759,10 +759,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 128,
+            "trophies": 110,
             "wins": 24,
-            "losses": 27,
-            "total": 51,
+            "losses": 28,
+            "total": 52,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -1232,10 +1232,10 @@
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 29,
-            "wins": 12,
+            "trophies": 59,
+            "wins": 13,
             "losses": 28,
-            "total": 40
+            "total": 41
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -1491,10 +1491,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 363,
+            "trophies": 338,
             "wins": 18,
-            "losses": 9,
-            "total": 27
+            "losses": 10,
+            "total": 28
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -4248,9 +4248,18 @@
             ],
             "callA": "1488606462770151557",
             "callV": "1488606461453013032",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "blue",
+            "registry": {
+                "940013192900407346": 21,
+                "1124049997260935271": 29,
+                "1110902556059779113": 30,
+                "1189987800129491069": 20,
+                "1013439896960118855": 18,
+                "1096575432171733083": 25
+            }
         },
         {
             "id": 670,
