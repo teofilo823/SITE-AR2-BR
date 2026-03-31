@@ -197,10 +197,10 @@
             "total": 1
         },
         "544965924961386507": {
-            "trophies": 343,
-            "wins": 20,
+            "trophies": 368,
+            "wins": 21,
             "losses": 14,
-            "total": 34,
+            "total": 35,
             "username": "mirafiada",
             "name": "mirafiada"
         },
@@ -326,17 +326,17 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 90,
+            "trophies": 73,
             "wins": 16,
-            "losses": 28,
-            "total": 44,
+            "losses": 29,
+            "total": 45,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
-            "trophies": 54,
-            "wins": 4,
+            "trophies": 84,
+            "wins": 5,
             "losses": 4,
-            "total": 8,
+            "total": 9,
             "name": "naosei5449"
         },
         "1451306598646681661": {
@@ -682,10 +682,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 160,
-            "wins": 19,
+            "trophies": 188,
+            "wins": 20,
             "losses": 20,
-            "total": 39,
+            "total": 40,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -1351,10 +1351,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 226,
-            "wins": 12,
+            "trophies": 253,
+            "wins": 13,
             "losses": 6,
-            "total": 18
+            "total": 19
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -1491,10 +1491,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 314,
+            "trophies": 291,
             "wins": 18,
-            "losses": 11,
-            "total": 29
+            "losses": 12,
+            "total": 30
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1654,8 +1654,8 @@
             "name": "rafablzx",
             "trophies": 0,
             "wins": 0,
-            "losses": 2,
-            "total": 2
+            "losses": 3,
+            "total": 3
         },
         "393414080725123074": {
             "name": "0bey0",
@@ -1675,8 +1675,8 @@
             "name": "matheus_pcd01_14561",
             "trophies": 0,
             "wins": 0,
-            "losses": 3,
-            "total": 3
+            "losses": 4,
+            "total": 4
         }
     },
     "matches": [
@@ -4650,9 +4650,20 @@
             ],
             "callA": "1488657143925313608",
             "callV": "1488657142457172020",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "4v4",
-            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server",
+            "winner": "red",
+            "registry": {
+                "544965924961386507": 25,
+                "809021436828188723": 30,
+                "1082336256714874970": 27,
+                "1137580616821522462": 28,
+                "1479145095096963133": 15,
+                "1096575432171733083": 23,
+                "1019162124175552523": 17,
+                "490200034684567552": 15
+            }
         }
     ],
     "lastMatchId": 685
