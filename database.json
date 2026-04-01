@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 168,
+            "trophies": 149,
             "wins": 43,
-            "losses": 63,
-            "total": 106,
+            "losses": 64,
+            "total": 107,
             "name": "teozin",
             "username": "teozin"
         },
@@ -40,8 +40,8 @@
         "1419323801170214932": {
             "trophies": 0,
             "wins": 2,
-            "losses": 6,
-            "total": 8,
+            "losses": 7,
+            "total": 9,
             "username": ".hagna_",
             "name": ".hagna_"
         },
@@ -721,10 +721,10 @@
         },
         "940013192900407346": {
             "username": "simplexx5175",
-            "trophies": 527,
-            "wins": 20,
+            "trophies": 549,
+            "wins": 21,
             "losses": 5,
-            "total": 25,
+            "total": 26,
             "name": "simplexx5175"
         },
         "1204480072766066741": {
@@ -847,10 +847,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 381,
-            "wins": 32,
+            "trophies": 405,
+            "wins": 33,
             "losses": 27,
-            "total": 59
+            "total": 60
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -2638,9 +2638,16 @@
             ],
             "callA": "1488963592144289974",
             "callV": "1488963590122766438",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1259170361073729638": 24,
+                "940013192900407346": 22,
+                "1419323801170214932": 15,
+                "732342369646805071": 19
+            }
         }
     ],
     "lastMatchId": 716
