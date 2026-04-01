@@ -327,10 +327,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 125,
+            "trophies": 107,
             "wins": 19,
-            "losses": 31,
-            "total": 50,
+            "losses": 32,
+            "total": 51,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -516,10 +516,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 469,
-            "wins": 25,
+            "trophies": 492,
+            "wins": 26,
             "losses": 13,
-            "total": 38,
+            "total": 39,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -1093,10 +1093,10 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 192,
-            "wins": 13,
+            "trophies": 219,
+            "wins": 14,
             "losses": 10,
-            "total": 23
+            "total": 24
         },
         "830129717771370506": {
             "name": "toast_jota",
@@ -1352,10 +1352,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 467,
-            "wins": 19,
+            "trophies": 490,
+            "wins": 20,
             "losses": 9,
-            "total": 28
+            "total": 29
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -1492,10 +1492,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 368,
+            "trophies": 343,
             "wins": 22,
-            "losses": 13,
-            "total": 35
+            "losses": 14,
+            "total": 36
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1674,10 +1674,10 @@
         },
         "1479145095096963133": {
             "name": "matheus_pcd01_14561",
-            "trophies": 44,
+            "trophies": 28,
             "wins": 2,
-            "losses": 7,
-            "total": 9
+            "losses": 8,
+            "total": 10
         },
         "1366932005786357791": {
             "name": "354_8901._49539",
@@ -2912,9 +2912,18 @@
             ],
             "callA": "1489005084502261791",
             "callV": "1489005081914507365",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=bfcdb51c3d08a8468dbdcf4cdeef1fda&type=Server"
+            "link": "https://www.roblox.com/share?code=bfcdb51c3d08a8468dbdcf4cdeef1fda&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1082336256714874970": 23,
+                "785581845084373012": 27,
+                "1305010388814921728": 23,
+                "1479145095096963133": 16,
+                "1019162124175552523": 18,
+                "1096575432171733083": 25
+            }
         }
     ],
     "lastMatchId": 725
