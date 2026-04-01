@@ -7,10 +7,10 @@
             "total": 1
         },
         "732342369646805071": {
-            "trophies": 181,
-            "wins": 42,
+            "trophies": 208,
+            "wins": 43,
             "losses": 61,
-            "total": 103,
+            "total": 104,
             "name": "teozin",
             "username": "teozin"
         },
@@ -326,10 +326,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 102,
+            "trophies": 85,
             "wins": 17,
-            "losses": 29,
-            "total": 46,
+            "losses": 30,
+            "total": 47,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -428,10 +428,10 @@
             "name": "luishenrique_1912"
         },
         "748889958076645466": {
-            "trophies": 212,
+            "trophies": 191,
             "wins": 16,
-            "losses": 16,
-            "total": 32,
+            "losses": 17,
+            "total": 33,
             "username": "lucas2131",
             "name": "lucas2131"
         },
@@ -1043,10 +1043,10 @@
         },
         "1451381811509723234": {
             "name": "jeremybeyondreality",
-            "trophies": 270,
-            "wins": 14,
+            "trophies": 296,
+            "wins": 15,
             "losses": 6,
-            "total": 20
+            "total": 21
         },
         "1477350415036059930": {
             "name": "esquizoo7",
@@ -1099,10 +1099,10 @@
         },
         "830129717771370506": {
             "name": "toast_jota",
-            "trophies": 321,
+            "trophies": 297,
             "wins": 18,
-            "losses": 10,
-            "total": 28
+            "losses": 11,
+            "total": 29
         },
         "1312810290571771925": {
             "name": "bryx.15",
@@ -1169,10 +1169,10 @@
         },
         "922658381427277836": {
             "name": "h4skas",
-            "trophies": 84,
+            "trophies": 67,
             "wins": 13,
-            "losses": 22,
-            "total": 35
+            "losses": 23,
+            "total": 36
         },
         "991418578312118324": {
             "name": "capivar1nhas",
@@ -1351,10 +1351,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 305,
-            "wins": 15,
+            "trophies": 330,
+            "wins": 16,
             "losses": 6,
-            "total": 21
+            "total": 22
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -1372,10 +1372,10 @@
         },
         "1485380542173024378": {
             "name": "3gw3",
-            "trophies": 243,
-            "wins": 9,
+            "trophies": 269,
+            "wins": 10,
             "losses": 5,
-            "total": 14
+            "total": 15
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -1491,10 +1491,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 342,
+            "trophies": 318,
             "wins": 20,
-            "losses": 12,
-            "total": 32
+            "losses": 13,
+            "total": 33
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1673,10 +1673,10 @@
         },
         "1479145095096963133": {
             "name": "matheus_pcd01_14561",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 6,
-            "total": 6
+            "total": 7
         }
     },
     "matches": [
@@ -2056,9 +2056,22 @@
             ],
             "callA": "1488682123454844958",
             "callV": "1488682122267857010",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server"
+            "link": "https://www.roblox.com/share?code=4fbe715c45988f48b784e274d0a15af2&type=Server",
+            "winner": "blue",
+            "registry": {
+                "732342369646805071": 27,
+                "1479145095096963133": 30,
+                "1451381811509723234": 26,
+                "1082336256714874970": 25,
+                "1485380542173024378": 26,
+                "922658381427277836": 17,
+                "1019162124175552523": 17,
+                "830129717771370506": 24,
+                "748889958076645466": 21,
+                "1096575432171733083": 24
+            }
         },
         {
             "id": 696,
