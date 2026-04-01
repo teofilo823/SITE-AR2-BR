@@ -1073,8 +1073,8 @@
             "name": "japasimp",
             "trophies": 0,
             "wins": 1,
-            "losses": 14,
-            "total": 15
+            "losses": 15,
+            "total": 16
         },
         "1413871606811459644": {
             "name": "silvax255",
@@ -1113,10 +1113,10 @@
         },
         "1123371818095485019": {
             "name": "arcanosos",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 1,
-            "total": 3
+            "total": 4
         },
         "1326922891232546826": {
             "name": "ian008687",
@@ -1225,17 +1225,17 @@
         },
         "1362462226383896667": {
             "name": "quadrilhao",
-            "trophies": 148,
+            "trophies": 129,
             "wins": 10,
-            "losses": 9,
-            "total": 19
+            "losses": 10,
+            "total": 20
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 85,
-            "wins": 15,
+            "trophies": 114,
+            "wins": 16,
             "losses": 30,
-            "total": 45
+            "total": 46
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -1295,10 +1295,10 @@
         },
         "936647895409631283": {
             "name": "4s40",
-            "trophies": 70,
-            "wins": 5,
+            "trophies": 99,
+            "wins": 6,
             "losses": 5,
-            "total": 10
+            "total": 11
         },
         "1093602651247235123": {
             "name": "no_lovesx",
@@ -1372,10 +1372,10 @@
         },
         "1485380542173024378": {
             "name": "3gw3",
-            "trophies": 247,
+            "trophies": 225,
             "wins": 10,
-            "losses": 6,
-            "total": 16
+            "losses": 7,
+            "total": 17
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -2355,9 +2355,18 @@
             ],
             "callA": "1488883082109911141",
             "callV": "1488883080901955585",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "red",
+            "registry": {
+                "1123371818095485019": 29,
+                "936647895409631283": 29,
+                "1110902556059779113": 29,
+                "1485380542173024378": 22,
+                "1479206895112683734": 15,
+                "1362462226383896667": 19
+            }
         }
     ],
     "lastMatchId": 706
