@@ -848,10 +848,10 @@
         },
         "1259170361073729638": {
             "name": "lucasrap201395",
-            "trophies": 424,
-            "wins": 36,
+            "trophies": 447,
+            "wins": 37,
             "losses": 29,
-            "total": 65
+            "total": 66
         },
         "514574279405207554": {
             "name": "limaxsxd",
@@ -1072,10 +1072,10 @@
         },
         "1479206895112683734": {
             "name": "japasimp",
-            "trophies": 0,
-            "wins": 2,
+            "trophies": 30,
+            "wins": 3,
             "losses": 18,
-            "total": 20
+            "total": 21
         },
         "1413871606811459644": {
             "name": "silvax255",
@@ -1226,17 +1226,17 @@
         },
         "1362462226383896667": {
             "name": "quadrilhao",
-            "trophies": 149,
+            "trophies": 130,
             "wins": 12,
-            "losses": 12,
-            "total": 24
+            "losses": 13,
+            "total": 25
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 160,
+            "trophies": 141,
             "wins": 19,
-            "losses": 32,
-            "total": 51
+            "losses": 33,
+            "total": 52
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -1296,10 +1296,10 @@
         },
         "936647895409631283": {
             "name": "4s40",
-            "trophies": 164,
-            "wins": 9,
+            "trophies": 192,
+            "wins": 10,
             "losses": 6,
-            "total": 15
+            "total": 16
         },
         "1093602651247235123": {
             "name": "no_lovesx",
@@ -1373,10 +1373,10 @@
         },
         "1485380542173024378": {
             "name": "3gw3",
-            "trophies": 224,
+            "trophies": 203,
             "wins": 13,
-            "losses": 11,
-            "total": 24
+            "losses": 12,
+            "total": 25
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -3447,9 +3447,18 @@
             ],
             "callA": "1489258536079724556",
             "callV": "1489258535517950154",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1259170361073729638": 23,
+                "1479206895112683734": 30,
+                "936647895409631283": 28,
+                "1485380542173024378": 21,
+                "1362462226383896667": 19,
+                "1110902556059779113": 19
+            }
         }
     ],
     "lastMatchId": 744
