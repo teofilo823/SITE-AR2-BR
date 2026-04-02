@@ -327,10 +327,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 107,
+            "trophies": 89,
             "wins": 19,
-            "losses": 32,
-            "total": 51,
+            "losses": 33,
+            "total": 52,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -1352,10 +1352,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 611,
-            "wins": 27,
+            "trophies": 631,
+            "wins": 28,
             "losses": 10,
-            "total": 37
+            "total": 38
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -3372,9 +3372,14 @@
             ],
             "callA": "1489091674239008980",
             "callV": "1489091672691445890",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=74c6087ca63a1a41b0f1c788bd8aaf80&type=Server"
+            "link": "https://www.roblox.com/share?code=74c6087ca63a1a41b0f1c788bd8aaf80&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1082336256714874970": 20,
+                "1019162124175552523": 18
+            }
         }
     ],
     "lastMatchId": 741
