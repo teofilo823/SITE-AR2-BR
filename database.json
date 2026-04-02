@@ -683,10 +683,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 266,
+            "trophies": 244,
             "wins": 25,
-            "losses": 23,
-            "total": 48,
+            "losses": 24,
+            "total": 49,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -1352,10 +1352,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 569,
-            "wins": 25,
+            "trophies": 590,
+            "wins": 26,
             "losses": 10,
-            "total": 35
+            "total": 36
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -3332,9 +3332,14 @@
             ],
             "callA": "1489086714780848248",
             "callV": "1489086713715490886",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=74c6087ca63a1a41b0f1c788bd8aaf80&type=Server"
+            "link": "https://www.roblox.com/share?code=74c6087ca63a1a41b0f1c788bd8aaf80&type=Server",
+            "winner": "red",
+            "registry": {
+                "1082336256714874970": 21,
+                "1137580616821522462": 22
+            }
         }
     ],
     "lastMatchId": 739
