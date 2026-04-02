@@ -10,8 +10,8 @@
         "732342369646805071": {
             "trophies": 186,
             "wins": 45,
-            "losses": 66,
-            "total": 111,
+            "losses": 65,
+            "total": 110,
             "name": "teozin",
             "username": "teozin"
         },
@@ -1319,9 +1319,9 @@
         "1475215578091360340": {
             "name": "mirfnecoo",
             "trophies": 30,
-            "wins": 2,
+            "wins": 1,
             "losses": 0,
-            "total": 2
+            "total": 1
         },
         "1452374786012483624": {
             "name": "azuma0.0",
@@ -3871,7 +3871,7 @@
             ],
             "callA": "1489371577911869490",
             "callV": "1489371577110757386",
-            "status": "FINISHED",
+            "status": "ANNULLED",
             "format": "1v1",
             "link": "teste x1",
             "winner": "red",
