@@ -683,10 +683,10 @@
         },
         "1137580616821522462": {
             "username": "alonex",
-            "trophies": 244,
+            "trophies": 223,
             "wins": 25,
-            "losses": 24,
-            "total": 49,
+            "losses": 25,
+            "total": 50,
             "name": "pikadejegue_"
         },
         "1474077257684222005": {
@@ -1352,10 +1352,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 590,
-            "wins": 26,
+            "trophies": 611,
+            "wins": 27,
             "losses": 10,
-            "total": 36
+            "total": 37
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -3352,9 +3352,14 @@
             ],
             "callA": "1489087643789693073",
             "callV": "1489087642837717014",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "#739"
+            "link": "#739",
+            "winner": "red",
+            "registry": {
+                "1082336256714874970": 21,
+                "1137580616821522462": 21
+            }
         }
     ],
     "lastMatchId": 740
