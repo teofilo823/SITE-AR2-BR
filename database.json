@@ -252,10 +252,10 @@
             "name": "zezinho4668"
         },
         "1312591419290157138": {
-            "trophies": 66,
-            "wins": 4,
+            "trophies": 95,
+            "wins": 5,
             "losses": 4,
-            "total": 8,
+            "total": 9,
             "username": "munizxxxxxx",
             "name": "munizxxxxxx"
         },
@@ -327,10 +327,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 113,
+            "trophies": 95,
             "wins": 21,
-            "losses": 35,
-            "total": 56,
+            "losses": 36,
+            "total": 57,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -516,10 +516,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 558,
+            "trophies": 528,
             "wins": 29,
-            "losses": 13,
-            "total": 42,
+            "losses": 14,
+            "total": 43,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -556,10 +556,10 @@
         },
         "1473375361592197316": {
             "username": "riv_y2",
-            "trophies": 68,
-            "wins": 25,
+            "trophies": 97,
+            "wins": 26,
             "losses": 37,
-            "total": 62,
+            "total": 63,
             "name": "riv_y2"
         },
         "1145414700742492230": {
@@ -926,10 +926,10 @@
         },
         "1458584256224952320": {
             "name": "labareta2",
-            "trophies": 82,
+            "trophies": 65,
             "wins": 6,
-            "losses": 9,
-            "total": 15
+            "losses": 10,
+            "total": 16
         },
         "963508210902376538": {
             "name": "pzmn111_",
@@ -1038,10 +1038,10 @@
         },
         "1213528482630344795": {
             "name": "metexz_",
-            "trophies": 153,
-            "wins": 7,
+            "trophies": 181,
+            "wins": 8,
             "losses": 4,
-            "total": 11
+            "total": 12
         },
         "1451381811509723234": {
             "name": "h5h8",
@@ -1234,10 +1234,10 @@
         },
         "1110902556059779113": {
             "name": "lh_1912.",
-            "trophies": 257,
+            "trophies": 235,
             "wins": 24,
-            "losses": 34,
-            "total": 58
+            "losses": 35,
+            "total": 59
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -1346,10 +1346,10 @@
         },
         "1346293421374967868": {
             "name": "bed4v",
-            "trophies": 71,
+            "trophies": 54,
             "wins": 4,
-            "losses": 7,
-            "total": 11
+            "losses": 8,
+            "total": 12
         },
         "1082336256714874970": {
             "name": "e6xl",
@@ -1458,10 +1458,10 @@
         },
         "1483229919856300176": {
             "name": "4grt",
-            "trophies": 37,
-            "wins": 7,
+            "trophies": 67,
+            "wins": 8,
             "losses": 12,
-            "total": 19
+            "total": 20
         },
         "1312972199753154623": {
             "name": "ywk4",
@@ -1675,10 +1675,10 @@
         },
         "1479145095096963133": {
             "name": "matheus_pcd01_14561",
-            "trophies": 72,
-            "wins": 4,
+            "trophies": 101,
+            "wins": 5,
             "losses": 9,
-            "total": 13
+            "total": 14
         },
         "1366932005786357791": {
             "name": "354_8901._49539",
@@ -3753,9 +3753,22 @@
             ],
             "callA": "1489312450695135384",
             "callV": "1489312449780908282",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "red",
+            "registry": {
+                "1312591419290157138": 29,
+                "1213528482630344795": 28,
+                "1473375361592197316": 29,
+                "1483229919856300176": 30,
+                "1479145095096963133": 29,
+                "1019162124175552523": 18,
+                "1458584256224952320": 17,
+                "1305010388814921728": 30,
+                "1346293421374967868": 17,
+                "1110902556059779113": 22
+            }
         }
     ],
     "lastMatchId": 755
