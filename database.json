@@ -429,10 +429,10 @@
             "name": "luishenrique_1912"
         },
         "748889958076645466": {
-            "trophies": 157,
-            "wins": 19,
+            "trophies": 129,
+            "wins": 18,
             "losses": 23,
-            "total": 42,
+            "total": 41,
             "username": "lucas2131",
             "name": "lucas2131"
         },
@@ -463,10 +463,10 @@
             "total": 4
         },
         "966497250253631558": {
-            "trophies": 96,
+            "trophies": 114,
             "wins": 9,
-            "losses": 19,
-            "total": 28,
+            "losses": 18,
+            "total": 27,
             "username": "im_alice__0",
             "name": "im_alice__0"
         },
@@ -540,10 +540,10 @@
         },
         "1323071801961480212": {
             "username": "laladulol0779_06770",
-            "trophies": 104,
-            "wins": 4,
+            "trophies": 75,
+            "wins": 3,
             "losses": 1,
-            "total": 5,
+            "total": 4,
             "name": "laladulol0779_06770"
         },
         "930458191911845909": {
@@ -1038,17 +1038,17 @@
         },
         "1213528482630344795": {
             "name": "metexz_",
-            "trophies": 81,
+            "trophies": 98,
             "wins": 7,
-            "losses": 8,
-            "total": 15
+            "losses": 7,
+            "total": 14
         },
         "1451381811509723234": {
             "name": "h5h8",
-            "trophies": 308,
-            "wins": 19,
+            "trophies": 282,
+            "wins": 18,
             "losses": 10,
-            "total": 29
+            "total": 28
         },
         "1477350415036059930": {
             "name": "esquizoo7",
@@ -1493,10 +1493,10 @@
         },
         "1096575432171733083": {
             "name": "appointi",
-            "trophies": 321,
+            "trophies": 345,
             "wins": 24,
-            "losses": 17,
-            "total": 41
+            "losses": 16,
+            "total": 40
         },
         "532626350633386014": {
             "name": "kingloveher",
@@ -1556,10 +1556,10 @@
         },
         "1256062566463967252": {
             "name": "pozepoze",
-            "trophies": 281,
-            "wins": 21,
+            "trophies": 255,
+            "wins": 20,
             "losses": 15,
-            "total": 36
+            "total": 35
         },
         "1394677327031570484": {
             "name": "leandro060214",
@@ -1747,8 +1747,8 @@
             "name": "michelon__1",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 0,
+            "total": 0
         }
     },
     "matches": [
@@ -1928,21 +1928,31 @@
             ],
             "callA": "1489653788011659517",
             "callV": "1489653787088916652",
-            "status": "FINISHED",
+            "status": "PROGRESS",
             "format": "4v4",
-            "link": "https://www.roblox.com/share?code=bd70ab9ea5539b4d8cd7fb058f0e1b09&type=Server",
-            "winner": "blue",
-            "registry": {
-                "1256062566463967252": 26,
-                "1451381811509723234": 26,
-                "748889958076645466": 28,
-                "1323071801961480212": 29,
-                "966497250253631558": 18,
-                "1096575432171733083": 24,
-                "1213528482630344795": 17,
-                "1049468490999931021": 15
-            }
+            "link": "https://www.roblox.com/share?code=bd70ab9ea5539b4d8cd7fb058f0e1b09&type=Server"
+        },
+        {
+            "id": 792,
+            "host_id": "544965924961386507",
+            "blue": [
+                "544965924961386507",
+                "1213528482630344795",
+                "1323071801961480212",
+                "748889958076645466"
+            ],
+            "red": [
+                "1049468490999931021",
+                "1096575432171733083",
+                "1451381811509723234",
+                "1256062566463967252"
+            ],
+            "callA": "1489659891130830918",
+            "callV": "1489659890073862345",
+            "status": "PROGRESS",
+            "format": "4v4",
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
         }
     ],
-    "lastMatchId": 791
+    "lastMatchId": 792
 }
