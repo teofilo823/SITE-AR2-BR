@@ -199,9 +199,9 @@
         },
         "544965924961386507": {
             "trophies": 412,
-            "wins": 25,
+            "wins": 26,
             "losses": 16,
-            "total": 41,
+            "total": 42,
             "username": "mirafiada",
             "name": "mirafiada"
         },
@@ -1292,8 +1292,8 @@
             "name": "joca9023",
             "trophies": 134,
             "wins": 12,
-            "losses": 16,
-            "total": 28
+            "losses": 17,
+            "total": 29
         },
         "936647895409631283": {
             "name": "4s40",
@@ -4506,9 +4506,14 @@
             ],
             "callA": "1489594529890701323",
             "callV": "1489594528607375370",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server",
+            "winner": "blue",
+            "registry": {
+                "544965924961386507": 0,
+                "741802719748161676": 0
+            }
         }
     ],
     "lastMatchId": 782
