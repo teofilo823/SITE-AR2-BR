@@ -329,8 +329,8 @@
         "1019162124175552523": {
             "trophies": 142,
             "wins": 22,
-            "losses": 35,
-            "total": 57,
+            "losses": 36,
+            "total": 58,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -1235,9 +1235,9 @@
         "1110902556059779113": {
             "name": "lh_1912.",
             "trophies": 312,
-            "wins": 27,
+            "wins": 28,
             "losses": 35,
-            "total": 62
+            "total": 63
         },
         "1390362450158682265": {
             "name": "swamp_x",
@@ -2011,9 +2011,14 @@
             ],
             "callA": "1490107292652273824",
             "callV": "1490107291285061774",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server"
+            "link": "https://www.roblox.com/share?code=79cd501ceb94114ba870f21295f76213&type=Server",
+            "winner": "red",
+            "registry": {
+                "1110902556059779113": 0,
+                "1019162124175552523": 0
+            }
         }
     ],
     "lastMatchId": 822
