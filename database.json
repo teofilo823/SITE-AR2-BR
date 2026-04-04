@@ -16,10 +16,10 @@
             "username": "teozin"
         },
         "1475326912271487036": {
-            "trophies": 65,
+            "trophies": 49,
             "wins": 11,
-            "losses": 14,
-            "total": 25,
+            "losses": 15,
+            "total": 26,
             "name": "l0x_m",
             "username": "l0mx"
         },
@@ -1199,10 +1199,10 @@
         },
         "1410596543232217158": {
             "name": "pkbut",
-            "trophies": 378,
-            "wins": 14,
+            "trophies": 402,
+            "wins": 15,
             "losses": 6,
-            "total": 20
+            "total": 21
         },
         "1482368113440981055": {
             "name": "ess1q",
@@ -1346,17 +1346,17 @@
         },
         "1346293421374967868": {
             "name": "bed4v",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 7,
-            "losses": 15,
-            "total": 22
+            "losses": 16,
+            "total": 23
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 758,
-            "wins": 43,
+            "trophies": 776,
+            "wins": 44,
             "losses": 14,
-            "total": 57
+            "total": 58
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -1961,9 +1961,16 @@
             ],
             "callA": "1490081557002719302",
             "callV": "1490081555215945858",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=24cb9e0c63935d4d89496ee1d7fd3dbf&type=Server"
+            "link": "https://www.roblox.com/share?code=24cb9e0c63935d4d89496ee1d7fd3dbf&type=Server",
+            "winner": "red",
+            "registry": {
+                "1082336256714874970": 18,
+                "1410596543232217158": 24,
+                "1475326912271487036": 16,
+                "1346293421374967868": 15
+            }
         }
     ],
     "lastMatchId": 820
