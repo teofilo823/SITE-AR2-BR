@@ -10,8 +10,8 @@
         "732342369646805071": {
             "trophies": 261,
             "wins": 50,
-            "losses": 68,
-            "total": 118,
+            "losses": 69,
+            "total": 119,
             "name": "teozin",
             "username": "teozin"
         },
@@ -199,9 +199,9 @@
         },
         "544965924961386507": {
             "trophies": 528,
-            "wins": 35,
+            "wins": 36,
             "losses": 19,
-            "total": 54,
+            "total": 55,
             "username": "mirafiada",
             "name": "mirafiada"
         },
@@ -2547,9 +2547,14 @@
             ],
             "callA": "1489953338966413322",
             "callV": "1489953337939071167",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server",
+            "winner": "red",
+            "registry": {
+                "544965924961386507": 0,
+                "732342369646805071": 0
+            }
         }
     ],
     "lastMatchId": 812
