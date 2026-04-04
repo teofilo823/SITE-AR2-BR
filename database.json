@@ -16,10 +16,10 @@
             "username": "teozin"
         },
         "1475326912271487036": {
-            "trophies": 49,
-            "wins": 11,
+            "trophies": 79,
+            "wins": 12,
             "losses": 15,
-            "total": 26,
+            "total": 27,
             "name": "l0x_m",
             "username": "l0mx"
         },
@@ -136,10 +136,10 @@
             "total": 6
         },
         "698211510819749951": {
-            "trophies": 260,
+            "trophies": 238,
             "wins": 35,
-            "losses": 36,
-            "total": 71,
+            "losses": 37,
+            "total": 72,
             "username": "enzodetonauta",
             "name": "enzodetonauta"
         },
@@ -1199,10 +1199,10 @@
         },
         "1410596543232217158": {
             "name": "pkbut",
-            "trophies": 402,
+            "trophies": 376,
             "wins": 15,
-            "losses": 6,
-            "total": 21
+            "losses": 7,
+            "total": 22
         },
         "1482368113440981055": {
             "name": "ess1q",
@@ -1346,17 +1346,17 @@
         },
         "1346293421374967868": {
             "name": "bed4v",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 7,
-            "losses": 16,
-            "total": 23
+            "losses": 17,
+            "total": 24
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 776,
-            "wins": 44,
+            "trophies": 794,
+            "wins": 45,
             "losses": 14,
-            "total": 58
+            "total": 59
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -1731,10 +1731,10 @@
         },
         "677895881231564812": {
             "name": "thepolar22",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 1,
-            "total": 1
+            "total": 2
         },
         "1457380933026975744": {
             "name": "adiantaremos",
@@ -1987,9 +1987,18 @@
             ],
             "callA": "1490086514288234659",
             "callV": "1490086511973236947",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=24cb9e0c63935d4d89496ee1d7fd3dbf&type=Server"
+            "link": "https://www.roblox.com/share?code=24cb9e0c63935d4d89496ee1d7fd3dbf&type=Server",
+            "winner": "red",
+            "registry": {
+                "677895881231564812": 30,
+                "1082336256714874970": 18,
+                "1475326912271487036": 30,
+                "1346293421374967868": 15,
+                "698211510819749951": 22,
+                "1410596543232217158": 26
+            }
         }
     ],
     "lastMatchId": 821
