@@ -8,10 +8,10 @@
             "name": "arrombadogamer"
         },
         "732342369646805071": {
-            "trophies": 261,
-            "wins": 50,
+            "trophies": 287,
+            "wins": 51,
             "losses": 69,
-            "total": 119,
+            "total": 120,
             "name": "teozin",
             "username": "teozin"
         },
@@ -327,10 +327,10 @@
             "total": 6
         },
         "1019162124175552523": {
-            "trophies": 167,
-            "wins": 25,
+            "trophies": 195,
+            "wins": 26,
             "losses": 39,
-            "total": 64,
+            "total": 65,
             "name": "carioca4vapor_"
         },
         "809021436828188723": {
@@ -516,10 +516,10 @@
         },
         "1305010388814921728": {
             "username": "yami5.45",
-            "trophies": 640,
+            "trophies": 607,
             "wins": 39,
-            "losses": 17,
-            "total": 56,
+            "losses": 18,
+            "total": 57,
             "name": "y7xsz"
         },
         "1398369747074285659": {
@@ -762,10 +762,10 @@
         },
         "1013439896960118855": {
             "username": "07ban",
-            "trophies": 153,
-            "wins": 28,
+            "trophies": 181,
+            "wins": 29,
             "losses": 32,
-            "total": 60,
+            "total": 61,
             "name": "07ban"
         },
         "1421651223718924340": {
@@ -1354,10 +1354,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 939,
+            "trophies": 898,
             "wins": 54,
-            "losses": 14,
-            "total": 68
+            "losses": 15,
+            "total": 69
         },
         "476850122626695169": {
             "name": "fs5p",
@@ -1375,10 +1375,10 @@
         },
         "1485380542173024378": {
             "name": "3gw3",
-            "trophies": 271,
+            "trophies": 249,
             "wins": 19,
-            "losses": 16,
-            "total": 35
+            "losses": 17,
+            "total": 36
         },
         "317435439105441793": {
             "name": "ofafita",
@@ -2420,9 +2420,18 @@
             ],
             "callA": "1490488292658122923",
             "callV": "1490488291366015098",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=4e9d241854e25c48b13eb7b677273e87&type=Server"
+            "link": "https://www.roblox.com/share?code=4e9d241854e25c48b13eb7b677273e87&type=Server",
+            "winner": "red",
+            "registry": {
+                "1019162124175552523": 28,
+                "1013439896960118855": 28,
+                "732342369646805071": 26,
+                "1082336256714874970": 41,
+                "1485380542173024378": 22,
+                "1305010388814921728": 33
+            }
         }
     ],
     "lastMatchId": 834
