@@ -16,17 +16,17 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 74,
-            "wins": 3,
+            "trophies": 103,
+            "wins": 4,
             "losses": 1,
-            "total": 4
+            "total": 5
         },
         "1452146196490752040": {
             "name": "joao_1225",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 2,
-            "losses": 2,
-            "total": 4
+            "losses": 3,
+            "total": 5
         },
         "748889958076645466": {
             "name": "lucas2131",
@@ -37,17 +37,17 @@
         },
         "1189987800129491069": {
             "name": "psir_white_04700",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 2,
-            "total": 2
+            "total": 3
         },
         "1137580616821522462": {
             "name": "pikadejegue_",
-            "trophies": 44,
-            "wins": 2,
+            "trophies": 74,
+            "wins": 3,
             "losses": 1,
-            "total": 3
+            "total": 4
         },
         "1055566744225333319": {
             "name": "bertholacegamer4749",
@@ -65,10 +65,10 @@
         },
         "544965924961386507": {
             "name": "mirafiada",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 1,
-            "total": 3
+            "total": 4
         },
         "750830169052413963": {
             "name": "s2nd_1",
@@ -88,22 +88,22 @@
             "name": "appointi",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1259170361073729638": {
             "name": "cadettegirl",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "673140836489494547": {
             "name": "velosofps",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "lastMatchId": 846,
@@ -305,9 +305,20 @@
             ],
             "callA": "1490782668504301688",
             "callV": "1490782667678027796",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "4v4",
-            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server",
+            "winner": "red",
+            "registry": {
+                "1189987800129491069": 30,
+                "544965924961386507": 29,
+                "1137580616821522462": 30,
+                "1082336256714874970": 29,
+                "673140836489494547": 15,
+                "1096575432171733083": 15,
+                "1259170361073729638": 15,
+                "1452146196490752040": 15
+            }
         }
     ]
 }
