@@ -16,17 +16,17 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         },
         "1452146196490752040": {
             "name": "joao_1225",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 0,
-            "total": 1
+            "losses": 1,
+            "total": 2
         },
         "748889958076645466": {
             "name": "lucas2131",
@@ -44,10 +44,10 @@
         },
         "1137580616821522462": {
             "name": "pikadejegue_",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1055566744225333319": {
             "name": "bertholacegamer4749",
@@ -67,8 +67,8 @@
             "name": "mirafiada",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "lastMatchId": 4,
@@ -148,9 +148,16 @@
             ],
             "callA": "1490758951535382683",
             "callV": "1490758950310903941",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server"
+            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1082336256714874970": 30,
+                "1137580616821522462": 30,
+                "544965924961386507": 15,
+                "1452146196490752040": 15
+            }
         }
     ]
 }
