@@ -16,10 +16,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 115,
-            "wins": 6,
+            "trophies": 144,
+            "wins": 7,
             "losses": 2,
-            "total": 8
+            "total": 9
         },
         "1452146196490752040": {
             "name": "joao_1225",
@@ -88,8 +88,8 @@
             "name": "appointi",
             "trophies": 0,
             "wins": 0,
-            "losses": 5,
-            "total": 5
+            "losses": 6,
+            "total": 6
         },
         "1259170361073729638": {
             "name": "cadettegirl",
@@ -163,10 +163,10 @@
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 60,
-            "wins": 2,
+            "trophies": 89,
+            "wins": 3,
             "losses": 0,
-            "total": 2
+            "total": 3
         },
         "1317240717516734518": {
             "name": "xxbak0mx4",
@@ -214,8 +214,8 @@
             "name": "nadanunca",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         }
     },
     "lastMatchId": 860,
@@ -732,9 +732,16 @@
             ],
             "callA": "1491134770795515986",
             "callV": "1491134770028085369",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=bfcdb51c3d08a8468dbdcf4cdeef1fda&type=Server"
+            "link": "https://www.roblox.com/share?code=bfcdb51c3d08a8468dbdcf4cdeef1fda&type=Server",
+            "winner": "blue",
+            "registry": {
+                "785581845084373012": 29,
+                "1082336256714874970": 29,
+                "1096575432171733083": 15,
+                "1101912612482064385": 15
+            }
         }
     ]
 }
