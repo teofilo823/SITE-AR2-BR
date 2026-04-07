@@ -44,10 +44,10 @@
         },
         "1137580616821522462": {
             "name": "pikadejegue_",
-            "trophies": 103,
-            "wins": 4,
+            "trophies": 132,
+            "wins": 5,
             "losses": 1,
-            "total": 5
+            "total": 6
         },
         "1055566744225333319": {
             "name": "bertholacegamer4749",
@@ -81,8 +81,8 @@
             "name": "mavericky_1",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "1096575432171733083": {
             "name": "appointi",
@@ -123,15 +123,15 @@
             "name": "mentoskr3",
             "trophies": 0,
             "wins": 1,
-            "losses": 1,
-            "total": 2
+            "losses": 2,
+            "total": 3
         },
         "1479206895112683734": {
             "name": "japasimp",
-            "trophies": 0,
-            "wins": 1,
+            "trophies": 30,
+            "wins": 2,
             "losses": 1,
-            "total": 2
+            "total": 3
         },
         "1203523611399295007": {
             "name": "gustavo05546",
@@ -142,17 +142,17 @@
         },
         "1305010388814921728": {
             "name": "locktracking",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1013439896960118855": {
             "name": "07ban",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "lastMatchId": 852,
@@ -497,9 +497,18 @@
             ],
             "callA": "1490879869205090374",
             "callV": "1490879868349452378",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=ae19fdf761baa842bc90e7d4ae2d18bf&type=Server"
+            "link": "https://www.roblox.com/share?code=ae19fdf761baa842bc90e7d4ae2d18bf&type=Server",
+            "winner": "red",
+            "registry": {
+                "1479206895112683734": 30,
+                "1137580616821522462": 29,
+                "1305010388814921728": 30,
+                "1065126487948279908": 15,
+                "555942948378771468": 15,
+                "1013439896960118855": 15
+            }
         }
     ]
 }
