@@ -17,9 +17,9 @@
         "1082336256714874970": {
             "name": "e6xl",
             "trophies": 86,
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
-            "total": 6
+            "total": 7
         },
         "1452146196490752040": {
             "name": "joao_1225",
@@ -88,8 +88,8 @@
             "name": "appointi",
             "trophies": 0,
             "wins": 0,
-            "losses": 3,
-            "total": 3
+            "losses": 4,
+            "total": 4
         },
         "1259170361073729638": {
             "name": "cadettegirl",
@@ -653,9 +653,14 @@
             ],
             "callA": "1491116637938520126",
             "callV": "1491116636743139400",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server"
+            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server",
+            "winner": "red",
+            "registry": {
+                "1082336256714874970": 0,
+                "1096575432171733083": 0
+            }
         }
     ]
 }
