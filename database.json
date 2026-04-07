@@ -123,15 +123,15 @@
             "name": "mentoskr3",
             "trophies": 0,
             "wins": 1,
-            "losses": 0,
-            "total": 1
+            "losses": 1,
+            "total": 2
         },
         "1479206895112683734": {
             "name": "japasimp",
             "trophies": 0,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
-            "total": 1
+            "total": 2
         }
     },
     "lastMatchId": 850,
@@ -435,9 +435,14 @@
             ],
             "callA": "1490874073067163770",
             "callV": "1490874071670329444",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "1v1",
-            "link": "https://www.roblox.com/share?code=ae19fdf761baa842bc90e7d4ae2d18bf&type=Server"
+            "link": "https://www.roblox.com/share?code=ae19fdf761baa842bc90e7d4ae2d18bf&type=Server",
+            "winner": "red",
+            "registry": {
+                "1479206895112683734": 0,
+                "1065126487948279908": 0
+            }
         }
     ]
 }
