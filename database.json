@@ -16,10 +16,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 144,
-            "wins": 7,
+            "trophies": 172,
+            "wins": 8,
             "losses": 2,
-            "total": 9
+            "total": 10
         },
         "1452146196490752040": {
             "name": "joao_1225",
@@ -88,15 +88,15 @@
             "name": "appointi",
             "trophies": 0,
             "wins": 0,
-            "losses": 6,
-            "total": 6
+            "losses": 7,
+            "total": 7
         },
         "1259170361073729638": {
             "name": "cadettegirl",
-            "trophies": 30,
+            "trophies": 15,
             "wins": 1,
-            "losses": 1,
-            "total": 2
+            "losses": 2,
+            "total": 3
         },
         "673140836489494547": {
             "name": "velosofps",
@@ -142,10 +142,10 @@
         },
         "1305010388814921728": {
             "name": "locktracking",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         },
         "1013439896960118855": {
             "name": "07ban",
@@ -156,17 +156,17 @@
         },
         "1058218965802954752": {
             "name": "vitin_sx4105",
-            "trophies": 30,
-            "wins": 1,
+            "trophies": 60,
+            "wins": 2,
             "losses": 0,
-            "total": 1
+            "total": 2
         },
         "785581845084373012": {
             "name": "dwi2t",
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 0,
-            "total": 3
+            "total": 4
         },
         "1317240717516734518": {
             "name": "xxbak0mx4",
@@ -221,29 +221,29 @@
             "name": "carioca4vapor_",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "901949462996471879": {
             "name": "elegantexs",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1015540440679841792": {
             "name": "lekedoidu64",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "814806593761312809": {
             "name": "ssimao777",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "lastMatchId": 861,
@@ -790,9 +790,22 @@
             ],
             "callA": "1491506066700107988",
             "callV": "1491506065626501160",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "5v5",
-            "link": "https://www.roblox.com/share?code=6bf5223d12b2bf409c733525298ab591&type=Server"
+            "link": "https://www.roblox.com/share?code=6bf5223d12b2bf409c733525298ab591&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1305010388814921728": 30,
+                "1082336256714874970": 28,
+                "1015540440679841792": 30,
+                "1058218965802954752": 30,
+                "785581845084373012": 29,
+                "1019162124175552523": 15,
+                "1259170361073729638": 15,
+                "814806593761312809": 15,
+                "1096575432171733083": 15,
+                "901949462996471879": 15
+            }
         }
     ]
 }
