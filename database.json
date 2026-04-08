@@ -65,10 +65,10 @@
         },
         "544965924961386507": {
             "name": "mirafiada",
-            "trophies": 89,
-            "wins": 3,
+            "trophies": 118,
+            "wins": 4,
             "losses": 1,
-            "total": 4
+            "total": 5
         },
         "750830169052413963": {
             "name": "s2nd_1",
@@ -221,8 +221,8 @@
             "name": "carioca4vapor_",
             "trophies": 0,
             "wins": 0,
-            "losses": 1,
-            "total": 1
+            "losses": 2,
+            "total": 2
         },
         "901949462996471879": {
             "name": "elegantexs",
@@ -249,15 +249,15 @@
             "name": "silva_______gs",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1360390667104161895": {
             "name": "otato_.",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         }
     },
     "lastMatchId": 865,
@@ -885,9 +885,16 @@
             ],
             "callA": "1491538788353310862",
             "callV": "1491538787380232406",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "2v2",
-            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server"
+            "link": "https://www.roblox.com/share?code=e4c322cc3c4cb741b602760aaa2dc2ae&type=Server",
+            "winner": "red",
+            "registry": {
+                "544965924961386507": 29,
+                "1360390667104161895": 30,
+                "1373452119339700310": 15,
+                "1019162124175552523": 15
+            }
         }
     ]
 }
