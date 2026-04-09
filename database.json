@@ -16,10 +16,10 @@
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 153,
-            "wins": 8,
+            "trophies": 181,
+            "wins": 9,
             "losses": 3,
-            "total": 11
+            "total": 12
         },
         "1452146196490752040": {
             "name": "joao_1225",
@@ -268,38 +268,38 @@
         },
         "335780240464805890": {
             "name": "pabliiito",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "740409328904831088": {
             "name": "sd_darkk",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "1049867163114160178": {
             "name": "gabriel_._0",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1421534590346199193": {
             "name": "lorde_da_lua.",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         },
         "1325912535307653202": {
             "name": "lupitozinhoooo_05350",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "lastMatchId": 870,
@@ -1041,9 +1041,18 @@
             ],
             "callA": "1491907206189416498",
             "callV": "1491907205174132846",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server"
+            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1082336256714874970": 28,
+                "335780240464805890": 30,
+                "740409328904831088": 30,
+                "1049867163114160178": 15,
+                "1421534590346199193": 15,
+                "1325912535307653202": 15
+            }
         }
     ]
 }
