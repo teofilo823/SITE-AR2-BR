@@ -9,17 +9,17 @@
         },
         "1382145777039708322": {
             "name": "1kn9",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 1,
-            "total": 1
+            "total": 2
         },
         "1082336256714874970": {
             "name": "e6xl",
-            "trophies": 288,
-            "wins": 13,
+            "trophies": 314,
+            "wins": 14,
             "losses": 3,
-            "total": 16
+            "total": 17
         },
         "1452146196490752040": {
             "name": "joao_1225",
@@ -93,10 +93,10 @@
         },
         "1259170361073729638": {
             "name": "cadettegirl",
-            "trophies": 15,
+            "trophies": 0,
             "wins": 1,
-            "losses": 2,
-            "total": 3
+            "losses": 3,
+            "total": 4
         },
         "673140836489494547": {
             "name": "velosofps",
@@ -317,10 +317,10 @@
         },
         "1485380542173024378": {
             "name": "3gw3",
-            "trophies": 44,
+            "trophies": 28,
             "wins": 2,
-            "losses": 1,
-            "total": 3
+            "losses": 2,
+            "total": 4
         },
         "1330627076335730698": {
             "name": "henrique050200",
@@ -331,17 +331,17 @@
         },
         "1475326912271487036": {
             "name": "l0x_m",
-            "trophies": 0,
-            "wins": 0,
+            "trophies": 30,
+            "wins": 1,
             "losses": 0,
-            "total": 0
+            "total": 1
         },
         "464825247842041868": {
             "name": "htxml24",
             "trophies": 0,
             "wins": 0,
-            "losses": 0,
-            "total": 0
+            "losses": 1,
+            "total": 1
         }
     },
     "lastMatchId": 880,
@@ -1314,9 +1314,18 @@
             ],
             "callA": "1491955886724481054",
             "callV": "1491955885394624642",
-            "status": "PROGRESS",
+            "status": "FINISHED",
             "format": "3v3",
-            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server"
+            "link": "https://www.roblox.com/share?code=4caa72440436ce41bce8f958861a3e55&type=Server",
+            "winner": "blue",
+            "registry": {
+                "1082336256714874970": 26,
+                "1475326912271487036": 30,
+                "1382145777039708322": 30,
+                "1485380542173024378": 16,
+                "1259170361073729638": 15,
+                "464825247842041868": 15
+            }
         }
     ]
 }
