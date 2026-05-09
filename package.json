@@ -1,0 +1,52 @@
+{
+	"name": "discordbot-template",
+	"version": "3.3.2",
+	"description": "A modified template based on discordjs.guide to create your own discord-js based bot!",
+	"funding": {
+		"url": "https://ko-fi.com/namanvrati"
+	},
+	"types": "./typings.d.ts",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NamVr/DiscordBot-Template.git"
+	},
+	"keywords": [
+		"discord-js"
+	],
+	"author": "Naman Vrati <info@namanvrati.cf> (https://github.com/NamVr)",
+	"contributors": [
+		{
+			"name": "Krish Garg",
+			"url": "https://github.com/KrishGarg"
+		},
+		{
+			"name": "Thomas Fournier",
+			"email": "thomas@artivain.com",
+			"url": "https://github.com/GoudronViande24"
+		}
+	],
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/NamVr/DiscordBot-Template/issues"
+	},
+	"homepage": "https://github.com/NamVr/DiscordBot-Template#readme",
+	"dependencies": {
+		"@google/generative-ai": "^0.24.1",
+		"@octokit/rest": "^22.0.1",
+		"axios": "^1.13.5",
+		"discord-api-types": "^0.37.43",
+		"discord-html-transcripts": "^3.2.0",
+		"discord-oauth2": "^2.12.1",
+		"discord.js": "^14.25.1",
+		"dotenv": "^17.2.3",
+		"express": "^5.2.1",
+		"firebase": "^12.9.0",
+		"image-hash": "^7.0.1",
+		"rss-parser": "^3.13.0",
+		"sqlite3": "^5.1.7"
+	}
+}

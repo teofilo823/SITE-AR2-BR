@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutamento Hoster - AR2</title>
+    <style>
+        :root {
+            --bg-color: #0f0f12;
+            --container-bg: rgba(35, 39, 42, 0.9);
+            --input-bg: #1e1f22;
+            --text-color: #f2f3f5;
+            --accent-color: #5865f2;
+            --accent-hover: #4752c4;
+            --label-color: #b5bac1;
+            --glow-color: rgba(88, 101, 242, 0.3);
+        }
+
+        /* Fundo Animado */
+        body {
+            background: linear-gradient(-45deg, #0f0f12, #1e1f22, #2b2d31, #1e1f22);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Container Glassmorphism */
+        .form-container {
+            background: var(--container-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 50px;
+            border-radius: 16px;
+            max-width: 750px;
+            width: 100%;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.05);
+            animation: slideIn 0.8s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: var(--accent-color);
+            margin: 10px auto;
+            border-radius: 2px;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        h2::before {
+            content: "";
+            height: 20px;
+            width: 4px;
+            background: var(--accent-color);
+            margin-right: 12px;
+            border-radius: 2px;
+        }
+
+        .field-group { margin-bottom: 25px; }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--label-color);
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 14px;
+            border-radius: 8px;
+            border: 2px solid transparent;
+            background: var(--input-bg);
+            color: #fff;
+            box-sizing: border-box;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 15px var(--glow-color);
+            background: #232428;
+        }
+
+        textarea { resize: vertical; }
+
+        .footer-note {
+            font-size: 12px;
+            color: #949ba4;
+            margin-top: 5px;
+        }
+
+        /* Botão com Efeito de Brilho */
+        .btn-submit {
+            width: 100%;
+            padding: 18px;
+            background: var(--accent-color);
+            border: none;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 40px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+        }
+
+        .btn-submit:hover {
+            background: var(--accent-hover);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(88, 101, 242, 0.6);
+        }
+
+        .btn-submit::after {
+            content: "";
+            position: absolute;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: linear-gradient(rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            transition: 0.5s;
+            pointer-events: none;
+        }
+
+        .btn-submit:hover::after { left: 120%; }
+
+        .radio-group {
+            margin-top: 15px;
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="radio"] { width: auto; accent-color: var(--accent-color); }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-color); }
+        ::-webkit-scrollbar-thumb { background: var(--accent-color); border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>📋 Recrutamento Hoster AR2</h1>
+        
+        <form id="hosterForm">
+            <h2>🛡️ 1. Informações Básicas</h2>
+            <div class="field-group">
+                <label>Nome/Nick no Roblox</label>
+                <input type="text" name="robloxNick" required>
+            </div>
+            
+            <div class="field-group">
+                <label>Tag do Discord</label>
+                <input type="text" name="discordTag" placeholder="ex: usuario#0000" required>
+            </div>
+            
+            <div class="field-group">
+                <label>Idade</label>
+                <input type="number" name="age" required>
+                <p class="footer-note">(Idades falsas resultam em banimento)</p>
+            </div>
+            
+            <div class="field-group">
+                <label>Há quanto tempo você joga AR2?</label>
+                <input type="text" name="timePlaying" required>
+            </div>
+            
+            <div class="field-group">
+                <label>Qual seu horário de disponibilidade?</label>
+                <input type="text" name="availability" placeholder="Ex: Segunda a Sexta, 14h às 20h" required>
+            </div>
+
+            <h2>🎮 2. Conhecimento do Jogo</h2>
+            <div class="field-group">
+                <label>Conhece os comandos básicos de servidor privado (VIP)?</label>
+                <select name="vipCommands">
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+            </div>
+            
+            <div class="field-group">
+                <label>Experiência em organizar grupos ou squads?</label>
+                <textarea name="squadExp" rows="2" required></textarea>
+            </div>
+            
+            <div class="field-group">
+                <label>Sabe utilizar comandos do Bot de Ranking?</label>
+                <select name="botRanking">
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                    <option value="Aprendiz">Não sei, mas aprendo rápido</option>
+                </select>
+            </div>
+
+            <h2>⚖️ 3. Situações Hipotéticas</h2>
+            <div class="field-group">
+                <label>1. Jogador insultando na call após perder. O que faz?</label>
+                <textarea name="hypo1" rows="3" required></textarea>
+            </div>
+            
+            <div class="field-group">
+                <label>2. Jogador reclama de time "fraco" e exige troca. Como reage?</label>
+                <textarea name="hypo2" rows="3" required></textarea>
+            </div>
+            
+            <div class="field-group">
+                <label>3. Suspeita de Script/Hack. Qual o procedimento?</label>
+                <textarea name="hypo3" rows="3" required></textarea>
+            </div>
+            
+            <div class="field-group">
+                <label>4. Erro técnico e o servidor cai. Como decide se anula ou reinicia?</label>
+                <textarea name="hypo4" rows="3" required></textarea>
+            </div>
+            
+            <div class="field-group">
+                <label>5. Mestre Hoster discorda de você em tempo real. Como se porta?</label>
+                <textarea name="hypo5" rows="3" required></textarea>
+            </div>
+
+            <h2>🛠️ 4. Técnico e Logística</h2>
+            <div class="field-group">
+                <label>Sabe criar ou já tem servidor privado?</label>
+                <input type="text" name="privateServer" required>
+            </div>
+            
+            <div class="field-group">
+                <label>Tem facilidade em gravar a tela (REC)?</label>
+                <select name="canRecord">
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+            </div>
+            
+            <div class="field-group">
+                <label>O que torna um Hoster "bom" na sua opinião?</label>
+                <textarea name="goodHoster" rows="2" required></textarea>
+            </div>
+
+            <h2>📝 5. Termo de Responsabilidade</h2>
+            <div class="radio-group">
+                <p style="margin-top:0; font-weight: bold;">Ciente que abusar dos poderes resulta em banimento imediato?</p>
+                <label class="radio-option">
+                    <input type="radio" name="term" value="Sim" required> <span>Sim, estou ciente.</span>
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="term" value="Não"> <span>Não.</span>
+                </label>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar Inscrição</button>
+        </form>
+    </div>
+
+    <script>
+        const WEBHOOK_URL = 'https://discord.com/api/webhooks/1469106678921298006/YSda8D9nNYN3xV3pSYvg2Z7njbevsf5MdsRkc3MYyI-lFGYVGy0tsAOWds38XVTgvlgH';
+
+        document.getElementById('hosterForm').onsubmit = async (e) => {
+            e.preventDefault();
+            
+            const btn = e.target.querySelector('.btn-submit');
+            btn.innerText = "ENVIANDO...";
+            btn.disabled = true;
+
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData.entries());
+
+            // Montando o Embed com TODAS as respostas para o Discord
+            const payload = {
+                username: "Recrutamento AR2",
+                embeds: [{
+                    title: "🛡️ NOVA INSCRIÇÃO DE HOSTER",
+                    color: 5814783,
+                    fields: [
+                        { name: "👤 Nick Roblox", value: `\`${data.robloxNick}\``, inline: true },
+                        { name: "🆔 Discord", value: `\`${data.discordTag}\``, inline: true },
+                        { name: "🎂 Idade", value: `\`${data.age}\``, inline: true },
+                        { name: "🕒 Horários", value: data.availability },
+                        { name: "🎮 Conhecimento", value: `**VIP:** ${data.vipCommands}\n**Bot:** ${data.botRanking}\n**Exp:** ${data.squadExp}` },
+                        { name: "⚖️ Situações Hipotéticas", value: `**1 (Insulto):** ${data.hypo1}\n**2 (Reclamação):** ${data.hypo2}\n**3 (Hack):** ${data.hypo3}\n**4 (Erro):** ${data.hypo4}\n**5 (Hierarquia):** ${data.hypo5}` },
+                        { name: "🛠️ Técnico", value: `**Server Privado:** ${data.privateServer}\n**Pode Gravar:** ${data.canRecord}\n**Opinião:** ${data.goodHoster}` },
+                        { name: "📜 Termo", value: data.term === "Sim" ? "✅ Aceitou" : "❌ Recusou" }
+                    ],
+                    footer: { text: "Tag para o Bot: " + data.discordTag },
+                    timestamp: new Date()
+                }]
+            };
+
+            try {
+                const response = await fetch(WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (response.ok) {
+                    alert('🚀 Inscrição enviada com sucesso!');
+                    e.target.reset();
+                } else {
+                    alert('❌ Erro ao enviar para o Discord.');
+                }
+            } catch (err) {
+                alert('Erro de conexão: ' + err.message);
+            } finally {
+                btn.innerText = "Enviar Inscrição";
+                btn.disabled = false;
+            }
+        };
+    </script>
+</body>
+</html>

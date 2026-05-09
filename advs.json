@@ -1,0 +1,231 @@
+{
+  "785581845084373012": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "cancelando partida por causa do time",
+        "data": "11/03/2026, 16:58:20"
+      },
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "cancelando partida por causa do time",
+        "data": "11/03/2026, 16:59:21"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "1410596543232217158": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abuso de poder",
+        "data": "14/03/2026, 19:54:10"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "544965924961386507": {
+    "historico": [
+      {
+        "tipo": "Advertência 2",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "não finalizou partida",
+        "data": "22/03/2026, 13:01:47"
+      },
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "não finalizou ranked",
+        "data": "27/03/2026, 16:42:00"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 1,
+      "adv3": 0
+    }
+  },
+  "1419323801170214932": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abusando de cargo",
+        "data": "31/03/2026, 14:07:31"
+      }
+    ],
+    "stats": {
+      "adv1": 0,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "1082336256714874970": {
+    "historico": [
+      {
+        "tipo": "Advertência 2",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abuso de cargo",
+        "data": "03/04/2026, 04:36:24"
+      }
+    ],
+    "stats": {
+      "adv1": 0,
+      "adv2": 1,
+      "adv3": 0
+    }
+  },
+  "1096575432171733083": {
+    "historico": [
+      {
+        "tipo": "Advertência 2",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abusando de cargo",
+        "data": "06/04/2026, 16:19:51"
+      }
+    ],
+    "stats": {
+      "adv1": 0,
+      "adv2": 1,
+      "adv3": 0
+    }
+  },
+  "1382145777039708322": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "não finalizou partida",
+        "data": "07/04/2026, 07:18:22"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "1305010388814921728": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "não finalizou partida",
+        "data": "07/04/2026, 07:18:46"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "1485380542173024378": {
+    "historico": [
+      {
+        "tipo": "Advertência 2",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abusando",
+        "data": "09/04/2026, 20:34:42"
+      }
+    ],
+    "stats": {
+      "adv1": 0,
+      "adv2": 1,
+      "adv3": 0
+    }
+  },
+  "1110902556059779113": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "não finalizou a partida 930",
+        "data": "04/05/2026, 21:17:10"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "993604154662604951": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "não finalizou a partida 933",
+        "data": "04/05/2026, 23:03:21"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  },
+  "1016121448613564557": {
+    "historico": [
+      {
+        "tipo": "Advertência 2",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abuso de poder",
+        "data": "06/05/2026, 13:44:57"
+      },
+      {
+        "tipo": "Advertência 2",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "abuso de poder",
+        "data": "06/05/2026, 15:03:31"
+      }
+    ],
+    "stats": {
+      "adv1": 0,
+      "adv2": 2,
+      "adv3": 0
+    }
+  },
+  "1049867163114160178": {
+    "historico": [
+      {
+        "tipo": "Advertência 1",
+        "staff_id": "732342369646805071",
+        "staff_tag": "teozin",
+        "motivo": "kitou no meio da partida",
+        "data": "07/05/2026, 12:42:53"
+      }
+    ],
+    "stats": {
+      "adv1": 1,
+      "adv2": 0,
+      "adv3": 0
+    }
+  }
+}
